@@ -1,0 +1,442 @@
+{
+  "ImplementationGuide/my-ig" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "/home/andrewroselpc/workreqs/fsh-generated/resources/ImplementationGuide-my-ig.json",
+    "sourceTail" : "ImplementationGuide-my-ig.json",
+    "path" : "index.html",
+    "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+    "version" : "0.1.0",
+    "name" : "WorkReqsIG",
+    "title" : "Medicaid Work Requirements IG",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "Condition/WRChildDisability" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/Condition-WRChildDisability.json",
+    "sourceTail" : "Condition-WRChildDisability.json",
+    "path" : "Condition-WRChildDisability.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Condition/WRMedFrailCondition1" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/Condition-WRMedFrailCondition1.json",
+    "sourceTail" : "Condition-WRMedFrailCondition1.json",
+    "path" : "Condition-WRMedFrailCondition1.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Condition/WRPregnancyCondition" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/Condition-WRPregnancyCondition.json",
+    "sourceTail" : "Condition-WRPregnancyCondition.json",
+    "path" : "Condition-WRPregnancyCondition.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Coverage/WRTanfCoverage" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/Coverage-WRTanfCoverage.json",
+    "sourceTail" : "Coverage-WRTanfCoverage.json",
+    "path" : "Coverage-WRTanfCoverage.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Encounter/WRInpatientEncounter" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/Encounter-WRInpatientEncounter.json",
+    "sourceTail" : "Encounter-WRInpatientEncounter.json",
+    "path" : "Encounter-WRInpatientEncounter.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "EpisodeOfCare/WRTreatmentEpisode" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/EpisodeOfCare-WRTreatmentEpisode.json",
+    "sourceTail" : "EpisodeOfCare-WRTreatmentEpisode.json",
+    "path" : "EpisodeOfCare-WRTreatmentEpisode.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRDisaster" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/Observation-WRDisaster.json",
+    "sourceTail" : "Observation-WRDisaster.json",
+    "path" : "Observation-WRDisaster.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRFosterCareStatus" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/Observation-WRFosterCareStatus.json",
+    "sourceTail" : "Observation-WRFosterCareStatus.json",
+    "path" : "Observation-WRFosterCareStatus.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRIncarcerationStatus" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 9,
+    "source" : "fsh-generated/resources/Observation-WRIncarcerationStatus.json",
+    "sourceTail" : "Observation-WRIncarcerationStatus.json",
+    "path" : "Observation-WRIncarcerationStatus.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRMedFrailObservation1" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 10,
+    "source" : "fsh-generated/resources/Observation-WRMedFrailObservation1.json",
+    "sourceTail" : "Observation-WRMedFrailObservation1.json",
+    "path" : "Observation-WRMedFrailObservation1.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRProgramCompliance" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 11,
+    "source" : "fsh-generated/resources/Observation-WRProgramCompliance.json",
+    "sourceTail" : "Observation-WRProgramCompliance.json",
+    "path" : "Observation-WRProgramCompliance.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRTravelForCare" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 12,
+    "source" : "fsh-generated/resources/Observation-WRTravelForCare.json",
+    "sourceTail" : "Observation-WRTravelForCare.json",
+    "path" : "Observation-WRTravelForCare.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRUnemployment" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 13,
+    "source" : "fsh-generated/resources/Observation-WRUnemployment.json",
+    "sourceTail" : "Observation-WRUnemployment.json",
+    "path" : "Observation-WRUnemployment.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Observation/WRVaDisabilityRating" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 14,
+    "source" : "fsh-generated/resources/Observation-WRVaDisabilityRating.json",
+    "sourceTail" : "Observation-WRVaDisabilityRating.json",
+    "path" : "Observation-WRVaDisabilityRating.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Organization/WRHospitalOrg" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 15,
+    "source" : "fsh-generated/resources/Organization-WRHospitalOrg.json",
+    "sourceTail" : "Organization-WRHospitalOrg.json",
+    "path" : "Organization-WRHospitalOrg.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Organization/WRTreatmentOrg" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 16,
+    "source" : "fsh-generated/resources/Organization-WRTreatmentOrg.json",
+    "sourceTail" : "Organization-WRTreatmentOrg.json",
+    "path" : "Organization-WRTreatmentOrg.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Patient/WRChildPatient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 17,
+    "source" : "fsh-generated/resources/Patient-WRChildPatient.json",
+    "sourceTail" : "Patient-WRChildPatient.json",
+    "path" : "Patient-WRChildPatient.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Patient/WRExamplePatient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 18,
+    "source" : "fsh-generated/resources/Patient-WRExamplePatient.json",
+    "sourceTail" : "Patient-WRExamplePatient.json",
+    "path" : "Patient-WRExamplePatient.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Patient/WRVeteranPatient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 19,
+    "source" : "fsh-generated/resources/Patient-WRVeteranPatient.json",
+    "sourceTail" : "Patient-WRVeteranPatient.json",
+    "path" : "Patient-WRVeteranPatient.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "RelatedPerson/WRParentRelatedPerson" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 20,
+    "source" : "fsh-generated/resources/RelatedPerson-WRParentRelatedPerson.json",
+    "sourceTail" : "RelatedPerson-WRParentRelatedPerson.json",
+    "path" : "RelatedPerson-WRParentRelatedPerson.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/WRCondition" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 21,
+    "source" : "fsh-generated/resources/StructureDefinition-WRCondition.json",
+    "sourceTail" : "StructureDefinition-WRCondition.json",
+    "path" : "StructureDefinition-WRCondition.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+    "version" : "0.1.0",
+    "name" : "WRCondition",
+    "title" : "Work Requirements Condition",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Condition resource for pregnancy, medically frail, child disability, etc.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WRCoverage" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 22,
+    "source" : "fsh-generated/resources/StructureDefinition-WRCoverage.json",
+    "sourceTail" : "StructureDefinition-WRCoverage.json",
+    "path" : "StructureDefinition-WRCoverage.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+    "version" : "0.1.0",
+    "name" : "WRCoverage",
+    "title" : "Work Requirements Coverage",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Represents TANF/SNAP program coverage eligibility",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WREncounter" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 23,
+    "source" : "fsh-generated/resources/StructureDefinition-WREncounter.json",
+    "sourceTail" : "StructureDefinition-WREncounter.json",
+    "path" : "StructureDefinition-WREncounter.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+    "version" : "0.1.0",
+    "name" : "WREncounter",
+    "title" : "Work Requirements Encounter",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Represents inpatient care or medical hardship encounters",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WREpisodeOfCare" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 24,
+    "source" : "fsh-generated/resources/StructureDefinition-WREpisodeOfCare.json",
+    "sourceTail" : "StructureDefinition-WREpisodeOfCare.json",
+    "path" : "StructureDefinition-WREpisodeOfCare.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+    "version" : "0.1.0",
+    "name" : "WREpisodeOfCare",
+    "title" : "Work Requirements EpisodeOfCare",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Represents participation in treatment programs",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WRObservation" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 25,
+    "source" : "fsh-generated/resources/StructureDefinition-WRObservation.json",
+    "sourceTail" : "StructureDefinition-WRObservation.json",
+    "path" : "StructureDefinition-WRObservation.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRObservation",
+    "version" : "0.1.0",
+    "name" : "WRObservation",
+    "title" : "Work Requirements Observation",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Observation for program compliance, incarceration, foster status, functional status",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WRPatient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 26,
+    "source" : "fsh-generated/resources/StructureDefinition-WRPatient.json",
+    "sourceTail" : "StructureDefinition-WRPatient.json",
+    "path" : "StructureDefinition-WRPatient.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+    "version" : "0.1.0",
+    "name" : "WRPatient",
+    "title" : "Work Requirements Patient",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Patient profile for Medicaid Work Requirements",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/WRRelatedPerson" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 27,
+    "source" : "fsh-generated/resources/StructureDefinition-WRRelatedPerson.json",
+    "sourceTail" : "StructureDefinition-WRRelatedPerson.json",
+    "path" : "StructureDefinition-WRRelatedPerson.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+    "version" : "0.1.0",
+    "name" : "WRRelatedPerson",
+    "title" : "Work Requirements Related Person",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T03:01:36+00:00",
+    "description" : "Represents parent/caretaker relationship to dependent child",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  }
+}

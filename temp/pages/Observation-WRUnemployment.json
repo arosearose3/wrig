@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Observation",
+  "id" : "WRUnemployment",
+  "meta" : {
+    "profile" : ["http://wrig.corisystem.org/StructureDefinition/WRObservation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation WRUnemployment</b></p><a name=\"WRUnemployment\"> </a><a name=\"hcWRUnemployment\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WRObservation.html\">Work Requirements Observation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://example.org/codes/hardship unemployment-status}\">Unemployment status</span></p><p><b>subject</b>: <a href=\"Patient-WRExamplePatient.html\">Pat Example  Female, DoB: 2008-05-01 ( http://example.org/ids/patient#P-WR-001)</a></p><p><b>effective</b>: 2025-01-15</p><p><b>value</b>: true</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://example.org/codes/hardship",
+      "code" : "unemployment-status",
+      "display" : "Unemployment status"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/WRExamplePatient"
+  },
+  "effectiveDateTime" : "2025-01-15",
+  "valueBoolean" : true
+}

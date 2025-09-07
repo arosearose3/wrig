@@ -1,0 +1,25 @@
+{
+  "resourceType": "Patient",
+  "id": "WRExamplePatient",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://example.org/ids/patient",
+      "value": "P-WR-001"
+    }
+  ],
+  "name": [
+    {
+      "family": "Example",
+      "given": [
+        "Pat"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2008-05-01"
+}

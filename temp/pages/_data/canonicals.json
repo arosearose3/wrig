@@ -1,0 +1,58 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+    "version" : "0.1.0",
+    "name" : "WorkReqsIG"
+  },
+  {
+    "id" : "WRCondition",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+    "version" : "0.1.0",
+    "name" : "WRCondition"
+  },
+  {
+    "id" : "WRCoverage",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+    "version" : "0.1.0",
+    "name" : "WRCoverage"
+  },
+  {
+    "id" : "WREncounter",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+    "version" : "0.1.0",
+    "name" : "WREncounter"
+  },
+  {
+    "id" : "WREpisodeOfCare",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+    "version" : "0.1.0",
+    "name" : "WREpisodeOfCare"
+  },
+  {
+    "id" : "WRObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRObservation",
+    "version" : "0.1.0",
+    "name" : "WRObservation"
+  },
+  {
+    "id" : "WRPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+    "version" : "0.1.0",
+    "name" : "WRPatient"
+  },
+  {
+    "id" : "WRRelatedPerson",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+    "version" : "0.1.0",
+    "name" : "WRRelatedPerson"
+  }
+]

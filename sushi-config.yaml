@@ -1,0 +1,16 @@
+id: my-ig
+canonical: http://wrig.corisystem.org
+name: WorkReqsIG
+title: Medicaid Work Requirements IG
+description: Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2025
+releaseLabel: ci-build
+publisher:
+  name: Andrew Rose LPC
+  url: http://wrig.corisystem.org
+parameters:
+  - code: path-suppressed-warnings
+    value: input/ignoreWarnings.txt

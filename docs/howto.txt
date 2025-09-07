@@ -1,0 +1,12 @@
+
+sushi .
+
+java -Xmx2g -jar publisher.jar -ig .
+
+java -Xmx4g -jar publisher.jar -ig ig.ini -tx n/a
+
+from /output 
+python3 -m http.server 3009
+
+
+https://www.fhir.org/guides/registry/

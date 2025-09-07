@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "WRTravelForCare",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "travel-for-care",
+        "system": "http://example.org/codes/hardship",
+        "display": "Travel for care"
+      }
+    ]
+  },
+  "status": "final",
+  "valueBoolean": true,
+  "effectiveDateTime": "2025-02-09",
+  "note": [
+    {
+      "text": "Required travel to tertiary facility"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "WRCoverage",
+  "url": "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+  "name": "WRCoverage",
+  "title": "Work Requirements Coverage",
+  "status": "draft",
+  "description": "Represents TANF/SNAP program coverage eligibility",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Coverage",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Coverage",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Coverage.status",
+        "path": "Coverage.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.type",
+        "path": "Coverage.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.beneficiary",
+        "path": "Coverage.beneficiary",
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.period",
+        "path": "Coverage.period",
+        "mustSupport": true
+      }
+    ]
+  }
+}

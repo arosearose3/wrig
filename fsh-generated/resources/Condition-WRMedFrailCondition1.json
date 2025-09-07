@@ -1,0 +1,16 @@
+{
+  "resourceType": "Condition",
+  "id": "WRMedFrailCondition1",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "text": "Blindness (example)"
+  },
+  "onsetDateTime": "2020-01-01"
+}

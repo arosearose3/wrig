@@ -1,0 +1,1692 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "titlelang" : {
+    },
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "breadcrumblang" : {
+    },
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "titlelang" : {
+    },
+    "label" : "1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "toc.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifacts Summary",
+    "titlelang" : {
+    },
+    "label" : "2.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "index.html",
+    "next" : "StructureDefinition-WRCondition.html"
+  },
+  "StructureDefinition-WRCondition.html" : {
+    "title" : "Work Requirements Condition",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "Condition-WRChildDisability.html",
+        "title" : "Child Disability (example)"
+      },
+      {
+        "url" : "Condition-WRMedFrailCondition1.html",
+        "title" : "Medically Frail Example Condition"
+      },
+      {
+        "url" : "Condition-WRPregnancyCondition.html",
+        "title" : "Pregnancy (SNOMED 77386006)"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-WRCondition-definitions.html"
+  },
+  "StructureDefinition-WRCondition-definitions.html" : {
+    "title" : "Work Requirements Condition - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition.html",
+    "next" : "StructureDefinition-WRCondition-mappings.html"
+  },
+  "StructureDefinition-WRCondition-mappings.html" : {
+    "title" : "Work Requirements Condition - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition-definitions.html",
+    "next" : "StructureDefinition-WRCondition-testing.html"
+  },
+  "StructureDefinition-WRCondition-testing.html" : {
+    "title" : "Work Requirements Condition - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition-mappings.html",
+    "next" : "StructureDefinition-WRCondition-examples.html"
+  },
+  "StructureDefinition-WRCondition-examples.html" : {
+    "title" : "Work Requirements Condition - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition-testing.html",
+    "next" : "StructureDefinition-WRCondition.profile.xml.html"
+  },
+  "StructureDefinition-WRCondition.profile.xml.html" : {
+    "title" : "Work Requirements Condition - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition-examples.html",
+    "next" : "StructureDefinition-WRCondition.profile.json.html"
+  },
+  "StructureDefinition-WRCondition.profile.json.html" : {
+    "title" : "Work Requirements Condition - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition.profile.xml.html",
+    "next" : "StructureDefinition-WRCondition.profile.ttl.html"
+  },
+  "StructureDefinition-WRCondition.profile.ttl.html" : {
+    "title" : "Work Requirements Condition - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCondition.profile.json.html",
+    "next" : "StructureDefinition-WRCoverage.html"
+  },
+  "StructureDefinition-WRCoverage.html" : {
+    "title" : "Work Requirements Coverage",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "Coverage-WRTanfCoverage.html",
+        "title" : "TANF Coverage Eligibility"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WRCondition.profile.ttl.html",
+    "next" : "StructureDefinition-WRCoverage-definitions.html"
+  },
+  "StructureDefinition-WRCoverage-definitions.html" : {
+    "title" : "Work Requirements Coverage - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage.html",
+    "next" : "StructureDefinition-WRCoverage-mappings.html"
+  },
+  "StructureDefinition-WRCoverage-mappings.html" : {
+    "title" : "Work Requirements Coverage - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage-definitions.html",
+    "next" : "StructureDefinition-WRCoverage-testing.html"
+  },
+  "StructureDefinition-WRCoverage-testing.html" : {
+    "title" : "Work Requirements Coverage - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage-mappings.html",
+    "next" : "StructureDefinition-WRCoverage-examples.html"
+  },
+  "StructureDefinition-WRCoverage-examples.html" : {
+    "title" : "Work Requirements Coverage - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage-testing.html",
+    "next" : "StructureDefinition-WRCoverage.profile.xml.html"
+  },
+  "StructureDefinition-WRCoverage.profile.xml.html" : {
+    "title" : "Work Requirements Coverage - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage-examples.html",
+    "next" : "StructureDefinition-WRCoverage.profile.json.html"
+  },
+  "StructureDefinition-WRCoverage.profile.json.html" : {
+    "title" : "Work Requirements Coverage - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage.profile.xml.html",
+    "next" : "StructureDefinition-WRCoverage.profile.ttl.html"
+  },
+  "StructureDefinition-WRCoverage.profile.ttl.html" : {
+    "title" : "Work Requirements Coverage - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Coverage</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRCoverage.profile.json.html",
+    "next" : "StructureDefinition-WREncounter.html"
+  },
+  "StructureDefinition-WREncounter.html" : {
+    "title" : "Work Requirements Encounter",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "Encounter-WRInpatientEncounter.html",
+        "title" : "Inpatient Encounter"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WRCoverage.profile.ttl.html",
+    "next" : "StructureDefinition-WREncounter-definitions.html"
+  },
+  "StructureDefinition-WREncounter-definitions.html" : {
+    "title" : "Work Requirements Encounter - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter.html",
+    "next" : "StructureDefinition-WREncounter-mappings.html"
+  },
+  "StructureDefinition-WREncounter-mappings.html" : {
+    "title" : "Work Requirements Encounter - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter-definitions.html",
+    "next" : "StructureDefinition-WREncounter-testing.html"
+  },
+  "StructureDefinition-WREncounter-testing.html" : {
+    "title" : "Work Requirements Encounter - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter-mappings.html",
+    "next" : "StructureDefinition-WREncounter-examples.html"
+  },
+  "StructureDefinition-WREncounter-examples.html" : {
+    "title" : "Work Requirements Encounter - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter-testing.html",
+    "next" : "StructureDefinition-WREncounter.profile.xml.html"
+  },
+  "StructureDefinition-WREncounter.profile.xml.html" : {
+    "title" : "Work Requirements Encounter - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter-examples.html",
+    "next" : "StructureDefinition-WREncounter.profile.json.html"
+  },
+  "StructureDefinition-WREncounter.profile.json.html" : {
+    "title" : "Work Requirements Encounter - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter.profile.xml.html",
+    "next" : "StructureDefinition-WREncounter.profile.ttl.html"
+  },
+  "StructureDefinition-WREncounter.profile.ttl.html" : {
+    "title" : "Work Requirements Encounter - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREncounter.profile.json.html",
+    "next" : "StructureDefinition-WREpisodeOfCare.html"
+  },
+  "StructureDefinition-WREpisodeOfCare.html" : {
+    "title" : "Work Requirements EpisodeOfCare",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "EpisodeOfCare-WRTreatmentEpisode.html",
+        "title" : "Treatment Program EpisodeOfCare"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WREncounter.profile.ttl.html",
+    "next" : "StructureDefinition-WREpisodeOfCare-definitions.html"
+  },
+  "StructureDefinition-WREpisodeOfCare-definitions.html" : {
+    "title" : "Work Requirements EpisodeOfCare - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare.html",
+    "next" : "StructureDefinition-WREpisodeOfCare-mappings.html"
+  },
+  "StructureDefinition-WREpisodeOfCare-mappings.html" : {
+    "title" : "Work Requirements EpisodeOfCare - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare-definitions.html",
+    "next" : "StructureDefinition-WREpisodeOfCare-testing.html"
+  },
+  "StructureDefinition-WREpisodeOfCare-testing.html" : {
+    "title" : "Work Requirements EpisodeOfCare - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare-mappings.html",
+    "next" : "StructureDefinition-WREpisodeOfCare-examples.html"
+  },
+  "StructureDefinition-WREpisodeOfCare-examples.html" : {
+    "title" : "Work Requirements EpisodeOfCare - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare-testing.html",
+    "next" : "StructureDefinition-WREpisodeOfCare.profile.xml.html"
+  },
+  "StructureDefinition-WREpisodeOfCare.profile.xml.html" : {
+    "title" : "Work Requirements EpisodeOfCare - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare-examples.html",
+    "next" : "StructureDefinition-WREpisodeOfCare.profile.json.html"
+  },
+  "StructureDefinition-WREpisodeOfCare.profile.json.html" : {
+    "title" : "Work Requirements EpisodeOfCare - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare.profile.xml.html",
+    "next" : "StructureDefinition-WREpisodeOfCare.profile.ttl.html"
+  },
+  "StructureDefinition-WREpisodeOfCare.profile.ttl.html" : {
+    "title" : "Work Requirements EpisodeOfCare - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WREpisodeOfCare.profile.json.html",
+    "next" : "StructureDefinition-WRObservation.html"
+  },
+  "StructureDefinition-WRObservation.html" : {
+    "title" : "Work Requirements Observation",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "Observation-WRDisaster.html",
+        "title" : "Declared Disaster"
+      },
+      {
+        "url" : "Observation-WRFosterCareStatus.html",
+        "title" : "Foster Care Status"
+      },
+      {
+        "url" : "Observation-WRIncarcerationStatus.html",
+        "title" : "Incarceration Status"
+      },
+      {
+        "url" : "Observation-WRMedFrailObservation1.html",
+        "title" : "Functional Status (example)"
+      },
+      {
+        "url" : "Observation-WRProgramCompliance.html",
+        "title" : "Program Compliance"
+      },
+      {
+        "url" : "Observation-WRTravelForCare.html",
+        "title" : "Travel for Care"
+      },
+      {
+        "url" : "Observation-WRUnemployment.html",
+        "title" : "Unemployment Status"
+      },
+      {
+        "url" : "Observation-WRVaDisabilityRating.html",
+        "title" : "VA Disability Rating (%)"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WREpisodeOfCare.profile.ttl.html",
+    "next" : "StructureDefinition-WRObservation-definitions.html"
+  },
+  "StructureDefinition-WRObservation-definitions.html" : {
+    "title" : "Work Requirements Observation - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation.html",
+    "next" : "StructureDefinition-WRObservation-mappings.html"
+  },
+  "StructureDefinition-WRObservation-mappings.html" : {
+    "title" : "Work Requirements Observation - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation-definitions.html",
+    "next" : "StructureDefinition-WRObservation-testing.html"
+  },
+  "StructureDefinition-WRObservation-testing.html" : {
+    "title" : "Work Requirements Observation - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation-mappings.html",
+    "next" : "StructureDefinition-WRObservation-examples.html"
+  },
+  "StructureDefinition-WRObservation-examples.html" : {
+    "title" : "Work Requirements Observation - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation-testing.html",
+    "next" : "StructureDefinition-WRObservation.profile.xml.html"
+  },
+  "StructureDefinition-WRObservation.profile.xml.html" : {
+    "title" : "Work Requirements Observation - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation-examples.html",
+    "next" : "StructureDefinition-WRObservation.profile.json.html"
+  },
+  "StructureDefinition-WRObservation.profile.json.html" : {
+    "title" : "Work Requirements Observation - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation.profile.xml.html",
+    "next" : "StructureDefinition-WRObservation.profile.ttl.html"
+  },
+  "StructureDefinition-WRObservation.profile.ttl.html" : {
+    "title" : "Work Requirements Observation - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Observation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRObservation.profile.json.html",
+    "next" : "StructureDefinition-WRPatient.html"
+  },
+  "StructureDefinition-WRPatient.html" : {
+    "title" : "Work Requirements Patient",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "Patient-WRChildPatient.html",
+        "title" : "Dependent Child (under 13)"
+      },
+      {
+        "url" : "Patient-WRExamplePatient.html",
+        "title" : "Example Medicaid Patient (under 19)"
+      },
+      {
+        "url" : "Patient-WRVeteranPatient.html",
+        "title" : "Veteran with VA Identifier"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WRObservation.profile.ttl.html",
+    "next" : "StructureDefinition-WRPatient-definitions.html"
+  },
+  "StructureDefinition-WRPatient-definitions.html" : {
+    "title" : "Work Requirements Patient - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient.html",
+    "next" : "StructureDefinition-WRPatient-mappings.html"
+  },
+  "StructureDefinition-WRPatient-mappings.html" : {
+    "title" : "Work Requirements Patient - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient-definitions.html",
+    "next" : "StructureDefinition-WRPatient-testing.html"
+  },
+  "StructureDefinition-WRPatient-testing.html" : {
+    "title" : "Work Requirements Patient - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient-mappings.html",
+    "next" : "StructureDefinition-WRPatient-examples.html"
+  },
+  "StructureDefinition-WRPatient-examples.html" : {
+    "title" : "Work Requirements Patient - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient-testing.html",
+    "next" : "StructureDefinition-WRPatient.profile.xml.html"
+  },
+  "StructureDefinition-WRPatient.profile.xml.html" : {
+    "title" : "Work Requirements Patient - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient-examples.html",
+    "next" : "StructureDefinition-WRPatient.profile.json.html"
+  },
+  "StructureDefinition-WRPatient.profile.json.html" : {
+    "title" : "Work Requirements Patient - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient.profile.xml.html",
+    "next" : "StructureDefinition-WRPatient.profile.ttl.html"
+  },
+  "StructureDefinition-WRPatient.profile.ttl.html" : {
+    "title" : "Work Requirements Patient - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRPatient.profile.json.html",
+    "next" : "StructureDefinition-WRRelatedPerson.html"
+  },
+  "StructureDefinition-WRRelatedPerson.html" : {
+    "title" : "Work Requirements Related Person",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [
+      {
+        "url" : "RelatedPerson-WRParentRelatedPerson.html",
+        "title" : "Parent of Dependent Child"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WRPatient.profile.ttl.html",
+    "next" : "StructureDefinition-WRRelatedPerson-definitions.html"
+  },
+  "StructureDefinition-WRRelatedPerson-definitions.html" : {
+    "title" : "Work Requirements Related Person - Definitions",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson.html",
+    "next" : "StructureDefinition-WRRelatedPerson-mappings.html"
+  },
+  "StructureDefinition-WRRelatedPerson-mappings.html" : {
+    "title" : "Work Requirements Related Person - Mappings",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson-definitions.html",
+    "next" : "StructureDefinition-WRRelatedPerson-testing.html"
+  },
+  "StructureDefinition-WRRelatedPerson-testing.html" : {
+    "title" : "Work Requirements Related Person - Testing",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson-mappings.html",
+    "next" : "StructureDefinition-WRRelatedPerson-examples.html"
+  },
+  "StructureDefinition-WRRelatedPerson-examples.html" : {
+    "title" : "Work Requirements Related Person - Examples",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson-testing.html",
+    "next" : "StructureDefinition-WRRelatedPerson.profile.xml.html"
+  },
+  "StructureDefinition-WRRelatedPerson.profile.xml.html" : {
+    "title" : "Work Requirements Related Person - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson-examples.html",
+    "next" : "StructureDefinition-WRRelatedPerson.profile.json.html"
+  },
+  "StructureDefinition-WRRelatedPerson.profile.json.html" : {
+    "title" : "Work Requirements Related Person - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson.profile.xml.html",
+    "next" : "StructureDefinition-WRRelatedPerson.profile.ttl.html"
+  },
+  "StructureDefinition-WRRelatedPerson.profile.ttl.html" : {
+    "title" : "Work Requirements Related Person - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Related Person</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "StructureDefinition-WRRelatedPerson.profile.json.html",
+    "next" : "Condition-WRChildDisability.html"
+  },
+  "Condition-WRChildDisability.html" : {
+    "title" : "Child Disability (example)",
+    "titlelang" : {
+    },
+    "label" : "2.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Child Disability (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-WRRelatedPerson.profile.ttl.html",
+    "next" : "Condition-WRChildDisability.xml.html"
+  },
+  "Condition-WRChildDisability.xml.html" : {
+    "title" : "Child Disability (example) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Child Disability (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRChildDisability.html",
+    "next" : "Condition-WRChildDisability.json.html"
+  },
+  "Condition-WRChildDisability.json.html" : {
+    "title" : "Child Disability (example) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Child Disability (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRChildDisability.xml.html",
+    "next" : "Condition-WRChildDisability.ttl.html"
+  },
+  "Condition-WRChildDisability.ttl.html" : {
+    "title" : "Child Disability (example) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Child Disability (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRChildDisability.json.html",
+    "next" : "Observation-WRDisaster.html"
+  },
+  "Observation-WRDisaster.html" : {
+    "title" : "Declared Disaster",
+    "titlelang" : {
+    },
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Declared Disaster</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Condition-WRChildDisability.ttl.html",
+    "next" : "Observation-WRDisaster.xml.html"
+  },
+  "Observation-WRDisaster.xml.html" : {
+    "title" : "Declared Disaster - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Declared Disaster</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRDisaster.html",
+    "next" : "Observation-WRDisaster.json.html"
+  },
+  "Observation-WRDisaster.json.html" : {
+    "title" : "Declared Disaster - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Declared Disaster</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRDisaster.xml.html",
+    "next" : "Observation-WRDisaster.ttl.html"
+  },
+  "Observation-WRDisaster.ttl.html" : {
+    "title" : "Declared Disaster - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Declared Disaster</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRDisaster.json.html",
+    "next" : "Patient-WRChildPatient.html"
+  },
+  "Patient-WRChildPatient.html" : {
+    "title" : "Dependent Child (under 13)",
+    "titlelang" : {
+    },
+    "label" : "2.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dependent Child (under 13)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRDisaster.ttl.html",
+    "next" : "Patient-WRChildPatient.xml.html"
+  },
+  "Patient-WRChildPatient.xml.html" : {
+    "title" : "Dependent Child (under 13) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dependent Child (under 13)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRChildPatient.html",
+    "next" : "Patient-WRChildPatient.json.html"
+  },
+  "Patient-WRChildPatient.json.html" : {
+    "title" : "Dependent Child (under 13) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dependent Child (under 13)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRChildPatient.xml.html",
+    "next" : "Patient-WRChildPatient.ttl.html"
+  },
+  "Patient-WRChildPatient.ttl.html" : {
+    "title" : "Dependent Child (under 13) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dependent Child (under 13)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRChildPatient.json.html",
+    "next" : "Patient-WRExamplePatient.html"
+  },
+  "Patient-WRExamplePatient.html" : {
+    "title" : "Example Medicaid Patient (under 19)",
+    "titlelang" : {
+    },
+    "label" : "2.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example Medicaid Patient (under 19)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-WRChildPatient.ttl.html",
+    "next" : "Patient-WRExamplePatient.xml.html"
+  },
+  "Patient-WRExamplePatient.xml.html" : {
+    "title" : "Example Medicaid Patient (under 19) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example Medicaid Patient (under 19)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRExamplePatient.html",
+    "next" : "Patient-WRExamplePatient.json.html"
+  },
+  "Patient-WRExamplePatient.json.html" : {
+    "title" : "Example Medicaid Patient (under 19) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example Medicaid Patient (under 19)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRExamplePatient.xml.html",
+    "next" : "Patient-WRExamplePatient.ttl.html"
+  },
+  "Patient-WRExamplePatient.ttl.html" : {
+    "title" : "Example Medicaid Patient (under 19) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example Medicaid Patient (under 19)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRExamplePatient.json.html",
+    "next" : "Observation-WRFosterCareStatus.html"
+  },
+  "Observation-WRFosterCareStatus.html" : {
+    "title" : "Foster Care Status",
+    "titlelang" : {
+    },
+    "label" : "2.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Foster Care Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-WRExamplePatient.ttl.html",
+    "next" : "Observation-WRFosterCareStatus.xml.html"
+  },
+  "Observation-WRFosterCareStatus.xml.html" : {
+    "title" : "Foster Care Status - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Foster Care Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRFosterCareStatus.html",
+    "next" : "Observation-WRFosterCareStatus.json.html"
+  },
+  "Observation-WRFosterCareStatus.json.html" : {
+    "title" : "Foster Care Status - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Foster Care Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRFosterCareStatus.xml.html",
+    "next" : "Observation-WRFosterCareStatus.ttl.html"
+  },
+  "Observation-WRFosterCareStatus.ttl.html" : {
+    "title" : "Foster Care Status - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Foster Care Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRFosterCareStatus.json.html",
+    "next" : "Observation-WRMedFrailObservation1.html"
+  },
+  "Observation-WRMedFrailObservation1.html" : {
+    "title" : "Functional Status (example)",
+    "titlelang" : {
+    },
+    "label" : "2.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Functional Status (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRFosterCareStatus.ttl.html",
+    "next" : "Observation-WRMedFrailObservation1.xml.html"
+  },
+  "Observation-WRMedFrailObservation1.xml.html" : {
+    "title" : "Functional Status (example) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Functional Status (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRMedFrailObservation1.html",
+    "next" : "Observation-WRMedFrailObservation1.json.html"
+  },
+  "Observation-WRMedFrailObservation1.json.html" : {
+    "title" : "Functional Status (example) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Functional Status (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRMedFrailObservation1.xml.html",
+    "next" : "Observation-WRMedFrailObservation1.ttl.html"
+  },
+  "Observation-WRMedFrailObservation1.ttl.html" : {
+    "title" : "Functional Status (example) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Functional Status (example)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRMedFrailObservation1.json.html",
+    "next" : "Organization-WRHospitalOrg.html"
+  },
+  "Organization-WRHospitalOrg.html" : {
+    "title" : "Hospital (Service Provider)",
+    "titlelang" : {
+    },
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hospital (Service Provider)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRMedFrailObservation1.ttl.html",
+    "next" : "Organization-WRHospitalOrg.xml.html"
+  },
+  "Organization-WRHospitalOrg.xml.html" : {
+    "title" : "Hospital (Service Provider) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hospital (Service Provider)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRHospitalOrg.html",
+    "next" : "Organization-WRHospitalOrg.json.html"
+  },
+  "Organization-WRHospitalOrg.json.html" : {
+    "title" : "Hospital (Service Provider) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hospital (Service Provider)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRHospitalOrg.xml.html",
+    "next" : "Organization-WRHospitalOrg.ttl.html"
+  },
+  "Organization-WRHospitalOrg.ttl.html" : {
+    "title" : "Hospital (Service Provider) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hospital (Service Provider)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRHospitalOrg.json.html",
+    "next" : "Observation-WRIncarcerationStatus.html"
+  },
+  "Observation-WRIncarcerationStatus.html" : {
+    "title" : "Incarceration Status",
+    "titlelang" : {
+    },
+    "label" : "2.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Incarceration Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Organization-WRHospitalOrg.ttl.html",
+    "next" : "Observation-WRIncarcerationStatus.xml.html"
+  },
+  "Observation-WRIncarcerationStatus.xml.html" : {
+    "title" : "Incarceration Status - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Incarceration Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRIncarcerationStatus.html",
+    "next" : "Observation-WRIncarcerationStatus.json.html"
+  },
+  "Observation-WRIncarcerationStatus.json.html" : {
+    "title" : "Incarceration Status - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Incarceration Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRIncarcerationStatus.xml.html",
+    "next" : "Observation-WRIncarcerationStatus.ttl.html"
+  },
+  "Observation-WRIncarcerationStatus.ttl.html" : {
+    "title" : "Incarceration Status - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Incarceration Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRIncarcerationStatus.json.html",
+    "next" : "Encounter-WRInpatientEncounter.html"
+  },
+  "Encounter-WRInpatientEncounter.html" : {
+    "title" : "Inpatient Encounter",
+    "titlelang" : {
+    },
+    "label" : "2.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Inpatient Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRIncarcerationStatus.ttl.html",
+    "next" : "Encounter-WRInpatientEncounter.xml.html"
+  },
+  "Encounter-WRInpatientEncounter.xml.html" : {
+    "title" : "Inpatient Encounter - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Inpatient Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Encounter-WRInpatientEncounter.html",
+    "next" : "Encounter-WRInpatientEncounter.json.html"
+  },
+  "Encounter-WRInpatientEncounter.json.html" : {
+    "title" : "Inpatient Encounter - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Inpatient Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Encounter-WRInpatientEncounter.xml.html",
+    "next" : "Encounter-WRInpatientEncounter.ttl.html"
+  },
+  "Encounter-WRInpatientEncounter.ttl.html" : {
+    "title" : "Inpatient Encounter - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Inpatient Encounter</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Encounter-WRInpatientEncounter.json.html",
+    "next" : "Organization-WRTreatmentOrg.html"
+  },
+  "Organization-WRTreatmentOrg.html" : {
+    "title" : "Managing Organization (Treatment Program)",
+    "titlelang" : {
+    },
+    "label" : "2.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Managing Organization (Treatment Program)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Encounter-WRInpatientEncounter.ttl.html",
+    "next" : "Organization-WRTreatmentOrg.xml.html"
+  },
+  "Organization-WRTreatmentOrg.xml.html" : {
+    "title" : "Managing Organization (Treatment Program) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Managing Organization (Treatment Program)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRTreatmentOrg.html",
+    "next" : "Organization-WRTreatmentOrg.json.html"
+  },
+  "Organization-WRTreatmentOrg.json.html" : {
+    "title" : "Managing Organization (Treatment Program) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Managing Organization (Treatment Program)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRTreatmentOrg.xml.html",
+    "next" : "Organization-WRTreatmentOrg.ttl.html"
+  },
+  "Organization-WRTreatmentOrg.ttl.html" : {
+    "title" : "Managing Organization (Treatment Program) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Managing Organization (Treatment Program)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Organization-WRTreatmentOrg.json.html",
+    "next" : "Condition-WRMedFrailCondition1.html"
+  },
+  "Condition-WRMedFrailCondition1.html" : {
+    "title" : "Medically Frail Example Condition",
+    "titlelang" : {
+    },
+    "label" : "2.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medically Frail Example Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Organization-WRTreatmentOrg.ttl.html",
+    "next" : "Condition-WRMedFrailCondition1.xml.html"
+  },
+  "Condition-WRMedFrailCondition1.xml.html" : {
+    "title" : "Medically Frail Example Condition - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medically Frail Example Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRMedFrailCondition1.html",
+    "next" : "Condition-WRMedFrailCondition1.json.html"
+  },
+  "Condition-WRMedFrailCondition1.json.html" : {
+    "title" : "Medically Frail Example Condition - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medically Frail Example Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRMedFrailCondition1.xml.html",
+    "next" : "Condition-WRMedFrailCondition1.ttl.html"
+  },
+  "Condition-WRMedFrailCondition1.ttl.html" : {
+    "title" : "Medically Frail Example Condition - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Medically Frail Example Condition</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRMedFrailCondition1.json.html",
+    "next" : "RelatedPerson-WRParentRelatedPerson.html"
+  },
+  "RelatedPerson-WRParentRelatedPerson.html" : {
+    "title" : "Parent of Dependent Child",
+    "titlelang" : {
+    },
+    "label" : "2.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Parent of Dependent Child</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Condition-WRMedFrailCondition1.ttl.html",
+    "next" : "RelatedPerson-WRParentRelatedPerson.xml.html"
+  },
+  "RelatedPerson-WRParentRelatedPerson.xml.html" : {
+    "title" : "Parent of Dependent Child - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Parent of Dependent Child</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "RelatedPerson-WRParentRelatedPerson.html",
+    "next" : "RelatedPerson-WRParentRelatedPerson.json.html"
+  },
+  "RelatedPerson-WRParentRelatedPerson.json.html" : {
+    "title" : "Parent of Dependent Child - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Parent of Dependent Child</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "RelatedPerson-WRParentRelatedPerson.xml.html",
+    "next" : "RelatedPerson-WRParentRelatedPerson.ttl.html"
+  },
+  "RelatedPerson-WRParentRelatedPerson.ttl.html" : {
+    "title" : "Parent of Dependent Child - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Parent of Dependent Child</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "RelatedPerson-WRParentRelatedPerson.json.html",
+    "next" : "Condition-WRPregnancyCondition.html"
+  },
+  "Condition-WRPregnancyCondition.html" : {
+    "title" : "Pregnancy (SNOMED 77386006)",
+    "titlelang" : {
+    },
+    "label" : "2.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Pregnancy (SNOMED 77386006)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "RelatedPerson-WRParentRelatedPerson.ttl.html",
+    "next" : "Condition-WRPregnancyCondition.xml.html"
+  },
+  "Condition-WRPregnancyCondition.xml.html" : {
+    "title" : "Pregnancy (SNOMED 77386006) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Pregnancy (SNOMED 77386006)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRPregnancyCondition.html",
+    "next" : "Condition-WRPregnancyCondition.json.html"
+  },
+  "Condition-WRPregnancyCondition.json.html" : {
+    "title" : "Pregnancy (SNOMED 77386006) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Pregnancy (SNOMED 77386006)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRPregnancyCondition.xml.html",
+    "next" : "Condition-WRPregnancyCondition.ttl.html"
+  },
+  "Condition-WRPregnancyCondition.ttl.html" : {
+    "title" : "Pregnancy (SNOMED 77386006) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Pregnancy (SNOMED 77386006)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Condition-WRPregnancyCondition.json.html",
+    "next" : "Observation-WRProgramCompliance.html"
+  },
+  "Observation-WRProgramCompliance.html" : {
+    "title" : "Program Compliance",
+    "titlelang" : {
+    },
+    "label" : "2.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Program Compliance</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Condition-WRPregnancyCondition.ttl.html",
+    "next" : "Observation-WRProgramCompliance.xml.html"
+  },
+  "Observation-WRProgramCompliance.xml.html" : {
+    "title" : "Program Compliance - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Program Compliance</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRProgramCompliance.html",
+    "next" : "Observation-WRProgramCompliance.json.html"
+  },
+  "Observation-WRProgramCompliance.json.html" : {
+    "title" : "Program Compliance - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Program Compliance</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRProgramCompliance.xml.html",
+    "next" : "Observation-WRProgramCompliance.ttl.html"
+  },
+  "Observation-WRProgramCompliance.ttl.html" : {
+    "title" : "Program Compliance - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Program Compliance</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRProgramCompliance.json.html",
+    "next" : "Coverage-WRTanfCoverage.html"
+  },
+  "Coverage-WRTanfCoverage.html" : {
+    "title" : "TANF Coverage Eligibility",
+    "titlelang" : {
+    },
+    "label" : "2.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TANF Coverage Eligibility</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRProgramCompliance.ttl.html",
+    "next" : "Coverage-WRTanfCoverage.xml.html"
+  },
+  "Coverage-WRTanfCoverage.xml.html" : {
+    "title" : "TANF Coverage Eligibility - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TANF Coverage Eligibility</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Coverage-WRTanfCoverage.html",
+    "next" : "Coverage-WRTanfCoverage.json.html"
+  },
+  "Coverage-WRTanfCoverage.json.html" : {
+    "title" : "TANF Coverage Eligibility - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TANF Coverage Eligibility</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Coverage-WRTanfCoverage.xml.html",
+    "next" : "Coverage-WRTanfCoverage.ttl.html"
+  },
+  "Coverage-WRTanfCoverage.ttl.html" : {
+    "title" : "TANF Coverage Eligibility - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TANF Coverage Eligibility</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Coverage-WRTanfCoverage.json.html",
+    "next" : "Observation-WRTravelForCare.html"
+  },
+  "Observation-WRTravelForCare.html" : {
+    "title" : "Travel for Care",
+    "titlelang" : {
+    },
+    "label" : "2.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Travel for Care</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Coverage-WRTanfCoverage.ttl.html",
+    "next" : "Observation-WRTravelForCare.xml.html"
+  },
+  "Observation-WRTravelForCare.xml.html" : {
+    "title" : "Travel for Care - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Travel for Care</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRTravelForCare.html",
+    "next" : "Observation-WRTravelForCare.json.html"
+  },
+  "Observation-WRTravelForCare.json.html" : {
+    "title" : "Travel for Care - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Travel for Care</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRTravelForCare.xml.html",
+    "next" : "Observation-WRTravelForCare.ttl.html"
+  },
+  "Observation-WRTravelForCare.ttl.html" : {
+    "title" : "Travel for Care - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Travel for Care</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRTravelForCare.json.html",
+    "next" : "EpisodeOfCare-WRTreatmentEpisode.html"
+  },
+  "EpisodeOfCare-WRTreatmentEpisode.html" : {
+    "title" : "Treatment Program EpisodeOfCare",
+    "titlelang" : {
+    },
+    "label" : "2.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Treatment Program EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRTravelForCare.ttl.html",
+    "next" : "EpisodeOfCare-WRTreatmentEpisode.xml.html"
+  },
+  "EpisodeOfCare-WRTreatmentEpisode.xml.html" : {
+    "title" : "Treatment Program EpisodeOfCare - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Treatment Program EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "EpisodeOfCare-WRTreatmentEpisode.html",
+    "next" : "EpisodeOfCare-WRTreatmentEpisode.json.html"
+  },
+  "EpisodeOfCare-WRTreatmentEpisode.json.html" : {
+    "title" : "Treatment Program EpisodeOfCare - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Treatment Program EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "EpisodeOfCare-WRTreatmentEpisode.xml.html",
+    "next" : "EpisodeOfCare-WRTreatmentEpisode.ttl.html"
+  },
+  "EpisodeOfCare-WRTreatmentEpisode.ttl.html" : {
+    "title" : "Treatment Program EpisodeOfCare - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Treatment Program EpisodeOfCare</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "EpisodeOfCare-WRTreatmentEpisode.json.html",
+    "next" : "Observation-WRUnemployment.html"
+  },
+  "Observation-WRUnemployment.html" : {
+    "title" : "Unemployment Status",
+    "titlelang" : {
+    },
+    "label" : "2.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unemployment Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "EpisodeOfCare-WRTreatmentEpisode.ttl.html",
+    "next" : "Observation-WRUnemployment.xml.html"
+  },
+  "Observation-WRUnemployment.xml.html" : {
+    "title" : "Unemployment Status - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unemployment Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRUnemployment.html",
+    "next" : "Observation-WRUnemployment.json.html"
+  },
+  "Observation-WRUnemployment.json.html" : {
+    "title" : "Unemployment Status - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unemployment Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRUnemployment.xml.html",
+    "next" : "Observation-WRUnemployment.ttl.html"
+  },
+  "Observation-WRUnemployment.ttl.html" : {
+    "title" : "Unemployment Status - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unemployment Status</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRUnemployment.json.html",
+    "next" : "Observation-WRVaDisabilityRating.html"
+  },
+  "Observation-WRVaDisabilityRating.html" : {
+    "title" : "VA Disability Rating (%)",
+    "titlelang" : {
+    },
+    "label" : "2.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VA Disability Rating (%)</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRUnemployment.ttl.html",
+    "next" : "Observation-WRVaDisabilityRating.xml.html"
+  },
+  "Observation-WRVaDisabilityRating.xml.html" : {
+    "title" : "VA Disability Rating (%) - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VA Disability Rating (%)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRVaDisabilityRating.html",
+    "next" : "Observation-WRVaDisabilityRating.json.html"
+  },
+  "Observation-WRVaDisabilityRating.json.html" : {
+    "title" : "VA Disability Rating (%) - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VA Disability Rating (%)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRVaDisabilityRating.xml.html",
+    "next" : "Observation-WRVaDisabilityRating.ttl.html"
+  },
+  "Observation-WRVaDisabilityRating.ttl.html" : {
+    "title" : "VA Disability Rating (%) - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VA Disability Rating (%)</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Observation-WRVaDisabilityRating.json.html",
+    "next" : "Patient-WRVeteranPatient.html"
+  },
+  "Patient-WRVeteranPatient.html" : {
+    "title" : "Veteran with VA Identifier",
+    "titlelang" : {
+    },
+    "label" : "2.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veteran with VA Identifier</b></li>",
+    "breadcrumblang" : {
+    },
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-WRVaDisabilityRating.ttl.html",
+    "next" : "Patient-WRVeteranPatient.xml.html"
+  },
+  "Patient-WRVeteranPatient.xml.html" : {
+    "title" : "Veteran with VA Identifier - XML Representation",
+    "titlelang" : {
+    },
+    "label" : "2.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veteran with VA Identifier</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRVeteranPatient.html",
+    "next" : "Patient-WRVeteranPatient.json.html"
+  },
+  "Patient-WRVeteranPatient.json.html" : {
+    "title" : "Veteran with VA Identifier - JSON Representation",
+    "titlelang" : {
+    },
+    "label" : "2.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veteran with VA Identifier</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRVeteranPatient.xml.html",
+    "next" : "Patient-WRVeteranPatient.ttl.html"
+  },
+  "Patient-WRVeteranPatient.ttl.html" : {
+    "title" : "Veteran with VA Identifier - TTL Representation",
+    "titlelang" : {
+    },
+    "label" : "2.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veteran with VA Identifier</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "Patient-WRVeteranPatient.json.html"
+  }
+}

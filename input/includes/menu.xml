@@ -1,0 +1,27 @@
+<menu>
+    <group>
+        <name value="Home"/>
+        <item>
+            <name value="Introduction"/>
+            <reference value="index.html"/>
+        </item>
+    </group>
+    <group>
+        <name value="Profiles &amp; Examples"/>
+        <item>
+            <name value="Profiles"/>
+            <reference value="profiles.html"/>
+        </item>
+        <item>
+            <name value="Examples"/>
+            <reference value="examples.html"/>
+        </item>
+    </group>
+    <group>
+        <name value="General"/>
+        <item>
+            <name value="Artifacts"/>
+            <reference value="artifacts.html"/>
+        </item>
+    </group>
+</menu>

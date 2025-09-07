@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "WRVaDisabilityRating",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRVeteranPatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "total",
+        "system": "http://example.org/codes/va-disability-rating",
+        "display": "VA total disability rating"
+      }
+    ]
+  },
+  "status": "final",
+  "valueQuantity": {
+    "value": 70,
+    "unit": "%",
+    "system": "http://unitsofmeasure.org",
+    "code": "%"
+  },
+  "effectiveDateTime": "2025-02-01"
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "Patient",
+  "id": "WRVeteranPatient",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://va.gov/identifier/veteranId",
+      "value": "VA-0012345"
+    }
+  ],
+  "name": [
+    {
+      "family": "Veteran",
+      "given": [
+        "Val"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-07-04"
+}

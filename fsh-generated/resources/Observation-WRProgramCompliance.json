@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "WRProgramCompliance",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "compliant",
+        "system": "http://example.org/codes/program-compliance",
+        "display": "Program compliance"
+      }
+    ]
+  },
+  "status": "final",
+  "valueBoolean": true,
+  "effectiveDateTime": "2025-03-31"
+}

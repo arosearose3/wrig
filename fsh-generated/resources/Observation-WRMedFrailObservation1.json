@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "WRMedFrailObservation1",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "functional-status",
+        "system": "http://example.org/codes/observation",
+        "display": "Functional status"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2025-05-15",
+  "valueString": "Requires assistance with activities of daily living"
+}

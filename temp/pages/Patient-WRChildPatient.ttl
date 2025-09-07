@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://wrig.corisystem.org/Patient/WRChildPatient> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "WRChildPatient"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://wrig.corisystem.org/StructureDefinition/WRPatient"^^xsd:anyURI ;
+       fhir:link <http://wrig.corisystem.org/StructureDefinition/WRPatient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient WRChildPatient</b></p><a name=\"WRChildPatient\"> </a><a name=\"hcWRChildPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WRPatient.html\">Work Requirements Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Child Example  Male, DoB: 2015-09-01 ( http://example.org/ids/patient#P-WR-CHILD-001)</p><hr/></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org/ids/patient"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "P-WR-CHILD-001" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Example" ] ;
+     fhir:given ( [ fhir:v "Child" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "2015-09-01"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

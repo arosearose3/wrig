@@ -1,0 +1,44 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "WREpisodeOfCare",
+  "url": "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+  "name": "WREpisodeOfCare",
+  "title": "Work Requirements EpisodeOfCare",
+  "status": "draft",
+  "description": "Represents participation in treatment programs",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "EpisodeOfCare",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "EpisodeOfCare.status",
+        "path": "EpisodeOfCare.status",
+        "mustSupport": true
+      },
+      {
+        "id": "EpisodeOfCare.type",
+        "path": "EpisodeOfCare.type",
+        "mustSupport": true
+      },
+      {
+        "id": "EpisodeOfCare.patient",
+        "path": "EpisodeOfCare.patient",
+        "mustSupport": true
+      },
+      {
+        "id": "EpisodeOfCare.managingOrganization",
+        "path": "EpisodeOfCare.managingOrganization",
+        "mustSupport": true
+      },
+      {
+        "id": "EpisodeOfCare.period",
+        "path": "EpisodeOfCare.period",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+  "name" : "WorkReqsIG",
+  "title" : "Medicaid Work Requirements IG",
+  "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
+  "status" : "draft",
+  "package-id" : "my-ig",
+  "ig-ver" : "0.1.0",
+  "date" : "Sun, 07 Sep, 2025 03:01:58 +0000",
+  "dateISO8601" : "2025-09-07T03:01:58+00:00",
+  "errs" : 5,
+  "warnings" : 24,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1030852096
+}

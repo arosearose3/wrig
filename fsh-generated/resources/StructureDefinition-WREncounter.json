@@ -1,0 +1,45 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "WREncounter",
+  "url": "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+  "name": "WREncounter",
+  "title": "Work Requirements Encounter",
+  "status": "draft",
+  "description": "Represents inpatient care or medical hardship encounters",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.period",
+        "path": "Encounter.period",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "mustSupport": true
+      }
+    ]
+  }
+}

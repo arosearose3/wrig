@@ -1,0 +1,25 @@
+{
+  "resourceType": "Patient",
+  "id": "WRChildPatient",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://example.org/ids/patient",
+      "value": "P-WR-CHILD-001"
+    }
+  ],
+  "name": [
+    {
+      "family": "Example",
+      "given": [
+        "Child"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2015-09-01"
+}

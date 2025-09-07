@@ -1,0 +1,31 @@
+{
+  "resourceType": "Condition",
+  "id": "WRPregnancyCondition",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "77386006",
+        "system": "http://snomed.info/sct",
+        "display": "Pregnant"
+      }
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "display": "Active"
+      }
+    ]
+  },
+  "onsetDateTime": "2025-01-01"
+}

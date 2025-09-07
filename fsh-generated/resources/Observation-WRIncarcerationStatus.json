@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "WRIncarcerationStatus",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "incarceration",
+        "system": "http://example.org/codes/social-status",
+        "display": "Incarceration status"
+      }
+    ]
+  },
+  "status": "final",
+  "valueBoolean": true,
+  "effectivePeriod": {
+    "start": "2025-04-01",
+    "end": "2025-06-30"
+  }
+}

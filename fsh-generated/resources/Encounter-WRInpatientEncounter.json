@@ -1,0 +1,25 @@
+{
+  "resourceType": "Encounter",
+  "id": "WRInpatientEncounter",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WREncounter"
+    ]
+  },
+  "status": "finished",
+  "class": {
+    "code": "IMP",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "display": "inpatient encounter"
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "serviceProvider": {
+    "reference": "Organization/WRHospitalOrg"
+  },
+  "period": {
+    "start": "2025-02-10",
+    "end": "2025-02-14"
+  }
+}

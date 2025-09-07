@@ -1,0 +1,32 @@
+{
+  "resourceType": "Observation",
+  "id": "WRFosterCareStatus",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "foster-care",
+        "system": "http://example.org/codes/social-status",
+        "display": "Foster care status"
+      }
+    ]
+  },
+  "status": "final",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "Y",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+        "display": "Yes"
+      }
+    ]
+  },
+  "effectiveDateTime": "2025-05-10"
+}

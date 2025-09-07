@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "WRRelatedPerson",
+  "url": "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+  "name": "WRRelatedPerson",
+  "title": "Work Requirements Related Person",
+  "status": "draft",
+  "description": "Represents parent/caretaker relationship to dependent child",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "RelatedPerson",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RelatedPerson.patient",
+        "path": "RelatedPerson.patient",
+        "mustSupport": true
+      },
+      {
+        "id": "RelatedPerson.relationship",
+        "path": "RelatedPerson.relationship",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

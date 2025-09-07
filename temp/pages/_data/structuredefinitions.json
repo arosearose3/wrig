@@ -1,0 +1,212 @@
+{
+  "WRCondition" : {
+    "index" : 0,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+    "name" : "WRCondition",
+    "title" : "Work Requirements Condition",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WRCondition.html",
+    "kind" : "resource",
+    "type" : "Condition",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Condition",
+    "basename" : "Condition",
+    "basepath" : "http://hl7.org/fhir/R4/condition.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Condition resource for pregnancy, medically frail, child disability, etc.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WRCoverage" : {
+    "index" : 1,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+    "name" : "WRCoverage",
+    "title" : "Work Requirements Coverage",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WRCoverage.html",
+    "kind" : "resource",
+    "type" : "Coverage",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Coverage",
+    "basename" : "Coverage",
+    "basepath" : "http://hl7.org/fhir/R4/coverage.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Represents TANF/SNAP program coverage eligibility",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WREncounter" : {
+    "index" : 2,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+    "name" : "WREncounter",
+    "title" : "Work Requirements Encounter",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WREncounter.html",
+    "kind" : "resource",
+    "type" : "Encounter",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Encounter",
+    "basename" : "Encounter",
+    "basepath" : "http://hl7.org/fhir/R4/encounter.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Represents inpatient care or medical hardship encounters",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WREpisodeOfCare" : {
+    "index" : 3,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+    "name" : "WREpisodeOfCare",
+    "title" : "Work Requirements EpisodeOfCare",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WREpisodeOfCare.html",
+    "kind" : "resource",
+    "type" : "EpisodeOfCare",
+    "base" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare",
+    "basename" : "EpisodeOfCare",
+    "basepath" : "http://hl7.org/fhir/R4/episodeofcare.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Represents participation in treatment programs",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WRObservation" : {
+    "index" : 4,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRObservation",
+    "name" : "WRObservation",
+    "title" : "Work Requirements Observation",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WRObservation.html",
+    "kind" : "resource",
+    "type" : "Observation",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename" : "Observation",
+    "basepath" : "http://hl7.org/fhir/R4/observation.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Observation for program compliance, incarceration, foster status, functional status",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WRPatient" : {
+    "index" : 5,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+    "name" : "WRPatient",
+    "title" : "Work Requirements Patient",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WRPatient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4/patient.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Patient profile for Medicaid Work Requirements",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "WRRelatedPerson" : {
+    "index" : 6,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+    "name" : "WRRelatedPerson",
+    "title" : "Work Requirements Related Person",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-WRRelatedPerson.html",
+    "kind" : "resource",
+    "type" : "RelatedPerson",
+    "base" : "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+    "basename" : "RelatedPerson",
+    "basepath" : "http://hl7.org/fhir/R4/relatedperson.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Represents parent/caretaker relationship to dependent child",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  }
+}

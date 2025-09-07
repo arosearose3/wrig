@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "WRUnemployment",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "unemployment-status",
+        "system": "http://example.org/codes/hardship",
+        "display": "Unemployment status"
+      }
+    ]
+  },
+  "status": "final",
+  "valueBoolean": true,
+  "effectiveDateTime": "2025-01-15"
+}

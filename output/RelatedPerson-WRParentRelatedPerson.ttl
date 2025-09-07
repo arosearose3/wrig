@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://wrig.corisystem.org/RelatedPerson/WRParentRelatedPerson> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "WRParentRelatedPerson"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"^^xsd:anyURI ;
+       fhir:link <http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson WRParentRelatedPerson</b></p><a name=\"WRParentRelatedPerson\"> </a><a name=\"hcWRParentRelatedPerson\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WRRelatedPerson.html\">Work Requirements Related Person</a></p></div><p><b>patient</b>: <a href=\"Patient-WRChildPatient.html\">Child Example  Male, DoB: 2015-09-01 ( http://example.org/ids/patient#P-WR-CHILD-001)</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode PRN}\">parent</span></p><p><b>name</b>: Parent Caretaker </p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:patient [
+     fhir:link <http://wrig.corisystem.org/Patient/WRChildPatient> ;
+     fhir:reference [ fhir:v "Patient/WRChildPatient" ]
+  ] ; # 
+  fhir:relationship ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "PRN" ] ;
+       fhir:display [ fhir:v "parent" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Caretaker" ] ;
+     fhir:given ( [ fhir:v "Parent" ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://wrig.corisystem.org/EpisodeOfCare/WRTreatmentEpisode> a fhir:EpisodeOfCare ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "WRTreatmentEpisode"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"^^xsd:anyURI ;
+       fhir:link <http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare WRTreatmentEpisode</b></p><a name=\"WRTreatmentEpisode\"> </a><a name=\"hcWRTreatmentEpisode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WREpisodeOfCare.html\">Work Requirements EpisodeOfCare</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{http://example.org/codes/episode-type SUBSTANCE-USE-TREATMENT}\">Substance use treatment</span></p><p><b>patient</b>: <a href=\"Patient-WRExamplePatient.html\">Pat Example  Female, DoB: 2008-05-01 ( http://example.org/ids/patient#P-WR-001)</a></p><p><b>managingOrganization</b>: <a href=\"Organization-WRTreatmentOrg.html\">Organization Community Recovery Clinic</a></p><p><b>period</b>: 2025-03-01 --&gt; 2025-06-01</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org/codes/episode-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SUBSTANCE-USE-TREATMENT" ] ;
+       fhir:display [ fhir:v "Substance use treatment" ]
+     ] )
+  ] ) ; # 
+  fhir:patient [
+     fhir:link <http://wrig.corisystem.org/Patient/WRExamplePatient> ;
+     fhir:reference [ fhir:v "Patient/WRExamplePatient" ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:link <http://wrig.corisystem.org/Organization/WRTreatmentOrg> ;
+     fhir:reference [ fhir:v "Organization/WRTreatmentOrg" ]
+  ] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2025-03-01"^^xsd:date ] ;
+     fhir:end [ fhir:v "2025-06-01"^^xsd:date ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

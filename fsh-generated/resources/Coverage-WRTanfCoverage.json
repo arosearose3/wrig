@@ -1,0 +1,31 @@
+{
+  "resourceType": "Coverage",
+  "id": "WRTanfCoverage",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRCoverage"
+    ]
+  },
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "system": "http://example.org/codes/program",
+        "code": "TANF",
+        "display": "TANF"
+      }
+    ]
+  },
+  "beneficiary": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "payor": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ],
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  }
+}

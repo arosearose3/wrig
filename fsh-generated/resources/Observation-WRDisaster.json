@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "WRDisaster",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRExamplePatient"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "disaster",
+        "system": "http://example.org/codes/hardship",
+        "display": "Declared disaster"
+      }
+    ]
+  },
+  "status": "final",
+  "valueString": "FEMA-DR-9999",
+  "effectiveDateTime": "2025-08-01"
+}

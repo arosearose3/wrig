@@ -1,0 +1,218 @@
+[
+  {
+    "outputFile": "Condition-WRChildDisability.json",
+    "fshName": "WRChildDisability",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 51,
+    "endLine": 58
+  },
+  {
+    "outputFile": "Condition-WRMedFrailCondition1.json",
+    "fshName": "WRMedFrailCondition1",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 61,
+    "endLine": 68
+  },
+  {
+    "outputFile": "Condition-WRPregnancyCondition.json",
+    "fshName": "WRPregnancyCondition",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 18,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Coverage-WRTanfCoverage.json",
+    "fshName": "WRTanfCoverage",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 111,
+    "endLine": 123
+  },
+  {
+    "outputFile": "Encounter-WRInpatientEncounter.json",
+    "fshName": "WRInpatientEncounter",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 189,
+    "endLine": 199
+  },
+  {
+    "outputFile": "EpisodeOfCare-WRTreatmentEpisode.json",
+    "fshName": "WRTreatmentEpisode",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 144,
+    "endLine": 154
+  },
+  {
+    "outputFile": "Observation-WRDisaster.json",
+    "fshName": "WRDisaster",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 213,
+    "endLine": 222
+  },
+  {
+    "outputFile": "Observation-WRFosterCareStatus.json",
+    "fshName": "WRFosterCareStatus",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 170,
+    "endLine": 179
+  },
+  {
+    "outputFile": "Observation-WRIncarcerationStatus.json",
+    "fshName": "WRIncarcerationStatus",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 157,
+    "endLine": 167
+  },
+  {
+    "outputFile": "Observation-WRMedFrailObservation1.json",
+    "fshName": "WRMedFrailObservation1",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 70,
+    "endLine": 79
+  },
+  {
+    "outputFile": "Observation-WRProgramCompliance.json",
+    "fshName": "WRProgramCompliance",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 125,
+    "endLine": 134
+  },
+  {
+    "outputFile": "Observation-WRTravelForCare.json",
+    "fshName": "WRTravelForCare",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 201,
+    "endLine": 211
+  },
+  {
+    "outputFile": "Observation-WRUnemployment.json",
+    "fshName": "WRUnemployment",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 224,
+    "endLine": 233
+  },
+  {
+    "outputFile": "Observation-WRVaDisabilityRating.json",
+    "fshName": "WRVaDisabilityRating",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 94,
+    "endLine": 106
+  },
+  {
+    "outputFile": "Organization-WRHospitalOrg.json",
+    "fshName": "WRHospitalOrg",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 182,
+    "endLine": 187
+  },
+  {
+    "outputFile": "Organization-WRTreatmentOrg.json",
+    "fshName": "WRTreatmentOrg",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 137,
+    "endLine": 142
+  },
+  {
+    "outputFile": "Patient-WRChildPatient.json",
+    "fshName": "WRChildPatient",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 29,
+    "endLine": 39
+  },
+  {
+    "outputFile": "Patient-WRExamplePatient.json",
+    "fshName": "WRExamplePatient",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 5,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Patient-WRVeteranPatient.json",
+    "fshName": "WRVeteranPatient",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 82,
+    "endLine": 92
+  },
+  {
+    "outputFile": "RelatedPerson-WRParentRelatedPerson.json",
+    "fshName": "WRParentRelatedPerson",
+    "fshType": "Instance",
+    "fshFile": "WorkReqsExamples.fsh",
+    "startLine": 41,
+    "endLine": 49
+  },
+  {
+    "outputFile": "StructureDefinition-WRCondition.json",
+    "fshName": "WRCondition",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 12,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-WRCoverage.json",
+    "fshName": "WRCoverage",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 41,
+    "endLine": 49
+  },
+  {
+    "outputFile": "StructureDefinition-WREncounter.json",
+    "fshName": "WREncounter",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 62,
+    "endLine": 71
+  },
+  {
+    "outputFile": "StructureDefinition-WREpisodeOfCare.json",
+    "fshName": "WREpisodeOfCare",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 51,
+    "endLine": 60
+  },
+  {
+    "outputFile": "StructureDefinition-WRObservation.json",
+    "fshName": "WRObservation",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 31,
+    "endLine": 39
+  },
+  {
+    "outputFile": "StructureDefinition-WRPatient.json",
+    "fshName": "WRPatient",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 4,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-WRRelatedPerson.json",
+    "fshName": "WRRelatedPerson",
+    "fshType": "Profile",
+    "fshFile": "WorkReqsProfiles.fsh",
+    "startLine": 23,
+    "endLine": 29
+  }
+]

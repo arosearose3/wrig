@@ -1,0 +1,16 @@
+{
+  "resourceType": "Condition",
+  "id": "WRChildDisability",
+  "meta": {
+    "profile": [
+      "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/WRChildPatient"
+  },
+  "code": {
+    "text": "Child disability (example)"
+  },
+  "onsetDateTime": "2024-01-01"
+}
