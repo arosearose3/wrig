@@ -1,1 +1,30 @@
-node_modules
+
+# Ignore generated FSH output
+fsh-generated/
+
+# Cache and temporary files
+input-cache/
+temp/
+
+# Build output
+output/
+
+# Node.js dependencies and lock files
+node_modules/
+package-lock.json
+
+# Java publisher
+# publisher.jar
+
+# OS and Editor files (optional common ignores)
+.DS_Store
+Thumbs.db
+*.log
+
+# Ig config files - might want to include depending on sensitivity
+# sushi-config.yaml
+# ig.ini
+
+# Optional ignore for IDE/editor folders
+.vscode/
+.idea/

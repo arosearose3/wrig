@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jekyll": "^3.0.0-beta1"
+    "jekyll": "^3.0.0-beta1",
+    "lfs": "^0.0.4"
   }
 }
