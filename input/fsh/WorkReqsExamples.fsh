@@ -13,6 +13,8 @@ Usage: #example
 * name[0].given[0] = "Pat"
 * gender = #female
 * birthDate = "2008-05-01"
+* extension[tribalAffiliation].extension[tribalAffiliation].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#CAIND "California Indian"
+* extension[tribalAffiliation].extension[isEnrolled].valueBoolean = true
 
 // 2) Pregnancy Exemption
 Instance: WRPregnancyCondition

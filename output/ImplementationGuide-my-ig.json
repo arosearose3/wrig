@@ -10,7 +10,7 @@
   "name" : "WorkReqsIG",
   "title" : "Medicaid Work Requirements IG",
   "status" : "draft",
-  "date" : "2025-09-07T03:01:36+00:00",
+  "date" : "2025-09-07T21:33:56+00:00",
   "publisher" : "Andrew Rose LPC",
   "contact" : [{
     "name" : "Andrew Rose LPC",
@@ -835,6 +835,18 @@
       "name" : "Unemployment Status",
       "description" : "Observation representing unemployment status",
       "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/us-core-tribalAffiliation"
+      },
+      "name" : "US Core Tribal Affiliation Extension",
+      "description" : "Indicates tribal affiliation for American Indian/Alaska Native patients",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

@@ -21,7 +21,7 @@
    <name value="WorkReqsIG"/>
    <title value="Medicaid Work Requirements IG"/>
    <status value="draft"/>
-   <date value="2025-09-07T03:01:36+00:00"/>
+   <date value="2025-09-07T21:33:56+00:00"/>
    <publisher value="Andrew Rose LPC"/>
    <contact>
       <name value="Andrew Rose LPC"/>
@@ -697,6 +697,24 @@
          <description value="Observation representing unemployment status"/>
          <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-us-core-tribalAffiliation.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/us-core-tribalAffiliation"/>
+         </reference>
+         <name value="US Core Tribal Affiliation Extension"/>
+         <description value="Indicates tribal affiliation for American Indian/Alaska Native patients"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">

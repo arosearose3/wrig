@@ -15,7 +15,7 @@
     "basepath" : "http://hl7.org/fhir/R4/condition.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -45,7 +45,7 @@
     "basepath" : "http://hl7.org/fhir/R4/coverage.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -75,7 +75,7 @@
     "basepath" : "http://hl7.org/fhir/R4/encounter.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -105,7 +105,7 @@
     "basepath" : "http://hl7.org/fhir/R4/episodeofcare.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -135,7 +135,7 @@
     "basepath" : "http://hl7.org/fhir/R4/observation.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -165,7 +165,7 @@
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -195,7 +195,7 @@
     "basepath" : "http://hl7.org/fhir/R4/relatedperson.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Sun Sep 07 03:01:36 UTC 2025",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "Andrew Rose LPC",
@@ -208,5 +208,42 @@
     "descriptionlang" : {
     },
     "obligations" : false
+  },
+  "us-core-tribalAffiliation" : {
+    "index" : 7,
+    "url" : "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+    "name" : "USCoreTribalAffiliation",
+    "title" : "US Core Tribal Affiliation Extension",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-us-core-tribalAffiliation.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Sun Sep 07 21:33:56 UTC 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Andrew Rose LPC",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Indicates tribal affiliation for American Indian/Alaska Native patients",
+    "descriptionlang" : {
+    },
+    "obligations" : false,
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Patient"
+      }
+    ],
+    "extension-contexts" : ["Patient"]
   }
 }

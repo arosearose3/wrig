@@ -89,6 +89,16 @@ The Medicaid Work Requirements IG provides a robust, standardized foundation for
     *   `DocumentReference` for tribal card, with `Provenance.agent` indicating tribal authority.
 *   **Recommendation**: use agreed ValueSet for tribal affiliation, and include metadata describing who can access this field.
 
+The US Core IG defines a Tribal Affiliation Extension that can be used on the Patient resource.
+
+This extension represents a tribe or band with which a person associates, whether or not they are an enrolled member.
+
+The extension includes:
+
+A tribalAffiliation element coded from an agreed ValueSet (e.g., TribalEntityUS codes recognized by the US Bureau of Indian Affairs).
+
+An optional isEnrolled boolean element indicating whether the person is an enrolled member of the tribe.
+
 ### TANF or SNAP Compliance
 *   **Docs**: state eligibility records, SNAP/TANF letters showing compliance.
 *   **FHIR resources**:

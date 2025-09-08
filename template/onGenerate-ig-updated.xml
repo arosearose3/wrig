@@ -21,7 +21,7 @@
    <name value="WorkReqsIG"/>
    <title value="Medicaid Work Requirements IG"/>
    <status value="draft"/>
-   <date value="2025-09-07T03:01:36+00:00"/>
+   <date value="2025-09-07T21:33:56+00:00"/>
    <publisher value="Andrew Rose LPC"/>
    <contact>
       <name value="Andrew Rose LPC"/>
@@ -266,6 +266,10 @@
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
       </grouping>
+      <grouping id="-str-extension">
+         <name value="Structures: Extension Definitions"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
+      </grouping>
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
@@ -395,6 +399,24 @@
          <description value="Represents parent/caretaker relationship to dependent child"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-us-core-tribalAffiliation.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/us-core-tribalAffiliation"/>
+         </reference>
+         <name value="US Core Tribal Affiliation Extension"/>
+         <description value="Indicates tribal affiliation for American Indian/Alaska Native patients"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -808,6 +830,11 @@
             <page>
                <nameUrl value="StructureDefinition-WRRelatedPerson.html"/>
                <title value="Work Requirements Related Person"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-us-core-tribalAffiliation.html"/>
+               <title value="US Core Tribal Affiliation Extension"/>
                <generation value="generated"/>
             </page>
             <page>

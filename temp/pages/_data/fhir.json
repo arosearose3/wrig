@@ -5,7 +5,7 @@
   "igName" : "WorkReqsIG",
   "packageId" : "my-ig",
   "igVer" : "0.1.0",
-  "errorCount" : 5,
+  "errorCount" : 7,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
   "releaseLabellang" : {
@@ -15,11 +15,11 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Sun, Sep 7, 2025 03:01+0000",
+  "genDate" : "Sun, Sep 7, 2025 21:34+0000",
   "genDay" : "07/09/2025",
-  "totalFiles" : 28,
-  "processedFiles" : 36,
-  "repoSource" : "",
+  "totalFiles" : 29,
+  "processedFiles" : 37,
+  "repoSource" : "https://github.com/arosearose3/wrig",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -254,7 +254,7 @@
         "telecom" : ["http://wrig.corisystem.org"]
       }
     ],
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
     "descriptionlang" : {
     },

@@ -347,6 +347,16 @@ Each category has a corresponding FHIR resource mapping and API endpoint for rec
   <li><strong>Recommendation</strong>: use agreed ValueSet for tribal affiliation, and include metadata describing who can access this field.</li>
 </ul>
 
+<p>The US Core IG defines a Tribal Affiliation Extension that can be used on the Patient resource.</p>
+
+<p>This extension represents a tribe or band with which a person associates, whether or not they are an enrolled member.</p>
+
+<p>The extension includes:</p>
+
+<p>A tribalAffiliation element coded from an agreed ValueSet (e.g., TribalEntityUS codes recognized by the US Bureau of Indian Affairs).</p>
+
+<p>An optional isEnrolled boolean element indicating whether the person is an enrolled member of the tribe.</p>
+
 <h3 id="tanf-or-snap-compliance">TANF or SNAP Compliance</h3>
 <ul>
   <li><strong>Docs</strong>: state eligibility records, SNAP/TANF letters showing compliance.</li>
@@ -428,7 +438,7 @@ Each category has a corresponding FHIR resource mapping and API endpoint for rec
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025 <a style="color:var(--footer-hyperlink-text-color)" href="http://wrig.corisystem.org">Andrew Rose LPC</a>.  Package my-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Sep 7, 2025 03:01+0000">2025-09-07</span>
+          IG &#169; 2025 <a style="color:var(--footer-hyperlink-text-color)" href="http://wrig.corisystem.org">Andrew Rose LPC</a>.  Package my-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Sep 7, 2025 21:34+0000">2025-09-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

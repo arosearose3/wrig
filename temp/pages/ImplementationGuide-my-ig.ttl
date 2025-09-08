@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "WorkReqsIG"] ; # 
   fhir:title [ fhir:v "Medicaid Work Requirements IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-07T03:01:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-07T21:33:56+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Andrew Rose LPC"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Andrew Rose LPC" ] ;
@@ -1189,6 +1189,24 @@
          a fhir:canonical ;
          fhir:v "http://wrig.corisystem.org/StructureDefinition/WRObservation"^^xsd:anyURI ;
          fhir:link <http://wrig.corisystem.org/StructureDefinition/WRObservation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation> ;
+         fhir:reference [ fhir:v "StructureDefinition/us-core-tribalAffiliation" ]
+       ] ;
+       fhir:name [ fhir:v "US Core Tribal Affiliation Extension" ] ;
+       fhir:description [ fhir:v "Indicates tribal affiliation for American Indian/Alaska Native patients" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [

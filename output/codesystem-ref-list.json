@@ -1,3 +1,16 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS",
+      "version" : "4.0.0",
+      "status" : "active",
+      "name" : "TribalEntityUS",
+      "title" : "TribalEntityUS",
+      "description" : "INDIAN ENTITIES RECOGNIZED AND ELIGIBLE TO RECEIVE SERVICES FROM THE UNITED STATES BUREAU OF INDIAN AFFAIRS",
+      "oids" : ["2.16.840.1.113883.5.140"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-TribalEntityUS.html" : "TribalEntityUS"
+    }
+  ]
 }

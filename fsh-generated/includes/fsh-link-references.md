@@ -16,6 +16,7 @@
 [WRTravelForCare]: Observation-WRTravelForCare.html
 [WRTreatmentEpisode]: EpisodeOfCare-WRTreatmentEpisode.html
 [WRUnemployment]: Observation-WRUnemployment.html
+[USCoreTribalAffiliation]: StructureDefinition-us-core-tribalAffiliation.html
 [WRVaDisabilityRating]: Observation-WRVaDisabilityRating.html
 [WRVeteranPatient]: Patient-WRVeteranPatient.html
 [WRCondition]: StructureDefinition-WRCondition.html

@@ -1,0 +1,105 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "us-core-tribalAffiliation",
+  "url": "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+  "name": "USCoreTribalAffiliation",
+  "title": "US Core Tribal Affiliation Extension",
+  "status": "draft",
+  "description": "Indicates tribal affiliation for American Indian/Alaska Native patients",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "expression": "Patient",
+      "type": "element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "US Core Tribal Affiliation Extension",
+        "definition": "Indicates tribal affiliation for American Indian/Alaska Native patients"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:tribalAffiliation",
+        "path": "Extension.extension",
+        "sliceName": "tribalAffiliation",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:tribalAffiliation.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:tribalAffiliation.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "tribalAffiliation"
+      },
+      {
+        "id": "Extension.extension:tribalAffiliation.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:tribalAffiliation.value[x]:valueCodeableConcept",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://terminology.hl7.org/ValueSet/v3-TribalEntityUS"
+        }
+      },
+      {
+        "id": "Extension.extension:isEnrolled",
+        "path": "Extension.extension",
+        "sliceName": "isEnrolled",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:isEnrolled.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "isEnrolled"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

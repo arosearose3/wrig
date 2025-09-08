@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "WREncounter"] ; # 
   fhir:title [ fhir:v "Work Requirements Encounter"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-07T03:01:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-07T21:33:56+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Andrew Rose LPC"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Andrew Rose LPC" ] ;

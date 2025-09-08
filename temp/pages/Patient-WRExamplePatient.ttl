@@ -17,8 +17,28 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient WRExamplePatient</b></p><a name=\"WRExamplePatient\"> </a><a name=\"hcWRExamplePatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WRPatient.html\">Work Requirements Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Pat Example  Female, DoB: 2008-05-01 ( http://example.org/ids/patient#P-WR-001)</p><hr/></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient WRExamplePatient</b></p><a name=\"WRExamplePatient\"> </a><a name=\"hcWRExamplePatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-WRPatient.html\">Work Requirements Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Pat Example  Female, DoB: 2008-05-01 ( http://example.org/ids/patient#P-WR-001)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Indicates tribal affiliation for American Indian/Alaska Native patients\">US Core Tribal Affiliation Extension:</td><td colspan=\"3\"><ul><li>tribalAffiliation: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS CAIND}\">California Indian</span></li><li>isEnrolled: true</li></ul></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "tribalAffiliation"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "CAIND" ] ;
+           fhir:display [ fhir:v "California Indian" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "isEnrolled"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation"^^xsd:anyURI ]
+  ] ) ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://example.org/ids/patient"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "P-WR-001" ]

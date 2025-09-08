@@ -13,7 +13,7 @@
     "title" : "Medicaid Work Requirements IG",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
     "descriptionlang" : {
     },
@@ -278,7 +278,7 @@
     "title" : "Work Requirements Condition",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Condition resource for pregnancy, medically frail, child disability, etc.",
     "descriptionlang" : {
     },
@@ -303,7 +303,7 @@
     "title" : "Work Requirements Coverage",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Represents TANF/SNAP program coverage eligibility",
     "descriptionlang" : {
     },
@@ -328,7 +328,7 @@
     "title" : "Work Requirements Encounter",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Represents inpatient care or medical hardship encounters",
     "descriptionlang" : {
     },
@@ -353,7 +353,7 @@
     "title" : "Work Requirements EpisodeOfCare",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Represents participation in treatment programs",
     "descriptionlang" : {
     },
@@ -378,7 +378,7 @@
     "title" : "Work Requirements Observation",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Observation for program compliance, incarceration, foster status, functional status",
     "descriptionlang" : {
     },
@@ -403,7 +403,7 @@
     "title" : "Work Requirements Patient",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Patient profile for Medicaid Work Requirements",
     "descriptionlang" : {
     },
@@ -428,8 +428,33 @@
     "title" : "Work Requirements Related Person",
     "titlelang" : {
     },
-    "date" : "2025-09-07T03:01:36+00:00",
+    "date" : "2025-09-07T21:33:56+00:00",
     "description" : "Represents parent/caretaker relationship to dependent child",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/us-core-tribalAffiliation" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 28,
+    "source" : "fsh-generated/resources/StructureDefinition-us-core-tribalAffiliation.json",
+    "sourceTail" : "StructureDefinition-us-core-tribalAffiliation.json",
+    "path" : "StructureDefinition-us-core-tribalAffiliation.html",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+    "version" : "0.1.0",
+    "name" : "USCoreTribalAffiliation",
+    "title" : "US Core Tribal Affiliation Extension",
+    "titlelang" : {
+    },
+    "date" : "2025-09-07T21:33:56+00:00",
+    "description" : "Indicates tribal affiliation for American Indian/Alaska Native patients",
     "descriptionlang" : {
     },
     "status" : {

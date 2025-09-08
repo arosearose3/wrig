@@ -171,6 +171,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/us-core-tribalAffiliation"
+        },
+        "name": "US Core Tribal Affiliation Extension",
+        "description": "Indicates tribal affiliation for American Indian/Alaska Native patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Observation/WRVaDisabilityRating"
         },
         "name": "VA Disability Rating (%)",

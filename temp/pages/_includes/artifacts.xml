@@ -8,7 +8,10 @@
          <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Example: Example Instances</a>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -80,6 +83,21 @@
       </tbody>
    </table>
    <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>{% capture grouping_desc %}These define constraints on FHIR data types for systems conforming to this implementation guide.{% endcapture %}
+    {{ grouping_desc | markdownify}}<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-us-core-tribalAffiliation.html"
+                  title="StructureDefinition/us-core-tribalAffiliation">US Core Tribal Affiliation Extension</a>
+            </td>
+            <td>{% capture desc %}Indicates tribal affiliation for American Indian/Alaska Native patients{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
    <h3>Example: Example Instances </h3>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.{% endcapture %}
     {{ grouping_desc | markdownify}}<table class="grid">
       <col style="width:20%"/>

@@ -6,8 +6,10 @@ Parent: Patient
 Id: WRPatient
 Title: "Work Requirements Patient"
 Description: "Patient profile for Medicaid Work Requirements"
+
 * birthDate 1..1 MS
 * identifier MS
+* extension contains http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation named tribalAffiliation 0..1
 
 Profile: WRCondition
 Parent: Condition

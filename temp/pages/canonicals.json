@@ -54,5 +54,12 @@
     "url" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
     "version" : "0.1.0",
     "name" : "WRRelatedPerson"
+  },
+  {
+    "id" : "us-core-tribalAffiliation",
+    "type" : "StructureDefinition",
+    "url" : "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+    "version" : "0.1.0",
+    "name" : "USCoreTribalAffiliation"
   }
 ]

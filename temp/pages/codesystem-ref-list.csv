@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
+http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS,4.0.0,active,"2.16.840.1.113883.5.140",TribalEntityUS,TribalEntityUS,"INDIAN ENTITIES RECOGNIZED AND ELIGIBLE TO RECEIVE SERVICES FROM THE UNITED STATES BUREAU OF INDIAN AFFAIRS","ValueSet/v3-TribalEntityUS"
