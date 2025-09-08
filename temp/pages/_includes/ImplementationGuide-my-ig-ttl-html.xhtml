@@ -19,7 +19,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;WorkReqsIG&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Medicaid Work Requirements IG&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-07T21:33:56+00:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-08T17:38:48+00:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Andrew Rose LPC&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Andrew Rose LPC&quot; ] ;
@@ -958,6 +958,16 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#url">a</a> fhir:url ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#url">fhir:v</a> &quot;index.html&quot;^^xsd:anyURI         ] ;
 <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Home&quot; ] ;
+<a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.generation">fhir:generation</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;markdown&quot; ]       ] [
+        ( <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/tools/StructureDefinition/ig-page-name&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#url">a</a> fhir:url ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#url">fhir:v</a> &quot;downloads.html&quot;^^xsd:anyURI           ]         ] ) ;
+<a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.name[x]">fhir:name</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#url">a</a> fhir:url ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#url">fhir:v</a> &quot;downloads.html&quot;^^xsd:anyURI         ] ;
+<a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Downloads&quot; ] ;
 <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.page.generation">fhir:generation</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;markdown&quot; ]       ] )     ] ;
     ( <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.parameter">fhir:parameter</a> [
 <a href="http://hl7.org/fhir/R4/implementationguide.html#ImplementationGuide.definition.parameter.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;path-resource&quot; ] ;

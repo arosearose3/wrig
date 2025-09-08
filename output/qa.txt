@@ -1,13 +1,13 @@
 WorkReqsIG : Validation Results
 =========================================
 
-err = 7, warn = 24, info = 1
+err = 7, warn = 26, info = 1
 IG Publisher Version: 2.0.16
-Generated Sun Sep 07 21:34:54 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (canonical = http://wrig.corisystem.org)
- Build Errors : 1 / 178 / 0
+Generated Mon Sep 08 17:39:44 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (canonical = http://wrig.corisystem.org)
+ Build Errors : 351 / 179 / 0
  /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRChildDisability : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRMedFrailCondition1 : 0 / 0 / 1
- /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRPregnancyCondition : 0 / 0 / 1
+ /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRPregnancyCondition : 0 / 1 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Coverage-WRTanfCoverage : 0 / 1 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Encounter-WRInpatientEncounter : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/EpisodeOfCare-WRTreatmentEpisode : 0 / 1 / 1
@@ -19,7 +19,7 @@ Generated Sun Sep 07 21:34:54 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (cano
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRProgramCompliance : 0 / 2 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRTravelForCare : 0 / 2 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRUnemployment : 0 / 2 / 1
- /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRVaDisabilityRating : 0 / 2 / 1
+ /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRVaDisabilityRating : 0 / 3 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Organization-WRHospitalOrg : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Organization-WRTreatmentOrg : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Patient-WRChildPatient : 0 / 0 / 1
@@ -37,180 +37,531 @@ Generated Sun Sep 07 21:34:54 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (cano
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
-WARNING: Condition-WRChildDisability.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRChildDisability.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRChildDisability.json.html#/html/body/div/div/div/p/a at Line 228, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRChildDisability.ttl.html#/html/body/div/div/div/p/a at Line 242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRChildDisability.xml.html#/html/body/div/div/div/p/a at Line 227, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRMedFrailCondition1.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRMedFrailCondition1.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRMedFrailCondition1.json.html#/html/body/div/div/div/p/a at Line 228, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRMedFrailCondition1.ttl.html#/html/body/div/div/div/p/a at Line 242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRMedFrailCondition1.xml.html#/html/body/div/div/div/p/a at Line 227, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRPregnancyCondition.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRPregnancyCondition.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRPregnancyCondition.json.html#/html/body/div/div/div/p/a at Line 243, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRPregnancyCondition.ttl.html#/html/body/div/div/div/p/a at Line 253, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Condition-WRPregnancyCondition.xml.html#/html/body/div/div/div/p/a at Line 239, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Coverage-WRTanfCoverage.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Coverage-WRTanfCoverage.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Coverage-WRTanfCoverage.json.html#/html/body/div/div/div/p/a at Line 243, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Coverage-WRTanfCoverage.ttl.html#/html/body/div/div/div/p/a at Line 249, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Coverage-WRTanfCoverage.xml.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-WRInpatientEncounter.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-WRInpatientEncounter.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-WRInpatientEncounter.json.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-WRInpatientEncounter.ttl.html#/html/body/div/div/div/p/a at Line 248, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Encounter-WRInpatientEncounter.xml.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: EpisodeOfCare-WRTreatmentEpisode.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: EpisodeOfCare-WRTreatmentEpisode.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: EpisodeOfCare-WRTreatmentEpisode.json.html#/html/body/div/div/div/p/a at Line 243, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: EpisodeOfCare-WRTreatmentEpisode.ttl.html#/html/body/div/div/div/p/a at Line 249, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: EpisodeOfCare-WRTreatmentEpisode.xml.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRDisaster.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRDisaster.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRDisaster.json.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRDisaster.ttl.html#/html/body/div/div/div/p/a at Line 250, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRDisaster.xml.html#/html/body/div/div/div/p/a at Line 233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRFosterCareStatus.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRFosterCareStatus.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRFosterCareStatus.json.html#/html/body/div/div/div/p/a at Line 244, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRFosterCareStatus.ttl.html#/html/body/div/div/div/p/a at Line 253, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRFosterCareStatus.xml.html#/html/body/div/div/div/p/a at Line 239, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRIncarcerationStatus.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRIncarcerationStatus.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRIncarcerationStatus.json.html#/html/body/div/div/div/p/a at Line 239, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRIncarcerationStatus.ttl.html#/html/body/div/div/div/p/a at Line 251, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRIncarcerationStatus.xml.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRMedFrailObservation1.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRMedFrailObservation1.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRMedFrailObservation1.json.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRMedFrailObservation1.ttl.html#/html/body/div/div/div/p/a at Line 250, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRMedFrailObservation1.xml.html#/html/body/div/div/div/p/a at Line 233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRProgramCompliance.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRProgramCompliance.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRProgramCompliance.json.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRProgramCompliance.ttl.html#/html/body/div/div/div/p/a at Line 250, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRProgramCompliance.xml.html#/html/body/div/div/div/p/a at Line 233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRTravelForCare.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRTravelForCare.html#/html/body/div/div/div/p/a at Line 210, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRTravelForCare.json.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRTravelForCare.ttl.html#/html/body/div/div/div/p/a at Line 253, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRTravelForCare.xml.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRUnemployment.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRUnemployment.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRUnemployment.json.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRUnemployment.ttl.html#/html/body/div/div/div/p/a at Line 250, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRUnemployment.xml.html#/html/body/div/div/div/p/a at Line 233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRVaDisabilityRating.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRVaDisabilityRating.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRVaDisabilityRating.json.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRVaDisabilityRating.ttl.html#/html/body/div/div/div/p/a at Line 253, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Observation-WRVaDisabilityRating.xml.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRHospitalOrg.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRHospitalOrg.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRHospitalOrg.json.html#/html/body/div/div/div/p/a at Line 217, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRHospitalOrg.ttl.html#/html/body/div/div/div/p/a at Line 228, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRHospitalOrg.xml.html#/html/body/div/div/div/p/a at Line 217, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRTreatmentOrg.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRTreatmentOrg.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRTreatmentOrg.json.html#/html/body/div/div/div/p/a at Line 217, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRTreatmentOrg.ttl.html#/html/body/div/div/div/p/a at Line 228, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Organization-WRTreatmentOrg.xml.html#/html/body/div/div/div/p/a at Line 217, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRChildPatient.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRChildPatient.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRChildPatient.json.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRChildPatient.ttl.html#/html/body/div/div/div/p/a at Line 242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRChildPatient.xml.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRExamplePatient.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRExamplePatient.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRExamplePatient.json.html#/html/body/div/div/div/p/a at Line 260, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRExamplePatient.ttl.html#/html/body/div/div/div/p/a at Line 257, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRExamplePatient.xml.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRVeteranPatient.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRVeteranPatient.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRVeteranPatient.json.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRVeteranPatient.ttl.html#/html/body/div/div/div/p/a at Line 242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: Patient-WRVeteranPatient.xml.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: RelatedPerson-WRParentRelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 200, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: RelatedPerson-WRParentRelatedPerson.html#/html/body/div/div/div/p/a at Line 209, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: RelatedPerson-WRParentRelatedPerson.json.html#/html/body/div/div/div/p/a at Line 243, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: RelatedPerson-WRParentRelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 245, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: RelatedPerson-WRParentRelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition-definitions.html#/html/body/div/div/div/p/a at Line 485, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition-examples.html#/html/body/div/div/div/p/a at Line 280, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition-mappings.html#/html/body/div/div/div/p/a at Line 760, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition.html#/html/body/div/div/div/p/a at Line 1563, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition.profile.json.html#/html/body/div/div/div/p/a at Line 2280, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition.profile.ttl.html#/html/body/div/div/div/p/a at Line 1745, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCondition.profile.xml.html#/html/body/div/div/div/p/a at Line 2137, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage-definitions.html#/html/body/div/div/div/p/a at Line 526, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage-mappings.html#/html/body/div/div/div/p/a at Line 829, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage.html#/html/body/div/div/div/p/a at Line 1399, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage.profile.json.html#/html/body/div/div/div/p/a at Line 2321, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1791, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRCoverage.profile.xml.html#/html/body/div/div/div/p/a at Line 2162, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter-definitions.html#/html/body/div/div/div/p/a at Line 617, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter-mappings.html#/html/body/div/div/div/p/a at Line 933, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter.html#/html/body/div/div/div/p/a at Line 1781, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter.profile.json.html#/html/body/div/div/div/p/a at Line 3760, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 2835, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREncounter.profile.xml.html#/html/body/div/div/div/p/a at Line 3415, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare-definitions.html#/html/body/div/div/div/p/a at Line 445, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare-mappings.html#/html/body/div/div/div/p/a at Line 492, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare.html#/html/body/div/div/div/p/a at Line 1245, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare.profile.json.html#/html/body/div/div/div/p/a at Line 1697, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare.profile.ttl.html#/html/body/div/div/div/p/a at Line 1350, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WREpisodeOfCare.profile.xml.html#/html/body/div/div/div/p/a at Line 1565, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation-definitions.html#/html/body/div/div/div/p/a at Line 567, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation-examples.html#/html/body/div/div/div/p/a at Line 310, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation-mappings.html#/html/body/div/div/div/p/a at Line 931, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation.html#/html/body/div/div/div/p/a at Line 1939, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation.profile.json.html#/html/body/div/div/div/p/a at Line 2987, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2254, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRObservation.profile.xml.html#/html/body/div/div/div/p/a at Line 2821, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient-definitions.html#/html/body/div/div/div/p/a at Line 579, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient-examples.html#/html/body/div/div/div/p/a at Line 280, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient-mappings.html#/html/body/div/div/div/p/a at Line 781, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient.html#/html/body/div/div/div/p/a at Line 1621, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2556, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1945, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2391, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 425, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 448, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson-testing.html#/html/body/div/div/div/p/a at Line 264, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson.html#/html/body/div/div/div/p/a at Line 1153, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson.profile.history.html#/html/body/div/div/div/p/a at Line 246, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson.profile.json.html#/html/body/div/div/div/p/a at Line 1477, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson.profile.ttl.html#/html/body/div/div/div/p/a at Line 1180, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-WRRelatedPerson.profile.xml.html#/html/body/div/div/div/p/a at Line 1384, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation-definitions.html#/html/body/div/div/div/p/a at Line 394, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation-mappings.html#/html/body/div/div/div/p/a at Line 300, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation-testing.html#/html/body/div/div/div/p/a at Line 254, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation.html#/html/body/div/div/div/p/a at Line 2008, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation.profile.history.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation.profile.json.html#/html/body/div/div/div/p/a at Line 1476, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation.profile.ttl.html#/html/body/div/div/div/p/a at Line 994, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: StructureDefinition-us-core-tribalAffiliation.profile.xml.html#/html/body/div/div/div/p/a at Line 1376, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 449, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: index.html#/html/body/div/div/div/p/a at Line 441, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
-WARNING: toc.html#/html/body/div/div/div/p/a at Line 156, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRChildDisability.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRChildDisability.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRChildDisability.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRChildDisability.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRChildDisability.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRChildDisability.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRChildDisability.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRChildDisability.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRChildDisability.json.html#/html/body/div/div/div/p/a at Line 216, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRChildDisability.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRChildDisability.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRChildDisability.ttl.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRChildDisability.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRChildDisability.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRChildDisability.xml.html#/html/body/div/div/div/p/a at Line 215, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRMedFrailCondition1.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRMedFrailCondition1.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRMedFrailCondition1.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRMedFrailCondition1.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRMedFrailCondition1.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRMedFrailCondition1.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRMedFrailCondition1.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRMedFrailCondition1.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRMedFrailCondition1.json.html#/html/body/div/div/div/p/a at Line 216, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRMedFrailCondition1.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRMedFrailCondition1.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRMedFrailCondition1.ttl.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRMedFrailCondition1.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRMedFrailCondition1.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRMedFrailCondition1.xml.html#/html/body/div/div/div/p/a at Line 215, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRPregnancyCondition.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRPregnancyCondition.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRPregnancyCondition.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRPregnancyCondition.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRPregnancyCondition.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRPregnancyCondition.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRPregnancyCondition.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRPregnancyCondition.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRPregnancyCondition.json.html#/html/body/div/div/div/p/a at Line 231, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRPregnancyCondition.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRPregnancyCondition.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRPregnancyCondition.ttl.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Condition-WRPregnancyCondition.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Condition-WRPregnancyCondition.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Condition-WRPregnancyCondition.xml.html#/html/body/div/div/div/p/a at Line 227, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Coverage-WRTanfCoverage.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Coverage-WRTanfCoverage.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Coverage-WRTanfCoverage.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Coverage-WRTanfCoverage.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Coverage-WRTanfCoverage.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Coverage-WRTanfCoverage.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Coverage-WRTanfCoverage.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Coverage-WRTanfCoverage.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Coverage-WRTanfCoverage.json.html#/html/body/div/div/div/p/a at Line 231, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Coverage-WRTanfCoverage.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Coverage-WRTanfCoverage.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Coverage-WRTanfCoverage.ttl.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Coverage-WRTanfCoverage.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Coverage-WRTanfCoverage.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Coverage-WRTanfCoverage.xml.html#/html/body/div/div/div/p/a at Line 226, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-WRInpatientEncounter.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Encounter-WRInpatientEncounter.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Encounter-WRInpatientEncounter.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-WRInpatientEncounter.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Encounter-WRInpatientEncounter.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Encounter-WRInpatientEncounter.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-WRInpatientEncounter.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Encounter-WRInpatientEncounter.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Encounter-WRInpatientEncounter.json.html#/html/body/div/div/div/p/a at Line 225, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-WRInpatientEncounter.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Encounter-WRInpatientEncounter.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Encounter-WRInpatientEncounter.ttl.html#/html/body/div/div/div/p/a at Line 236, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-WRInpatientEncounter.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Encounter-WRInpatientEncounter.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Encounter-WRInpatientEncounter.xml.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: EpisodeOfCare-WRTreatmentEpisode.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: EpisodeOfCare-WRTreatmentEpisode.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: EpisodeOfCare-WRTreatmentEpisode.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: EpisodeOfCare-WRTreatmentEpisode.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: EpisodeOfCare-WRTreatmentEpisode.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: EpisodeOfCare-WRTreatmentEpisode.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: EpisodeOfCare-WRTreatmentEpisode.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: EpisodeOfCare-WRTreatmentEpisode.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: EpisodeOfCare-WRTreatmentEpisode.json.html#/html/body/div/div/div/p/a at Line 231, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: EpisodeOfCare-WRTreatmentEpisode.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: EpisodeOfCare-WRTreatmentEpisode.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: EpisodeOfCare-WRTreatmentEpisode.ttl.html#/html/body/div/div/div/p/a at Line 237, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: EpisodeOfCare-WRTreatmentEpisode.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: EpisodeOfCare-WRTreatmentEpisode.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: EpisodeOfCare-WRTreatmentEpisode.xml.html#/html/body/div/div/div/p/a at Line 226, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRDisaster.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRDisaster.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRDisaster.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRDisaster.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRDisaster.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRDisaster.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRDisaster.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRDisaster.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRDisaster.json.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRDisaster.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRDisaster.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRDisaster.ttl.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRDisaster.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRDisaster.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRDisaster.xml.html#/html/body/div/div/div/p/a at Line 221, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRFosterCareStatus.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRFosterCareStatus.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRFosterCareStatus.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRFosterCareStatus.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRFosterCareStatus.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRFosterCareStatus.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRFosterCareStatus.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRFosterCareStatus.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRFosterCareStatus.json.html#/html/body/div/div/div/p/a at Line 232, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRFosterCareStatus.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRFosterCareStatus.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRFosterCareStatus.ttl.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRFosterCareStatus.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRFosterCareStatus.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRFosterCareStatus.xml.html#/html/body/div/div/div/p/a at Line 227, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRIncarcerationStatus.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRIncarcerationStatus.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRIncarcerationStatus.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRIncarcerationStatus.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRIncarcerationStatus.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRIncarcerationStatus.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRIncarcerationStatus.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRIncarcerationStatus.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRIncarcerationStatus.json.html#/html/body/div/div/div/p/a at Line 227, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRIncarcerationStatus.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRIncarcerationStatus.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRIncarcerationStatus.ttl.html#/html/body/div/div/div/p/a at Line 239, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRIncarcerationStatus.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRIncarcerationStatus.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRIncarcerationStatus.xml.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRMedFrailObservation1.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRMedFrailObservation1.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRMedFrailObservation1.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRMedFrailObservation1.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRMedFrailObservation1.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRMedFrailObservation1.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRMedFrailObservation1.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRMedFrailObservation1.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRMedFrailObservation1.json.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRMedFrailObservation1.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRMedFrailObservation1.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRMedFrailObservation1.ttl.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRMedFrailObservation1.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRMedFrailObservation1.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRMedFrailObservation1.xml.html#/html/body/div/div/div/p/a at Line 221, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRProgramCompliance.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRProgramCompliance.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRProgramCompliance.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRProgramCompliance.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRProgramCompliance.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRProgramCompliance.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRProgramCompliance.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRProgramCompliance.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRProgramCompliance.json.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRProgramCompliance.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRProgramCompliance.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRProgramCompliance.ttl.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRProgramCompliance.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRProgramCompliance.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRProgramCompliance.xml.html#/html/body/div/div/div/p/a at Line 221, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRTravelForCare.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRTravelForCare.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRTravelForCare.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRTravelForCare.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRTravelForCare.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRTravelForCare.html#/html/body/div/div/div/p/a at Line 198, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRTravelForCare.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRTravelForCare.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRTravelForCare.json.html#/html/body/div/div/div/p/a at Line 229, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRTravelForCare.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRTravelForCare.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRTravelForCare.ttl.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRTravelForCare.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRTravelForCare.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRTravelForCare.xml.html#/html/body/div/div/div/p/a at Line 225, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRUnemployment.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRUnemployment.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRUnemployment.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRUnemployment.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRUnemployment.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRUnemployment.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRUnemployment.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRUnemployment.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRUnemployment.json.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRUnemployment.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRUnemployment.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRUnemployment.ttl.html#/html/body/div/div/div/p/a at Line 238, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRUnemployment.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRUnemployment.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRUnemployment.xml.html#/html/body/div/div/div/p/a at Line 221, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRVaDisabilityRating.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRVaDisabilityRating.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRVaDisabilityRating.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRVaDisabilityRating.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRVaDisabilityRating.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRVaDisabilityRating.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRVaDisabilityRating.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRVaDisabilityRating.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRVaDisabilityRating.json.html#/html/body/div/div/div/p/a at Line 229, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRVaDisabilityRating.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRVaDisabilityRating.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRVaDisabilityRating.ttl.html#/html/body/div/div/div/p/a at Line 241, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Observation-WRVaDisabilityRating.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Observation-WRVaDisabilityRating.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Observation-WRVaDisabilityRating.xml.html#/html/body/div/div/div/p/a at Line 226, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRHospitalOrg.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRHospitalOrg.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRHospitalOrg.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRHospitalOrg.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRHospitalOrg.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRHospitalOrg.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRHospitalOrg.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRHospitalOrg.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRHospitalOrg.json.html#/html/body/div/div/div/p/a at Line 205, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRHospitalOrg.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRHospitalOrg.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRHospitalOrg.ttl.html#/html/body/div/div/div/p/a at Line 216, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRHospitalOrg.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRHospitalOrg.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRHospitalOrg.xml.html#/html/body/div/div/div/p/a at Line 205, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRTreatmentOrg.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRTreatmentOrg.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRTreatmentOrg.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRTreatmentOrg.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRTreatmentOrg.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRTreatmentOrg.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRTreatmentOrg.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRTreatmentOrg.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRTreatmentOrg.json.html#/html/body/div/div/div/p/a at Line 205, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRTreatmentOrg.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRTreatmentOrg.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRTreatmentOrg.ttl.html#/html/body/div/div/div/p/a at Line 216, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Organization-WRTreatmentOrg.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Organization-WRTreatmentOrg.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Organization-WRTreatmentOrg.xml.html#/html/body/div/div/div/p/a at Line 205, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRChildPatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRChildPatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRChildPatient.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRChildPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRChildPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRChildPatient.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRChildPatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRChildPatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRChildPatient.json.html#/html/body/div/div/div/p/a at Line 225, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRChildPatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRChildPatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRChildPatient.ttl.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRChildPatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRChildPatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRChildPatient.xml.html#/html/body/div/div/div/p/a at Line 218, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRExamplePatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRExamplePatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRExamplePatient.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRExamplePatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRExamplePatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRExamplePatient.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRExamplePatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRExamplePatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRExamplePatient.json.html#/html/body/div/div/div/p/a at Line 248, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRExamplePatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRExamplePatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRExamplePatient.ttl.html#/html/body/div/div/div/p/a at Line 245, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRExamplePatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRExamplePatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRExamplePatient.xml.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRVeteranPatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRVeteranPatient.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRVeteranPatient.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRVeteranPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRVeteranPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRVeteranPatient.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRVeteranPatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRVeteranPatient.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRVeteranPatient.json.html#/html/body/div/div/div/p/a at Line 225, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRVeteranPatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRVeteranPatient.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRVeteranPatient.ttl.html#/html/body/div/div/div/p/a at Line 230, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Patient-WRVeteranPatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: Patient-WRVeteranPatient.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: Patient-WRVeteranPatient.xml.html#/html/body/div/div/div/p/a at Line 218, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: RelatedPerson-WRParentRelatedPerson.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: RelatedPerson-WRParentRelatedPerson.change.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: RelatedPerson-WRParentRelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 188, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: RelatedPerson-WRParentRelatedPerson.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: RelatedPerson-WRParentRelatedPerson.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: RelatedPerson-WRParentRelatedPerson.html#/html/body/div/div/div/p/a at Line 197, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: RelatedPerson-WRParentRelatedPerson.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: RelatedPerson-WRParentRelatedPerson.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: RelatedPerson-WRParentRelatedPerson.json.html#/html/body/div/div/div/p/a at Line 231, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: RelatedPerson-WRParentRelatedPerson.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: RelatedPerson-WRParentRelatedPerson.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: RelatedPerson-WRParentRelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: RelatedPerson-WRParentRelatedPerson.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 85, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: RelatedPerson-WRParentRelatedPerson.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 86, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: RelatedPerson-WRParentRelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 222, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition-definitions.html#/html/body/div/div/div/p/a at Line 473, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition-mappings.html#/html/body/div/div/div/p/a at Line 748, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition.html#/html/body/div/div/div/p/a at Line 1551, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition.profile.json.html#/html/body/div/div/div/p/a at Line 2268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition.profile.ttl.html#/html/body/div/div/div/p/a at Line 1733, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCondition.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCondition.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCondition.profile.xml.html#/html/body/div/div/div/p/a at Line 2125, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage-definitions.html#/html/body/div/div/div/p/a at Line 514, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage-examples.html#/html/body/div/div/div/p/a at Line 256, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage-mappings.html#/html/body/div/div/div/p/a at Line 817, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage.html#/html/body/div/div/div/p/a at Line 1387, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage.profile.json.html#/html/body/div/div/div/p/a at Line 2309, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1779, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRCoverage.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRCoverage.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRCoverage.profile.xml.html#/html/body/div/div/div/p/a at Line 2150, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter-definitions.html#/html/body/div/div/div/p/a at Line 605, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter-examples.html#/html/body/div/div/div/p/a at Line 256, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter-mappings.html#/html/body/div/div/div/p/a at Line 921, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter.html#/html/body/div/div/div/p/a at Line 1769, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter.profile.json.html#/html/body/div/div/div/p/a at Line 3748, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 2823, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREncounter.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREncounter.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREncounter.profile.xml.html#/html/body/div/div/div/p/a at Line 3403, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare-definitions.html#/html/body/div/div/div/p/a at Line 433, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare-examples.html#/html/body/div/div/div/p/a at Line 256, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare-mappings.html#/html/body/div/div/div/p/a at Line 480, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare.html#/html/body/div/div/div/p/a at Line 1233, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare.profile.json.html#/html/body/div/div/div/p/a at Line 1685, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare.profile.ttl.html#/html/body/div/div/div/p/a at Line 1338, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WREpisodeOfCare.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WREpisodeOfCare.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WREpisodeOfCare.profile.xml.html#/html/body/div/div/div/p/a at Line 1553, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation-definitions.html#/html/body/div/div/div/p/a at Line 555, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation-examples.html#/html/body/div/div/div/p/a at Line 298, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation-mappings.html#/html/body/div/div/div/p/a at Line 919, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation.html#/html/body/div/div/div/p/a at Line 1927, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation.profile.json.html#/html/body/div/div/div/p/a at Line 2975, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRObservation.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRObservation.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRObservation.profile.xml.html#/html/body/div/div/div/p/a at Line 2809, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient-definitions.html#/html/body/div/div/div/p/a at Line 567, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient-examples.html#/html/body/div/div/div/p/a at Line 268, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient-mappings.html#/html/body/div/div/div/p/a at Line 769, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient.html#/html/body/div/div/div/p/a at Line 1609, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2544, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1933, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRPatient.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRPatient.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2379, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson-definitions.html#/html/body/div/div/div/p/a at Line 413, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson-examples.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson-examples.html#/html/body/div/div/div/p/a at Line 256, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson-mappings.html#/html/body/div/div/div/p/a at Line 436, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson-testing.html#/html/body/div/div/div/p/a at Line 252, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson.html#/html/body/div/div/div/p/a at Line 1141, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson.profile.history.html#/html/body/div/div/div/p/a at Line 234, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson.profile.json.html#/html/body/div/div/div/p/a at Line 1465, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson.profile.ttl.html#/html/body/div/div/div/p/a at Line 1168, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-WRRelatedPerson.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-WRRelatedPerson.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-WRRelatedPerson.profile.xml.html#/html/body/div/div/div/p/a at Line 1372, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation-definitions.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation-definitions.html#/html/body/div/div/div/p/a at Line 382, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation-mappings.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation-mappings.html#/html/body/div/div/div/p/a at Line 288, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation-testing.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation-testing.html#/html/body/div/div/div/p/a at Line 242, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation.html#/html/body/div/div/div/p/a at Line 1996, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 87, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.history.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 88, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation.profile.history.html#/html/body/div/div/div/p/a at Line 224, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.json.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation.profile.json.html#/html/body/div/div/div/p/a at Line 1464, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.ttl.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation.profile.ttl.html#/html/body/div/div/div/p/a at Line 982, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 91, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: StructureDefinition-us-core-tribalAffiliation.profile.xml.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 92, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: StructureDefinition-us-core-tribalAffiliation.profile.xml.html#/html/body/div/div/div/p/a at Line 1364, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 437, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: downloads.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: downloads.html#/html/body/div/div/div/p/a at Line 166, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: index.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: index.html#/html/body/div/div/div/p/a at Line 429, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
+ERROR: toc.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 83, column 12: The link 'profiles.html' for "Profiles" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/menu/ul/li/ul/li/a at Line 84, column 12: The link 'examples.html' for "Examples" cannot be resolved
+WARNING: toc.html#/html/body/div/div/div/p/a at Line 144, column 27: The link 'http://wrig.corisystem.org' for "Andrew Rose LPC" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -218,6 +569,7 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/Condition-WRChildDisability.json ==
 == fsh-generated/resources/Condition-WRMedFrailCondition1.json ==
 == fsh-generated/resources/Condition-WRPregnancyCondition.json ==
+WARNING: Condition/WRPregnancyCondition: Condition.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated
 == fsh-generated/resources/Coverage-WRTanfCoverage.json ==
 WARNING: Coverage/WRTanfCoverage: Coverage.type.coding[0].system: A definition for CodeSystem 'http://example.org/codes/program' could not be found, so the code cannot be validated
 == fsh-generated/resources/Encounter-WRInpatientEncounter.json ==
@@ -236,7 +588,7 @@ WARNING: Observation/WRDisaster: Observation: Best Practice Recommendation: In g
 WARNING: Observation/WRFosterCareStatus: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
 WARNING: Observation/WRFosterCareStatus: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRIncarcerationStatus.json ==
-WARNING: Observation/WRIncarcerationStatus: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
+WARNING: Observation/WRIncarcerationStatus: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
 WARNING: Observation/WRIncarcerationStatus: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRMedFrailObservation1.json ==
 WARNING: Observation/WRMedFrailObservation1: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/observation' could not be found, so the code cannot be validated
@@ -245,13 +597,14 @@ WARNING: Observation/WRMedFrailObservation1: Observation: Best Practice Recommen
 WARNING: Observation/WRProgramCompliance: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/program-compliance' could not be found, so the code cannot be validated
 WARNING: Observation/WRProgramCompliance: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRTravelForCare.json ==
-WARNING: Observation/WRTravelForCare: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
+WARNING: Observation/WRTravelForCare: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
 WARNING: Observation/WRTravelForCare: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRUnemployment.json ==
-WARNING: Observation/WRUnemployment: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
+WARNING: Observation/WRUnemployment: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
 WARNING: Observation/WRUnemployment: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRVaDisabilityRating.json ==
 WARNING: Observation/WRVaDisabilityRating: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/va-disability-rating' could not be found, so the code cannot be validated
+WARNING: Observation/WRVaDisabilityRating: Observation.value.ofType(Quantity): Unable to validate code '%' in system 'http://unitsofmeasure.org' because the validator is running without terminology services
 WARNING: Observation/WRVaDisabilityRating: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Organization-WRHospitalOrg.json ==
 == fsh-generated/resources/Organization-WRTreatmentOrg.json ==

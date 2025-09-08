@@ -2,5 +2,6 @@
 trigger: always_on
 ---
 
-run sushi and "java -Xmx2g -jar publisher.jar -ig ." sequentially, unless sushi fails. 
+never run sushi, tell the user to do it. 
+never run "java -Xmx2g -jar publisher.jar -ig .", tell the user to do it. 
 

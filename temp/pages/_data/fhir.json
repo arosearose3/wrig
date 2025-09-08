@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Sun, Sep 7, 2025 21:34+0000",
-  "genDay" : "07/09/2025",
+  "genDate" : "Mon, Sep 8, 2025 17:39+0000",
+  "genDay" : "08/09/2025",
   "totalFiles" : 29,
-  "processedFiles" : 37,
+  "processedFiles" : 38,
   "repoSource" : "https://github.com/arosearose3/wrig",
   "resourceTypes" : [
     "Account",
@@ -254,11 +254,10 @@
         "telecom" : ["http://wrig.corisystem.org"]
       }
     ],
-    "date" : "2025-09-07T21:33:56+00:00",
+    "date" : "2025-09-08T17:38:48+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
     "descriptionlang" : {
     },
-    "tx-server" : "https://tx.fhir.org/r4",
     "copyright" : null,
     "copyrightlang" : {
     },

@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "WorkReqsIG"] ; # 
   fhir:title [ fhir:v "Medicaid Work Requirements IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-07T21:33:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-08T17:38:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Andrew Rose LPC"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Andrew Rose LPC" ] ;
@@ -1400,6 +1400,20 @@
            fhir:v "index.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "downloads.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "downloads.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Downloads" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

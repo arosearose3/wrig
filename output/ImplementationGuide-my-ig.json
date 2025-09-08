@@ -10,7 +10,7 @@
   "name" : "WorkReqsIG",
   "title" : "Medicaid Work Requirements IG",
   "status" : "draft",
-  "date" : "2025-09-07T21:33:56+00:00",
+  "date" : "2025-09-08T17:38:48+00:00",
   "publisher" : "Andrew Rose LPC",
   "contact" : [{
     "name" : "Andrew Rose LPC",
@@ -971,6 +971,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
         "generation" : "markdown"
       }]
     },

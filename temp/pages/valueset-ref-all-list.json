@@ -27,8 +27,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-WRCondition.html" : "Work Requirements Condition",
-      "StructureDefinition-WRObservation.html" : "Work Requirements Observation"
+      "StructureDefinition-WRObservation.html" : "Work Requirements Observation",
+      "StructureDefinition-WRCondition.html" : "Work Requirements Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -215,8 +215,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.49"],
       "uses" : {
       },
-      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare",
-      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter"
+      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter",
+      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
@@ -422,13 +422,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare",
       "StructureDefinition-WRPatient.html" : "Work Requirements Patient",
-      "StructureDefinition-WRCondition.html" : "Work Requirements Condition",
       "StructureDefinition-WRObservation.html" : "Work Requirements Observation",
-      "StructureDefinition-WRRelatedPerson.html" : "Work Requirements Related Person",
+      "StructureDefinition-WRCondition.html" : "Work Requirements Condition",
+      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter",
       "StructureDefinition-WRCoverage.html" : "Work Requirements Coverage",
-      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter"
+      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare",
+      "StructureDefinition-WRRelatedPerson.html" : "Work Requirements Related Person"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

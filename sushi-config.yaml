@@ -14,3 +14,12 @@ publisher:
 parameters:
   - code: path-suppressed-warnings
     value: input/ignoreWarnings.txt
+menu:
+  Home: index.html
+  Profiles & Examples:
+    Profiles: profiles.html
+    Examples: examples.html
+  General:
+    Artifacts: artifacts.html
+  Downloads:
+    Downloads: downloads.html
