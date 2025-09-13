@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WRCondition",
-  "url": "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+  "url": "https://wrig.corisystem.org/StructureDefinition/WRCondition",
   "name": "WRCondition",
   "title": "Work Requirements Condition",
   "status": "draft",

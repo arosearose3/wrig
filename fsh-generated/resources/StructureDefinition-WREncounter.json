@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WREncounter",
-  "url": "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+  "url": "https://wrig.corisystem.org/StructureDefinition/WREncounter",
   "name": "WREncounter",
   "title": "Work Requirements Encounter",
   "status": "draft",

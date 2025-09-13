@@ -3,7 +3,7 @@
   "id": "WRVeteranPatient",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+      "https://wrig.corisystem.org/StructureDefinition/WRPatient"
     ]
   },
   "identifier": [

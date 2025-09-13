@@ -3,7 +3,7 @@
   "id": "WRTreatmentEpisode",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
+      "https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
     ]
   },
   "status": "active",

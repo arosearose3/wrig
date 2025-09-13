@@ -3,7 +3,7 @@
   "id": "WRParentRelatedPerson",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
+      "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
     ]
   },
   "patient": {

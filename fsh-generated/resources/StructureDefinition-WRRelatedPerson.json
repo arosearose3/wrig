@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WRRelatedPerson",
-  "url": "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+  "url": "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
   "name": "WRRelatedPerson",
   "title": "Work Requirements Related Person",
   "status": "draft",

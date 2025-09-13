@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WRPatient",
-  "url": "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+  "url": "https://wrig.corisystem.org/StructureDefinition/WRPatient",
   "name": "WRPatient",
   "title": "Work Requirements Patient",
   "status": "draft",
@@ -27,21 +27,6 @@
           "ordered": false,
           "rules": "open"
         }
-      },
-      {
-        "id": "Patient.extension:tribalAffiliation",
-        "path": "Patient.extension",
-        "sliceName": "tribalAffiliation",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation"
-            ]
-          }
-        ]
       },
       {
         "id": "Patient.identifier",

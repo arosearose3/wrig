@@ -27,8 +27,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-WRObservation.html" : "Work Requirements Observation",
-      "StructureDefinition-WRCondition.html" : "Work Requirements Condition"
+      "StructureDefinition-WRCondition.html" : "Work Requirements Condition",
+      "StructureDefinition-WRObservation.html" : "Work Requirements Observation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -215,8 +215,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.49"],
       "uses" : {
       },
-      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter",
-      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare"
+      "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare",
+      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
@@ -422,12 +422,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-WRPatient.html" : "Work Requirements Patient",
-      "StructureDefinition-WRObservation.html" : "Work Requirements Observation",
       "StructureDefinition-WRCondition.html" : "Work Requirements Condition",
-      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter",
-      "StructureDefinition-WRCoverage.html" : "Work Requirements Coverage",
+      "StructureDefinition-WRObservation.html" : "Work Requirements Observation",
       "StructureDefinition-WREpisodeOfCare.html" : "Work Requirements EpisodeOfCare",
+      "StructureDefinition-WREncounter.html" : "Work Requirements Encounter",
+      "StructureDefinition-WRPatient.html" : "Work Requirements Patient",
+      "StructureDefinition-WRCoverage.html" : "Work Requirements Coverage",
       "StructureDefinition-WRRelatedPerson.html" : "Work Requirements Related Person"
     },
     {

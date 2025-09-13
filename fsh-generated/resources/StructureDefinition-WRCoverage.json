@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "WRCoverage",
-  "url": "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+  "url": "https://wrig.corisystem.org/StructureDefinition/WRCoverage",
   "name": "WRCoverage",
   "title": "Work Requirements Coverage",
   "status": "draft",

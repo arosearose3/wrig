@@ -1,10 +1,10 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "my-ig",
-  "url": "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+  "url": "https://wrig.corisystem.org/ImplementationGuide/my-ig",
   "version": "0.1.0",
   "name": "WorkReqsIG",
-  "title": "Medicaid Work Requirements IG",
+  "title": "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
   "status": "draft",
   "publisher": "Andrew Rose LPC",
   "contact": [
@@ -18,7 +18,18 @@
       ]
     }
   ],
-  "description": "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
+  "description": "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
   "packageId": "my-ig",
   "fhirVersion": [
     "4.0.1"
@@ -31,7 +42,7 @@
         },
         "name": "Child Disability (example)",
         "description": "Optional child disability condition",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRCondition"
       },
       {
         "reference": {
@@ -39,7 +50,7 @@
         },
         "name": "Declared Disaster",
         "description": "Observation representing disaster impact",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -47,7 +58,7 @@
         },
         "name": "Dependent Child (under 13)",
         "description": "Child patient for parent/caretaker example",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRPatient"
       },
       {
         "reference": {
@@ -55,7 +66,7 @@
         },
         "name": "Example Medicaid Patient (under 19)",
         "description": "Patient under 19 years old",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRPatient"
       },
       {
         "reference": {
@@ -63,7 +74,7 @@
         },
         "name": "Foster Care Status",
         "description": "Observation representing foster care status",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -71,7 +82,7 @@
         },
         "name": "Functional Status (example)",
         "description": "Example observation supporting medically frail status",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -87,7 +98,7 @@
         },
         "name": "Incarceration Status",
         "description": "Observation representing incarceration period/status",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -95,7 +106,7 @@
         },
         "name": "Inpatient Encounter",
         "description": "Encounter representing inpatient care (IMP)",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WREncounter"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WREncounter"
       },
       {
         "reference": {
@@ -111,7 +122,7 @@
         },
         "name": "Medically Frail Example Condition",
         "description": "Example condition indicating medically frail status",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRCondition"
       },
       {
         "reference": {
@@ -119,7 +130,7 @@
         },
         "name": "Parent of Dependent Child",
         "description": "RelatedPerson linking parent to child with v3-RoleCode PRN",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
       },
       {
         "reference": {
@@ -127,7 +138,7 @@
         },
         "name": "Pregnancy (SNOMED 77386006)",
         "description": "Pregnancy condition per SNOMED CT",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRCondition"
       },
       {
         "reference": {
@@ -135,7 +146,7 @@
         },
         "name": "Program Compliance",
         "description": "Observation indicating TANF/SNAP compliance",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -143,7 +154,7 @@
         },
         "name": "TANF Coverage Eligibility",
         "description": "Coverage representing TANF program eligibility",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRCoverage"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRCoverage"
       },
       {
         "reference": {
@@ -151,7 +162,7 @@
         },
         "name": "Travel for Care",
         "description": "Observation representing required travel for care",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -159,7 +170,7 @@
         },
         "name": "Treatment Program EpisodeOfCare",
         "description": "Episode of care for substance use treatment",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
       },
       {
         "reference": {
@@ -167,7 +178,7 @@
         },
         "name": "Unemployment Status",
         "description": "Observation representing unemployment status",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -183,7 +194,7 @@
         },
         "name": "VA Disability Rating (%)",
         "description": "Observation capturing VA total disability rating percent",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRObservation"
       },
       {
         "reference": {
@@ -191,7 +202,7 @@
         },
         "name": "Veteran with VA Identifier",
         "description": "Patient with VA identifier for veteran example",
-        "exampleCanonical": "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+        "exampleCanonical": "https://wrig.corisystem.org/StructureDefinition/WRPatient"
       },
       {
         "reference": {

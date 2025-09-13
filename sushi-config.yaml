@@ -1,11 +1,16 @@
 id: my-ig
-canonical: http://wrig.corisystem.org
+canonical: https://wrig.corisystem.org
 name: WorkReqsIG
-title: Medicaid Work Requirements IG
-description: Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).
+title: US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)
+description: Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
+jurisdiction:
+  - coding:
+      - system: urn:iso:std:iso:3166
+        code: US
+        display: United States of America
 copyrightYear: 2025
 releaseLabel: ci-build
 publisher:

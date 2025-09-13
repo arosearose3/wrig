@@ -8,5 +8,8 @@ java -Xmx4g -jar publisher.jar -ig ig.ini -tx n/a
 from /output 
 python3 -m http.server 3009
 
+pm2 start python3 --name wr-ig-server -- -m http.server 3009
+
+
 
 https://www.fhir.org/guides/registry/

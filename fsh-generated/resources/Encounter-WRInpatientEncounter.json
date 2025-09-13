@@ -3,7 +3,7 @@
   "id": "WRInpatientEncounter",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WREncounter"
+      "https://wrig.corisystem.org/StructureDefinition/WREncounter"
     ]
   },
   "status": "finished",

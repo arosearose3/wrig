@@ -3,14 +3,14 @@
   "id" : "my-ig",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name=\"my-ig\"> </a><a name=\"hcmy-ig\"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name=\"my-ig\"> </a><a name=\"hcmy-ig\"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.</p>\n</div></div>"
   },
   "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
   "version" : "0.1.0",
   "name" : "WorkReqsIG",
-  "title" : "Medicaid Work Requirements IG",
+  "title" : "Medicaid Community Engagement IG (proposed, not supported by CMS)",
   "status" : "draft",
-  "date" : "2025-09-08T18:00:54+00:00",
+  "date" : "2025-09-13T20:10:49+00:00",
   "publisher" : "Andrew Rose LPC",
   "contact" : [{
     "name" : "Andrew Rose LPC",
@@ -19,7 +19,7 @@
       "value" : "http://wrig.corisystem.org"
     }]
   }],
-  "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).",
+  "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
   "packageId" : "my-ig",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],

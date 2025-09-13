@@ -3,7 +3,7 @@
   "id": "WRTanfCoverage",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WRCoverage"
+      "https://wrig.corisystem.org/StructureDefinition/WRCoverage"
     ]
   },
   "status": "active",

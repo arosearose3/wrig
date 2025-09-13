@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "us-core-tribalAffiliation",
-  "url": "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+  "url": "https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
   "name": "USCoreTribalAffiliation",
   "title": "US Core Tribal Affiliation Extension",
   "status": "draft",
@@ -93,7 +93,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation"
+        "fixedUri": "https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation"
       },
       {
         "id": "Extension.value[x]",

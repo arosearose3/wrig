@@ -3,7 +3,7 @@
   "id": "WRVaDisabilityRating",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     ]
   },
   "subject": {

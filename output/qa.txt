@@ -1,13 +1,13 @@
 WorkReqsIG : Validation Results
 =========================================
 
-err = 7, warn = 26, info = 1
-IG Publisher Version: 2.0.16
-Generated Mon Sep 08 18:01:52 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (canonical = http://wrig.corisystem.org)
+err = 7, warn = 24, info = 1
+IG Publisher Version: 2.0.16 Out of date - current version is 2.0.17
+Generated Sat Sep 13 20:11:47 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (canonical = http://wrig.corisystem.org)
  Build Errors : 351 / 179 / 0
  /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRChildDisability : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRMedFrailCondition1 : 0 / 0 / 1
- /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRPregnancyCondition : 0 / 1 / 1
+ /home/andrewroselpc/workreqs/fsh-generated/resources/Condition-WRPregnancyCondition : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Coverage-WRTanfCoverage : 0 / 1 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Encounter-WRInpatientEncounter : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/EpisodeOfCare-WRTreatmentEpisode : 0 / 1 / 1
@@ -19,7 +19,7 @@ Generated Mon Sep 08 18:01:52 UTC 2025. FHIR version 4.0.1 for my-ig#0.1.0 (cano
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRProgramCompliance : 0 / 2 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRTravelForCare : 0 / 2 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRUnemployment : 0 / 2 / 1
- /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRVaDisabilityRating : 0 / 3 / 1
+ /home/andrewroselpc/workreqs/fsh-generated/resources/Observation-WRVaDisabilityRating : 0 / 2 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Organization-WRHospitalOrg : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Organization-WRTreatmentOrg : 0 / 0 / 1
  /home/andrewroselpc/workreqs/fsh-generated/resources/Patient-WRChildPatient : 0 / 0 / 1
@@ -569,7 +569,6 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/Condition-WRChildDisability.json ==
 == fsh-generated/resources/Condition-WRMedFrailCondition1.json ==
 == fsh-generated/resources/Condition-WRPregnancyCondition.json ==
-WARNING: Condition/WRPregnancyCondition: Condition.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated
 == fsh-generated/resources/Coverage-WRTanfCoverage.json ==
 WARNING: Coverage/WRTanfCoverage: Coverage.type.coding[0].system: A definition for CodeSystem 'http://example.org/codes/program' could not be found, so the code cannot be validated
 == fsh-generated/resources/Encounter-WRInpatientEncounter.json ==
@@ -588,7 +587,7 @@ WARNING: Observation/WRDisaster: Observation: Best Practice Recommendation: In g
 WARNING: Observation/WRFosterCareStatus: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
 WARNING: Observation/WRFosterCareStatus: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRIncarcerationStatus.json ==
-WARNING: Observation/WRIncarcerationStatus: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
+WARNING: Observation/WRIncarcerationStatus: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/social-status' could not be found, so the code cannot be validated
 WARNING: Observation/WRIncarcerationStatus: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRMedFrailObservation1.json ==
 WARNING: Observation/WRMedFrailObservation1: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/observation' could not be found, so the code cannot be validated
@@ -597,14 +596,13 @@ WARNING: Observation/WRMedFrailObservation1: Observation: Best Practice Recommen
 WARNING: Observation/WRProgramCompliance: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/program-compliance' could not be found, so the code cannot be validated
 WARNING: Observation/WRProgramCompliance: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRTravelForCare.json ==
-WARNING: Observation/WRTravelForCare: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
+WARNING: Observation/WRTravelForCare: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
 WARNING: Observation/WRTravelForCare: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRUnemployment.json ==
-WARNING: Observation/WRUnemployment: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
+WARNING: Observation/WRUnemployment: Observation.code.coding[0]: A definition for CodeSystem 'http://example.org/codes/hardship' could not be found, so the code cannot be validated
 WARNING: Observation/WRUnemployment: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-WRVaDisabilityRating.json ==
 WARNING: Observation/WRVaDisabilityRating: Observation.code.coding[0].system: A definition for CodeSystem 'http://example.org/codes/va-disability-rating' could not be found, so the code cannot be validated
-WARNING: Observation/WRVaDisabilityRating: Observation.value.ofType(Quantity): Unable to validate code '%' in system 'http://unitsofmeasure.org' because the validator is running without terminology services
 WARNING: Observation/WRVaDisabilityRating: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Organization-WRHospitalOrg.json ==
 == fsh-generated/resources/Organization-WRTreatmentOrg.json ==

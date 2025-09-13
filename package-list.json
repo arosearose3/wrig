@@ -1,0 +1,14 @@
+{
+  "package-id": "my-ig",
+  "title": "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
+  "canonical": "https://wrig.corisystem.org",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://build.fhir.org/ig/arosearose3/wrig",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

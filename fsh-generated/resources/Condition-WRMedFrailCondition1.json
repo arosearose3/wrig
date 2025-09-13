@@ -3,7 +3,7 @@
   "id": "WRMedFrailCondition1",
   "meta": {
     "profile": [
-      "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+      "https://wrig.corisystem.org/StructureDefinition/WRCondition"
     ]
   },
   "subject": {

@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="my-ig"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name="my-ig"> </a><a name="hcmy-ig"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally).</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name="my-ig"> </a><a name="hcmy-ig"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.</p>
 </div></div>
   </text>
   <url value="http://wrig.corisystem.org/ImplementationGuide/my-ig"/>
   <version value="0.1.0"/>
   <name value="WorkReqsIG"/>
-  <title value="Medicaid Work Requirements IG"/>
+  <title value="Medicaid Community Engagement IG (proposed, not supported by CMS)"/>
   <status value="draft"/>
-  <date value="2025-09-08T18:00:54+00:00"/>
+  <date value="2025-09-13T20:10:49+00:00"/>
   <publisher value="Andrew Rose LPC"/>
   <contact>
     <name value="Andrew Rose LPC"/>
@@ -20,7 +20,7 @@
       <value value="http://wrig.corisystem.org"/>
     </telecom>
   </contact>
-  <description value="Implementation Guide for Medicaid Work Requirements exemptions mapping and examples (no FHIR extensions, JSON-only endpoints documented externally)."/>
+  <description value="Implementation Guide for Medicaid Work Requirements exemptions mapping and examples."/>
   <packageId value="my-ig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
