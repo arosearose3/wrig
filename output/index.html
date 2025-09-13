@@ -81,6 +81,7 @@
   <li><a href="index.html">Introduction</a></li>
 
   <li><a href="artifacts.html">Artifacts</a></li>
+  <li><a href="orchestrator.html">Orchestrator</a></li>
   <li><a href="billtext.html">Bill Text</a></li>
   <li><a href="downloads.html">Downloads</a></li>
 </ul>
@@ -215,6 +216,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="overview">Overview</h2>
 <p>This US HR1 Medicaid Work Requirements implementation guide provides a structured, standards-based approach for capturing, verifying, and storing exemptions and compliance data for US HR 1 section 71119 Medicaid work requirements programs. By leveraging HL7 FHIR R4 resources, this IG allows developers to build interoperable software that can reliably manage a wide range of exemption categories, patient data, and program compliance information.</p>
+
+<p>See Orchstrator tab for an architecture overview.</p>
+
+<p>A Section 71119 system requires:</p>
+<ul>
+  <li>state and federal data sources (HTTP, REST, HL7 FHIR)</li>
+  <li>an Orchestrator that collects information from the data sources and stores it in a database</li>
+  <li>an Exemption Verifier that has logic to evaluate the exemption criteria and determine if the patient is exempt from work requirements</li>
+  <li>a Compliance Verifier that has logic to evaluate the compliance criteria and determine if the patient is compliant with work requirements</li>
+  <li>an Audit Trail that records the actions taken by the system and the results of the exemption verification</li>
+  <li>a Reporting Engine that can generate reports based on the data in the database</li>
+  <li>a User Interface that allows users to interact with the system and view the results of the exemption verification</li>
+  <li>a Security System that enforces access control and data privacy</li>
+</ul>
 
 <h2 id="purpose">Purpose</h2>
 <p>The IG is designed to:</p>
@@ -440,52 +455,20 @@ Each category has a corresponding FHIR resource mapping and API endpoint for rec
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
-
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
-  <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
-
-      <div class="inner-wrapper">
-        <p>
-          IG &#169; 2025 <a style="color:var(--footer-hyperlink-text-color)" href="http://wrig.corisystem.org">Andrew Rose LPC</a>.  Package my-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Sep 13, 2025 22:44+0000">2025-09-13</span>
-          <br/>
-          <span style="color: var(--footer-highlight-text-color)">
-                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
-                 
-                
-          </span>
-        </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
-  
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
-  
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
-  <!-- Analytics Below
-  ================================================== -->
-  </body>
-</html>
+<!-- Injected at the end of the page: Mermaid support -->
+<script src="assets/js/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    try {
+      if (window.mermaid) {
+        mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });
+      }
+    } catch (e) {
+      console && console.warn && console.warn('Mermaid init failed:', e);
+    }
+  });
+</script>
+<style>
+  .mermaid { margin: 1rem 0; }
+</style>
 

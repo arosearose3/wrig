@@ -18,13 +18,13 @@
   fhir:name [ fhir:v "WRPatient"] ; # 
   fhir:title [ fhir:v "Work Requirements Patient"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-13T22:44:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-13T23:25:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Andrew Rose LPC"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Andrew Rose LPC" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://wrig.corisystem.org" ]
+       fhir:value [ fhir:v "https://wrig.corisystem.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Patient profile for Medicaid Work Requirements"] ; # 

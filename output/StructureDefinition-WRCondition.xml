@@ -16,13 +16,13 @@
   <name value="WRCondition"/>
   <title value="Work Requirements Condition"/>
   <status value="draft"/>
-  <date value="2025-09-13T22:44:23+00:00"/>
+  <date value="2025-09-13T23:25:46+00:00"/>
   <publisher value="Andrew Rose LPC"/>
   <contact>
     <name value="Andrew Rose LPC"/>
     <telecom>
       <system value="url"/>
-      <value value="http://wrig.corisystem.org"/>
+      <value value="https://wrig.corisystem.org"/>
     </telecom>
   </contact>
   <description value="Condition resource for pregnancy, medically frail, child disability, etc."/>
