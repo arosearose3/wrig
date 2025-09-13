@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "WRChildPatient",
   "meta" : {
-    "profile" : ["http://wrig.corisystem.org/StructureDefinition/WRPatient"]
+    "profile" : ["https://wrig.corisystem.org/StructureDefinition/WRPatient"]
   },
   "text" : {
     "status" : "generated",

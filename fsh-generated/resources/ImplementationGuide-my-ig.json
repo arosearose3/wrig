@@ -206,6 +206,14 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/va-veteran-id"
+        },
+        "description": "Identifier assigned to veterans by the U.S. Department of Veterans Affairs.",
+        "exampleBoolean": false,
+        "name": "VeteranId"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/WRCondition"
         },
         "name": "Work Requirements Condition",
@@ -272,6 +280,11 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "billtext.html",
+          "title": "Billtext",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "downloads.html",
           "title": "Downloads",
           "generation": "markdown"
@@ -288,8 +301,8 @@
         "value": "ci-build"
       },
       {
-        "code": "0",
-        "value": "[object Object]"
+        "code": "path-suppressed-warnings",
+        "value": "input/ignoreWarnings.txt"
       }
     ]
   }

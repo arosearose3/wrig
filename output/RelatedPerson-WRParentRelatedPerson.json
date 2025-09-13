@@ -2,7 +2,7 @@
   "resourceType" : "RelatedPerson",
   "id" : "WRParentRelatedPerson",
   "meta" : {
-    "profile" : ["http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"]
+    "profile" : ["https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"]
   },
   "text" : {
     "status" : "generated",

@@ -1,11 +1,11 @@
 {
   "path" : "http://hl7.org/fhir/R4/",
-  "canonical" : "http://wrig.corisystem.org",
+  "canonical" : "https://wrig.corisystem.org",
   "igId" : "my-ig",
   "igName" : "WorkReqsIG",
   "packageId" : "my-ig",
   "igVer" : "0.1.0",
-  "errorCount" : 7,
+  "errorCount" : 1,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
   "releaseLabellang" : {
@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Sat, Sep 13, 2025 20:11+0000",
+  "genDate" : "Sat, Sep 13, 2025 22:44+0000",
   "genDay" : "13/09/2025",
-  "totalFiles" : 29,
-  "processedFiles" : 38,
+  "totalFiles" : 30,
+  "processedFiles" : 40,
   "repoSource" : "https://github.com/arosearose3/wrig",
   "resourceTypes" : [
     "Account",
@@ -238,10 +238,10 @@
   "ig" : {
     "id" : "my-ig",
     "name" : "WorkReqsIG",
-    "title" : "Medicaid Community Engagement IG (proposed, not supported by CMS)",
+    "title" : "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
     "titlelang" : {
     },
-    "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+    "url" : "https://wrig.corisystem.org/ImplementationGuide/my-ig",
     "version" : "0.1.0",
     "status" : "draft",
     "experimental" : false,
@@ -254,7 +254,7 @@
         "telecom" : ["http://wrig.corisystem.org"]
       }
     ],
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
     "descriptionlang" : {
     },
@@ -269,7 +269,7 @@
     "basespec" : null,
     "hl7tx" : "http://terminology.hl7.org/6.5.0",
     "hl7ext" : "http://hl7.org/fhir/extensions/5.2.0",
-    "igtools" : "http://hl7.org/fhir/tools/0.7.1"
+    "igtools" : "http://hl7.org/fhir/tools/0.8.0"
   },
   "hl7tx" : "http://terminology.hl7.org",
   "hl7ext" : "http://hl7.org/fhir/extensions",

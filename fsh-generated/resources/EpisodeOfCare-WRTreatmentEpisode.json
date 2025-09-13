@@ -9,13 +9,7 @@
   "status": "active",
   "type": [
     {
-      "coding": [
-        {
-          "code": "SUBSTANCE-USE-TREATMENT",
-          "system": "http://example.org/codes/episode-type",
-          "display": "Substance use treatment"
-        }
-      ]
+      "text": "Substance use treatment"
     }
   ],
   "patient": {

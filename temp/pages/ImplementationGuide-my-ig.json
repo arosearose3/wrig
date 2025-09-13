@@ -3,14 +3,14 @@
   "id" : "my-ig",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name=\"my-ig\"> </a><a name=\"hcmy-ig\"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide my-ig</b></p><a name=\"my-ig\"> </a><a name=\"hcmy-ig\"> </a><h2>WorkReqsIG</h2><p>The official URL for this implementation guide is: </p><pre>https://wrig.corisystem.org/ImplementationGuide/my-ig</pre><div><p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.</p>\n</div></div>"
   },
-  "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+  "url" : "https://wrig.corisystem.org/ImplementationGuide/my-ig",
   "version" : "0.1.0",
   "name" : "WorkReqsIG",
-  "title" : "Medicaid Community Engagement IG (proposed, not supported by CMS)",
+  "title" : "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
   "status" : "draft",
-  "date" : "2025-09-13T20:10:49+00:00",
+  "date" : "2025-09-13T22:44:23+00:00",
   "publisher" : "Andrew Rose LPC",
   "contact" : [{
     "name" : "Andrew Rose LPC",
@@ -20,6 +20,13 @@
     }]
   }],
   "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US",
+      "display" : "United States of America"
+    }]
+  }],
   "packageId" : "my-ig",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
@@ -69,11 +76,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "0"
+        "valueString" : "path-suppressed-warnings"
       },
       {
         "url" : "value",
-        "valueString" : "[object Object]"
+        "valueString" : "input/ignoreWarnings.txt"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -146,22 +153,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-suppressed-warnings"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/ignoreWarnings.txt"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "path-history"
       },
       {
         "url" : "value",
-        "valueString" : "http://wrig.corisystem.org/history.html"
+        "valueString" : "https://wrig.corisystem.org/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -332,7 +328,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.7.1"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
     },
     {
       "extension" : [{
@@ -359,11 +355,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "0"
+        "valueCode" : "path-suppressed-warnings"
       },
       {
         "url" : "value",
-        "valueString" : "[object Object]"
+        "valueString" : "input/ignoreWarnings.txt"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -436,22 +432,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-suppressed-warnings"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/ignoreWarnings.txt"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "path-history"
       },
       {
         "url" : "value",
-        "valueString" : "http://wrig.corisystem.org/history.html"
+        "valueString" : "https://wrig.corisystem.org/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -630,7 +615,7 @@
       },
       "name" : "Child Disability (example)",
       "description" : "Optional child disability condition",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRCondition"
     },
     {
       "extension" : [{
@@ -642,7 +627,7 @@
       },
       "name" : "Declared Disaster",
       "description" : "Observation representing disaster impact",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -654,7 +639,7 @@
       },
       "name" : "Dependent Child (under 13)",
       "description" : "Child patient for parent/caretaker example",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRPatient"
     },
     {
       "extension" : [{
@@ -666,7 +651,7 @@
       },
       "name" : "Example Medicaid Patient (under 19)",
       "description" : "Patient under 19 years old",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRPatient"
     },
     {
       "extension" : [{
@@ -678,7 +663,7 @@
       },
       "name" : "Foster Care Status",
       "description" : "Observation representing foster care status",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -690,7 +675,7 @@
       },
       "name" : "Functional Status (example)",
       "description" : "Example observation supporting medically frail status",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -714,7 +699,7 @@
       },
       "name" : "Incarceration Status",
       "description" : "Observation representing incarceration period/status",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -726,7 +711,7 @@
       },
       "name" : "Inpatient Encounter",
       "description" : "Encounter representing inpatient care (IMP)",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WREncounter"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WREncounter"
     },
     {
       "extension" : [{
@@ -750,7 +735,7 @@
       },
       "name" : "Medically Frail Example Condition",
       "description" : "Example condition indicating medically frail status",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRCondition"
     },
     {
       "extension" : [{
@@ -762,7 +747,7 @@
       },
       "name" : "Parent of Dependent Child",
       "description" : "RelatedPerson linking parent to child with v3-RoleCode PRN",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"
     },
     {
       "extension" : [{
@@ -774,7 +759,7 @@
       },
       "name" : "Pregnancy (SNOMED 77386006)",
       "description" : "Pregnancy condition per SNOMED CT",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRCondition"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRCondition"
     },
     {
       "extension" : [{
@@ -786,7 +771,7 @@
       },
       "name" : "Program Compliance",
       "description" : "Observation indicating TANF/SNAP compliance",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -798,7 +783,7 @@
       },
       "name" : "TANF Coverage Eligibility",
       "description" : "Coverage representing TANF program eligibility",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRCoverage"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRCoverage"
     },
     {
       "extension" : [{
@@ -810,7 +795,7 @@
       },
       "name" : "Travel for Care",
       "description" : "Observation representing required travel for care",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -822,7 +807,7 @@
       },
       "name" : "Treatment Program EpisodeOfCare",
       "description" : "Episode of care for substance use treatment",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"
     },
     {
       "extension" : [{
@@ -834,7 +819,7 @@
       },
       "name" : "Unemployment Status",
       "description" : "Observation representing unemployment status",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -858,7 +843,7 @@
       },
       "name" : "VA Disability Rating (%)",
       "description" : "Observation capturing VA total disability rating percent",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRObservation"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRObservation"
     },
     {
       "extension" : [{
@@ -870,7 +855,19 @@
       },
       "name" : "Veteran with VA Identifier",
       "description" : "Patient with VA identifier for veteran example",
-      "exampleCanonical" : "http://wrig.corisystem.org/StructureDefinition/WRPatient"
+      "exampleCanonical" : "https://wrig.corisystem.org/StructureDefinition/WRPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "NamingSystem"
+      }],
+      "reference" : {
+        "reference" : "NamingSystem/va-veteran-id"
+      },
+      "name" : "VeteranId",
+      "description" : "Identifier assigned to veterans by the U.S. Department of Veterans Affairs.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -971,6 +968,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "billtext.html"
+        }],
+        "nameUrl" : "billtext.html",
+        "title" : "Billtext",
         "generation" : "markdown"
       },
       {

@@ -10,15 +10,14 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "unemployment-status",
-        "system": "http://example.org/codes/hardship",
-        "display": "Unemployment status"
-      }
-    ]
+    "text": "Unemployment status"
   },
   "status": "final",
   "valueBoolean": true,
-  "effectiveDateTime": "2025-01-15"
+  "effectiveDateTime": "2025-01-15",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

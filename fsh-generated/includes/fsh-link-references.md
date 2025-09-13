@@ -19,6 +19,7 @@
 [USCoreTribalAffiliation]: StructureDefinition-us-core-tribalAffiliation.html
 [WRVaDisabilityRating]: Observation-WRVaDisabilityRating.html
 [WRVeteranPatient]: Patient-WRVeteranPatient.html
+[VeteranId]: NamingSystem-va-veteran-id.html
 [WRCondition]: StructureDefinition-WRCondition.html
 [WRCoverage]: StructureDefinition-WRCoverage.html
 [WREncounter]: StructureDefinition-WREncounter.html

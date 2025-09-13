@@ -2,9 +2,10 @@
   "package": "my-ig",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+      "url": "https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
       "title": "US Core Tribal Affiliation Extension",
       "types": [
         "base64Binary",
@@ -164,48 +165,54 @@
   "profiles": {
     "Condition": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WRCondition",
         "title": "Work Requirements Condition"
       }
     ],
     "Coverage": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WRCoverage",
         "title": "Work Requirements Coverage"
       }
     ],
     "Encounter": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WREncounter",
         "title": "Work Requirements Encounter"
       }
     ],
     "EpisodeOfCare": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
         "title": "Work Requirements EpisodeOfCare"
       }
     ],
     "Observation": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WRObservation",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WRObservation",
         "title": "Work Requirements Observation"
       }
     ],
     "Patient": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WRPatient",
         "title": "Work Requirements Patient"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+        "url": "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
         "title": "Work Requirements Related Person"
       }
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
+      "NamingSystem"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -246,7 +253,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation": [
+    "https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation": [
       "Patient"
     ]
   }

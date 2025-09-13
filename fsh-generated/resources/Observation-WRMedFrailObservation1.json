@@ -12,13 +12,18 @@
   "code": {
     "coding": [
       {
-        "code": "functional-status",
-        "system": "http://example.org/codes/observation",
+        "system": "http://loinc.org",
+        "code": "54522-8",
         "display": "Functional status"
       }
     ]
   },
   "status": "final",
   "effectiveDateTime": "2025-05-15",
-  "valueString": "Requires assistance with activities of daily living"
+  "valueString": "Requires assistance with activities of daily living",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

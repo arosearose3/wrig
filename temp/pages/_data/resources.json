@@ -7,16 +7,23 @@
     "source" : "/home/andrewroselpc/workreqs/fsh-generated/resources/ImplementationGuide-my-ig.json",
     "sourceTail" : "ImplementationGuide-my-ig.json",
     "path" : "index.html",
-    "url" : "http://wrig.corisystem.org/ImplementationGuide/my-ig",
+    "url" : "https://wrig.corisystem.org/ImplementationGuide/my-ig",
     "version" : "0.1.0",
     "name" : "WorkReqsIG",
-    "title" : "Medicaid Community Engagement IG (proposed, not supported by CMS)",
+    "title" : "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -272,16 +279,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WRCondition.json",
     "sourceTail" : "StructureDefinition-WRCondition.json",
     "path" : "StructureDefinition-WRCondition.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCondition",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WRCondition",
     "version" : "0.1.0",
     "name" : "WRCondition",
     "title" : "Work Requirements Condition",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Condition resource for pregnancy, medically frail, child disability, etc.",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -297,16 +311,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WRCoverage.json",
     "sourceTail" : "StructureDefinition-WRCoverage.json",
     "path" : "StructureDefinition-WRCoverage.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WRCoverage",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WRCoverage",
     "version" : "0.1.0",
     "name" : "WRCoverage",
     "title" : "Work Requirements Coverage",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Represents TANF/SNAP program coverage eligibility",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -322,16 +343,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WREncounter.json",
     "sourceTail" : "StructureDefinition-WREncounter.json",
     "path" : "StructureDefinition-WREncounter.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WREncounter",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WREncounter",
     "version" : "0.1.0",
     "name" : "WREncounter",
     "title" : "Work Requirements Encounter",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Represents inpatient care or medical hardship encounters",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -347,16 +375,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WREpisodeOfCare.json",
     "sourceTail" : "StructureDefinition-WREpisodeOfCare.json",
     "path" : "StructureDefinition-WREpisodeOfCare.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare",
     "version" : "0.1.0",
     "name" : "WREpisodeOfCare",
     "title" : "Work Requirements EpisodeOfCare",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Represents participation in treatment programs",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -372,16 +407,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WRObservation.json",
     "sourceTail" : "StructureDefinition-WRObservation.json",
     "path" : "StructureDefinition-WRObservation.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WRObservation",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WRObservation",
     "version" : "0.1.0",
     "name" : "WRObservation",
     "title" : "Work Requirements Observation",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Observation for program compliance, incarceration, foster status, functional status",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -397,16 +439,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WRPatient.json",
     "sourceTail" : "StructureDefinition-WRPatient.json",
     "path" : "StructureDefinition-WRPatient.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WRPatient",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WRPatient",
     "version" : "0.1.0",
     "name" : "WRPatient",
     "title" : "Work Requirements Patient",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Patient profile for Medicaid Work Requirements",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -422,16 +471,23 @@
     "source" : "fsh-generated/resources/StructureDefinition-WRRelatedPerson.json",
     "sourceTail" : "StructureDefinition-WRRelatedPerson.json",
     "path" : "StructureDefinition-WRRelatedPerson.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson",
     "version" : "0.1.0",
     "name" : "WRRelatedPerson",
     "title" : "Work Requirements Related Person",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Represents parent/caretaker relationship to dependent child",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
@@ -447,21 +503,57 @@
     "source" : "fsh-generated/resources/StructureDefinition-us-core-tribalAffiliation.json",
     "sourceTail" : "StructureDefinition-us-core-tribalAffiliation.json",
     "path" : "StructureDefinition-us-core-tribalAffiliation.html",
-    "url" : "http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
+    "url" : "https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation",
     "version" : "0.1.0",
     "name" : "USCoreTribalAffiliation",
     "title" : "US Core Tribal Affiliation Extension",
     "titlelang" : {
     },
-    "date" : "2025-09-13T20:10:49+00:00",
+    "date" : "2025-09-13T22:44:23+00:00",
     "description" : "Indicates tribal affiliation for American Indian/Alaska Native patients",
     "descriptionlang" : {
     },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
     "status" : {
       "class" : "colsd",
       "owner" : "Andrew Rose LPC",
       "link" : "http://wrig.corisystem.org",
       "status" : "Draft"
+    }
+  },
+  "NamingSystem/va-veteran-id" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 29,
+    "source" : "input/resources/NamingSystem-va-veteran-id.json",
+    "sourceTail" : "NamingSystem-va-veteran-id.json",
+    "path" : "NamingSystem-va-veteran-id.html",
+    "url" : "https://wrig.corisystem.org/NamingSystem/va-veteran-id",
+    "version" : "0.1.0",
+    "name" : "VeteranId",
+    "date" : "2025-09-13",
+    "description" : "Identifier assigned to veterans by the U.S. Department of Veterans Affairs.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "US",
+        "name" : "United States of America",
+        "flag" : "usa"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "Andrew Rose LPC",
+      "link" : "http://wrig.corisystem.org",
+      "status" : "Active"
     }
   }
 }

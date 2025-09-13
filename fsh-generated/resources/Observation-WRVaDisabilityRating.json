@@ -10,13 +10,7 @@
     "reference": "Patient/WRVeteranPatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "total",
-        "system": "http://example.org/codes/va-disability-rating",
-        "display": "VA total disability rating"
-      }
-    ]
+    "text": "VA total disability rating"
   },
   "status": "final",
   "valueQuantity": {
@@ -25,5 +19,10 @@
     "system": "http://unitsofmeasure.org",
     "code": "%"
   },
-  "effectiveDateTime": "2025-02-01"
+  "effectiveDateTime": "2025-02-01",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

@@ -17,14 +17,4 @@ publisher:
   name: Andrew Rose LPC
   url: http://wrig.corisystem.org
 parameters:
-  - code: path-suppressed-warnings
-    value: input/ignoreWarnings.txt
-menu:
-  Home: index.html
-  Profiles & Examples:
-    Profiles: profiles.html
-    Examples: examples.html
-  General:
-    Artifacts: artifacts.html
-  Downloads:
-    Downloads: downloads.html
+  path-suppressed-warnings: input/ignoreWarnings.txt

@@ -1,37 +1,41 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+<!-- get modelType -->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Work Requirements Patient - Medicaid Community Engagement IG (proposed, not supported by CMS) v0.1.0</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Work Requirements Patient - US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS) v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -39,77 +43,76 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.6"}
-    h3,h4,h5,h6{--heading-prefix:"3.6"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <style type="text/css">h2{--heading-prefix:"4.6"}
+    h3,h4,h5,h6{--heading-prefix:"4.6"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Medicaid Community Engagement IG (proposed, not supported by CMS)</span>
+          <p><span style="font-size:12pt;font-weight:bold">US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="United States of America flag" src="assets/images/usa.svg" height="16" title="United States of America"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul class="nav navbar-nav">
   <li><a href="index.html">Introduction</a></li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles &amp; Examples <b class="caret"></b></a>
-    <ul class="dropdown-menu">
-      <li><a name="l142">​</a><a href="profiles.html">Profiles</a></li>
-      <li><a name="l146">​</a><a href="examples.html">Examples</a></li>
-    </ul>
-  </li>
+
   <li><a href="artifacts.html">Artifacts</a></li>
+  <li><a href="billtext.html">Bill Text</a></li>
   <li><a href="downloads.html">Downloads</a></li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Work Requirements Patient</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Medicaid Community Engagement IG (proposed, not supported by CMS) - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://wrig.corisystem.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://wrig.corisystem.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -196,10 +199,10 @@
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://wrig.corisystem.org/StructureDefinition/WRPatient<button data-clipboard-text="http://wrig.corisystem.org/StructureDefinition/WRPatient" title="Click to copy URL" class="btn-copy"></button></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://wrig.corisystem.org/StructureDefinition/WRPatient<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://wrig.corisystem.org/StructureDefinition/WRPatient"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button data-clipboard-text="http://wrig.corisystem.org/StructureDefinition/WRPatient|0.1.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://wrig.corisystem.org/StructureDefinition/WRPatient|0.1.0"/></span>
       </td>
     </tr>
 
@@ -237,7 +240,7 @@
 
 
 
-  <!-- insert intro if present -->
+<!-- insert intro if present -->
 
 
 
@@ -248,7 +251,7 @@
 </ul>
 <p>You can also check for <a href="https://packages2.fhir.org/xig/my-ig|current/StructureDefinition/WRPatient">usages in the FHIR IG Statistics</a></p>
 
-    <!-- no uri -->
+  <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
   <p>
@@ -266,19 +269,19 @@
         <a href="#tabs-snap">Snapshot Table</a>
       </li>
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-xml">Pseudo-XML</a>
-      </li> -->
+      </li>-->
 
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-json">Pseudo-JSON</a>
-      </li> -->
+      </li>-->
 
 
-        <!-- <li>
+      <!--<li>
         <a href="#tabs-ttl">Pseudo-TTL</a>
-      </li> -->
+      </li>-->
 
       <li>
         <a href="#tabs-summ">Statistics/References</a>
@@ -304,11 +307,11 @@
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url</td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">US Core Tribal Affiliation Extension</span><br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">US Core Tribal Affiliation Extension</span><br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.identifier" data-no-external="true">identifier</a><a name="Patient.identifier"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
@@ -319,7 +322,7 @@
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The date of birth for the individual</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientD'), 'binding', document.getElementById('cbWRPatientD-binding').checked, document.getElementById('ppWRPatientD'));
 document.getElementById('cbWRPatientD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -328,11 +331,11 @@ document.getElementById('cbWRPatientD-obligation').checked = 'false' != localSto
 filterDesc(document.getElementById('WRPatientD'), 'obligation', document.getElementById('cbWRPatientD-obligation').checked, document.getElementById('ppWRPatientD'));
 </script></table>
           <a name="tx"> </a>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -357,11 +360,11 @@ filterDesc(document.getElementById('WRPatientD'), 'obligation', document.getElem
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Extension<br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url<br/></td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aba" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="k-Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aba" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="k-Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_modifier_extension_simple.png" alt="." style="background-color: white; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.modifierExtension" title="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." data-no-external="true">modifierExtension</a><a name="k-Patient.modifierExtension"> </a></td>
@@ -426,7 +429,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">replaced-by | replaces | refer | seealso<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientK'), 'binding', document.getElementById('cbWRPatientK-binding').checked, document.getElementById('ppWRPatientK'));
 document.getElementById('cbWRPatientK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -434,19 +437,19 @@ filterDesc(document.getElementById('WRPatientK'), 'constraint', document.getElem
 document.getElementById('cbWRPatientK-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('WRPatientK'), 'obligation', document.getElementById('cbWRPatientK-obligation').checked, document.getElementById('ppWRPatientK'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -511,11 +514,11 @@ filterDesc(document.getElementById('WRPatientK'), 'obligation', document.getElem
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Extension<br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url<br/></td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aga" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="s-Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aga" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="s-Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ah" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_modifier_extension_simple.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.modifierExtension" title="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." data-no-external="true">modifierExtension</a><a name="s-Patient.modifierExtension"> </a></td>
@@ -737,7 +740,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">replaced-by | replaces | refer | seealso<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientS'), 'binding', document.getElementById('cbWRPatientS-binding').checked, document.getElementById('ppWRPatientS'));
 document.getElementById('cbWRPatientS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -745,11 +748,11 @@ filterDesc(document.getElementById('WRPatientS'), 'constraint', document.getElem
 document.getElementById('cbWRPatientS-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElementById('cbWRPatientS-obligation').checked, document.getElementById('ppWRPatientS'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Patient.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div><table class="grid">
+<tr><td>Patient.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
   <tr>
     <td style="font-size: 11px">
       <b>Additional Bindings</b>
@@ -766,11 +769,11 @@ filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElem
   </tr>
 </table>
 </td></tr>
-<tr><td>Patient.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.maritalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The domestic partnership status of a person."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-marital-status.html">Marital Status Codes</a><div><code>http://hl7.org/fhir/ValueSet/marital-status</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/marital-status" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.contact.relationship</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The nature of the relationship between a patient and a contact person for that patient."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html">PatientContactRelationship</a><div><code>http://hl7.org/fhir/ValueSet/patient-contactrelationship</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/patient-contactrelationship" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.contact.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.communication.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div><table class="grid">
+<tr><td>Patient.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.maritalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The domestic partnership status of a person."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-marital-status.html">Marital Status Codes</a><div><code>http://hl7.org/fhir/ValueSet/marital-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/marital-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.contact.relationship</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The nature of the relationship between a patient and a contact person for that patient."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html">PatientContactRelationship</a><div><code>http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.contact.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.communication.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
   <tr>
     <td style="font-size: 11px">
       <b>Additional Bindings</b>
@@ -787,15 +790,15 @@ filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElem
   </tr>
 </table>
 </td></tr>
-<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -814,7 +817,7 @@ filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElem
       </div>
     </div>
 
-  <!-- <a name="tabs-xml"> </a>
+<!--    <a name="tabs-xml"> </a>
     <div id="tabs-xml">
       <div id="xml">
         <div id="xml-inner">
@@ -822,10 +825,10 @@ filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElem
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-  <!-- <a name="tabs-json"> </a>
+<!--    <a name="tabs-json"> </a>
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
@@ -840,8 +843,8 @@ filterDesc(document.getElementById('WRPatientS'), 'obligation', document.getElem
     "<a href="StructureDefinition-WRPatient.html#Patient.contained" title="These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope" class="dict"><span style="text-decoration: underline">contained</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/resource.html#Resource">Resource</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Contained, inline Resources</span>
     "extension": [
       { // <span style="color: navy; opacity: 0.8"> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ext-1: Must have either extensions or value[x], not both"><b>C?</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows one element"><b>Only One!</b></span> US Core Tribal Affiliation Extension</span>
-        "url": "<a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a>",
-Not handled yet: complex extension 'Not handled yet: complex extension http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation'
+        "url": "<a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a>",
+Not handled yet: complex extension 'Not handled yet: complex extension https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation'
       }
     ],
     "<a href="StructureDefinition-WRPatient.html#Patient.identifier" title="An identifier for this patient (this element must be supported)" class="dict"><span style="text-decoration: underline">identifier</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">An identifier for this patient</span>
@@ -872,7 +875,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.telecom" title="A contact detail for the person, e.g. a telephone number or an email address" class="dict"><span style="text-decoration: underline">telecom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A contact detail for the person</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.address" title="Address for the contact person" class="dict"><span style="text-decoration: underline">address</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Address">Address</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Address for the contact person</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.gender" title="Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes" class="dict"><span style="text-decoration: underline">gender</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">male | female | other | unknown</a></span>
-      "<a href="StructureDefinition-WRPatient.html#Patient.contact.organization" title="Organization on behalf of which the contact is acting or for which the contact is working" class="dict"><span style="text-decoration: underline">organization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is associated with the contact</span>
+      "<a href="StructureDefinition-WRPatient.html#Patient.contact.organization" title="Organization on behalf of which the contact is acting or for which the contact is working" class="dict"><span style="text-decoration: underline">organization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is associated with the contact</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.period" title="The period during which this contact person or organization is valid to be contacted relating to this patient" class="dict"><span style="text-decoration: underline">period</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">The period during which this contact person or organization is valid to be contacted relating to this patient</span>
     }],
     "<a href="StructureDefinition-WRPatient.html#Patient.communication" title="A language which may be used to communicate with the patient about his or her health" class="dict"><span style="text-decoration: underline">communication</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A language which may be used to communicate with the patient about his or her health</span>
@@ -881,22 +884,22 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       "<a href="StructureDefinition-WRPatient.html#Patient.communication.language" title="The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. &quot;en&quot; for English, or &quot;en-US&quot; for American English versus &quot;en-EN&quot; for England English" class="dict"><span style="text-decoration: underline">language</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">The language which can be used to communicate with the patient about his or her health</a></span>
       "<a href="StructureDefinition-WRPatient.html#Patient.communication.preferred" title="Indicates whether or not the patient prefers this language (over other languages he masters up a certain level)" class="dict"><span style="text-decoration: underline">preferred</span></a>" : &lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></span>&gt;, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Language preference indicator</span>
     }],
-    "<a href="StructureDefinition-WRPatient.html#Patient.generalPractitioner" title="Patient's nominated care provider" class="dict"><span style="text-decoration: underline">generalPractitioner</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Patient's nominated primary care provider</span>
-    "<a href="StructureDefinition-WRPatient.html#Patient.managingOrganization" title="Organization that is the custodian of the patient record" class="dict"><span style="text-decoration: underline">managingOrganization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is the custodian of the patient record</span>
+    "<a href="StructureDefinition-WRPatient.html#Patient.generalPractitioner" title="Patient's nominated care provider" class="dict"><span style="text-decoration: underline">generalPractitioner</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Patient's nominated primary care provider</span>
+    "<a href="StructureDefinition-WRPatient.html#Patient.managingOrganization" title="Organization that is the custodian of the patient record" class="dict"><span style="text-decoration: underline">managingOrganization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is the custodian of the patient record</span>
     "<a href="StructureDefinition-WRPatient.html#Patient.link" title="Link to another patient resource that concerns the same actual patient (this element modifies the meaning of other elements)" class="dict"><span style="text-decoration: underline">link</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Link to another patient resource that concerns the same actual person</span>
       "extension": [
       ],
-      "<a href="StructureDefinition-WRPatient.html#Patient.link.other" title="The other patient resource that the link refers to" class="dict"><span style="text-decoration: underline">other</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/patient.html">Patient</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">The other patient or related person resource that the link refers to</span>
+      "<a href="StructureDefinition-WRPatient.html#Patient.link.other" title="The other patient resource that the link refers to" class="dict"><span style="text-decoration: underline">other</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Patient|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">The other patient or related person resource that the link refers to</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.link.type" title="The type of link between this patient resource and another patient resource" class="dict"><span style="text-decoration: underline">type</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">replaced-by | replaces | refer | seealso</a></span>
     }]
   }
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-      <!-- <a name="tabs-ttl"> </a>
+    <!--<a name="tabs-ttl"> </a>
     <div id="tabs-ttl">
       <div id="ttl">
         <div id="ttl-inner">
@@ -904,7 +907,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
@@ -920,7 +923,7 @@ Summary
 <p>Mandatory: 1 element<br/> Must-Support: 2 elements</p><p><b>Extensions</b></p>
 <p>This structure refers to these extensions:</p>
 <ul>
-<li><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></li>
+<li><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></li>
 
 </ul>
 
@@ -948,11 +951,11 @@ Summary
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url</td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="a-Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="a-Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">US Core Tribal Affiliation Extension</span><br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">US Core Tribal Affiliation Extension</span><br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.identifier" data-no-external="true">identifier</a><a name="a-Patient.identifier"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
@@ -963,7 +966,7 @@ Summary
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The date of birth for the individual</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientDA'), 'binding', document.getElementById('cbWRPatientDA-binding').checked, document.getElementById('ppWRPatientDA'));
 document.getElementById('cbWRPatientDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -971,11 +974,11 @@ filterDesc(document.getElementById('WRPatientDA'), 'constraint', document.getEle
 document.getElementById('cbWRPatientDA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('WRPatientDA'), 'obligation', document.getElementById('cbWRPatientDA-obligation').checked, document.getElementById('ppWRPatientDA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -1000,11 +1003,11 @@ filterDesc(document.getElementById('WRPatientDA'), 'obligation', document.getEle
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Extension<br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url<br/></td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aba" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="ka-Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aba" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="ka-Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_modifier_extension_simple.png" alt="." style="background-color: white; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.modifierExtension" title="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." data-no-external="true">modifierExtension</a><a name="ka-Patient.modifierExtension"> </a></td>
@@ -1069,7 +1072,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">replaced-by | replaces | refer | seealso<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientKA'), 'binding', document.getElementById('cbWRPatientKA-binding').checked, document.getElementById('ppWRPatientKA'));
 document.getElementById('cbWRPatientKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1077,19 +1080,19 @@ filterDesc(document.getElementById('WRPatientKA'), 'constraint', document.getEle
 document.getElementById('cbWRPatientKA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('WRPatientKA'), 'obligation', document.getElementById('cbWRPatientKA-obligation').checked, document.getElementById('ppWRPatientKA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1154,11 +1157,11 @@ filterDesc(document.getElementById('WRPatientKA'), 'obligation', document.getEle
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Extension<br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url<br/></td></tr>
-<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aga" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="sa-Patient.extension.2"> </a></td>
+<tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aga" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.extension:tribalAffiliation" title="Extension URL = https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation" data-no-external="true">extension:tribalAffiliation</a><a name="sa-Patient.extension.2"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">US Core Tribal Affiliation Extension<br/><span style="font-weight:bold">URL: </span><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ah" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_modifier_extension_simple.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a no-external="true" href="StructureDefinition-WRPatient-definitions.html#Patient.modifierExtension" title="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." data-no-external="true">modifierExtension</a><a name="sa-Patient.modifierExtension"> </a></td>
@@ -1380,7 +1383,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">replaced-by | replaces | refer | seealso<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-link-type.html" title="http://hl7.org/fhir/ValueSet/link-type" class="binding">LinkType</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The type of link between this patient resource and another patient resource.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // d4b76177-190a-4fac-aca8-9e9dcc3e54ea
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 87c56a7e-edbb-4507-b68d-6a3101866886
 document.getElementById('cbWRPatientSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('WRPatientSA'), 'binding', document.getElementById('cbWRPatientSA-binding').checked, document.getElementById('ppWRPatientSA'));
 document.getElementById('cbWRPatientSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1388,11 +1391,11 @@ filterDesc(document.getElementById('WRPatientSA'), 'constraint', document.getEle
 document.getElementById('cbWRPatientSA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getElementById('cbWRPatientSA-obligation').checked, document.getElementById('ppWRPatientSA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Patient.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div><table class="grid">
+<tr><td>Patient.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
   <tr>
     <td style="font-size: 11px">
       <b>Additional Bindings</b>
@@ -1409,11 +1412,11 @@ filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getEle
   </tr>
 </table>
 </td></tr>
-<tr><td>Patient.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.maritalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The domestic partnership status of a person."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-marital-status.html">Marital Status Codes</a><div><code>http://hl7.org/fhir/ValueSet/marital-status</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/marital-status" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.contact.relationship</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The nature of the relationship between a patient and a contact person for that patient."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html">PatientContactRelationship</a><div><code>http://hl7.org/fhir/ValueSet/patient-contactrelationship</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/patient-contactrelationship" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.contact.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Patient.communication.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div><table class="grid">
+<tr><td>Patient.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.maritalStatus</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The domestic partnership status of a person."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-marital-status.html">Marital Status Codes</a><div><code>http://hl7.org/fhir/ValueSet/marital-status|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/marital-status|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.contact.relationship</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The nature of the relationship between a patient and a contact person for that patient."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html">PatientContactRelationship</a><div><code>http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/patient-contactrelationship|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.contact.gender</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The gender of a person used for administrative purposes."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a><div><code>http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.communication.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages|4.0.1"></button></div><div>From the FHIR Standard</div><table class="grid">
   <tr>
     <td style="font-size: 11px">
       <b>Additional Bindings</b>
@@ -1430,15 +1433,15 @@ filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getEle
   </tr>
 </table>
 </td></tr>
-<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>From the FHIR Standard</div></td></tr>
+<tr><td>Patient.link.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of link between this patient resource and another patient resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-link-type.html">LinkType</a><div><code>http://hl7.org/fhir/ValueSet/link-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/link-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1456,7 +1459,7 @@ filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getEle
         </div>
       </div>
 
-        <!-- <div id="all-xml">
+      <!--<div id="all-xml">
         <p>
           <b>XML Template</b>
         </p>
@@ -1464,10 +1467,10 @@ filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getEle
           <p><span style="color: maroon; font-weight: bold">yet to be done: Xml template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-json">
+      <!--<div id="all-json">
         <p>
           <b>JSON Template</b>
         </p>
@@ -1483,8 +1486,8 @@ filterDesc(document.getElementById('WRPatientSA'), 'obligation', document.getEle
     "<a href="StructureDefinition-WRPatient.html#Patient.contained" title="These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope" class="dict"><span style="text-decoration: underline">contained</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/resource.html#Resource">Resource</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Contained, inline Resources</span>
     "extension": [
       { // <span style="color: navy; opacity: 0.8"> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ext-1: Must have either extensions or value[x], not both"><b>C?</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows one element"><b>Only One!</b></span> US Core Tribal Affiliation Extension</span>
-        "url": "<a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a>",
-Not handled yet: complex extension 'Not handled yet: complex extension http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation'
+        "url": "<a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a>",
+Not handled yet: complex extension 'Not handled yet: complex extension https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation'
       }
     ],
     "<a href="StructureDefinition-WRPatient.html#Patient.identifier" title="An identifier for this patient (this element must be supported)" class="dict"><span style="text-decoration: underline">identifier</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">An identifier for this patient</span>
@@ -1515,7 +1518,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.telecom" title="A contact detail for the person, e.g. a telephone number or an email address" class="dict"><span style="text-decoration: underline">telecom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A contact detail for the person</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.address" title="Address for the contact person" class="dict"><span style="text-decoration: underline">address</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Address">Address</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Address for the contact person</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.gender" title="Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes" class="dict"><span style="text-decoration: underline">gender</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">male | female | other | unknown</a></span>
-      "<a href="StructureDefinition-WRPatient.html#Patient.contact.organization" title="Organization on behalf of which the contact is acting or for which the contact is working" class="dict"><span style="text-decoration: underline">organization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is associated with the contact</span>
+      "<a href="StructureDefinition-WRPatient.html#Patient.contact.organization" title="Organization on behalf of which the contact is acting or for which the contact is working" class="dict"><span style="text-decoration: underline">organization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is associated with the contact</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.contact.period" title="The period during which this contact person or organization is valid to be contacted relating to this patient" class="dict"><span style="text-decoration: underline">period</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">The period during which this contact person or organization is valid to be contacted relating to this patient</span>
     }],
     "<a href="StructureDefinition-WRPatient.html#Patient.communication" title="A language which may be used to communicate with the patient about his or her health" class="dict"><span style="text-decoration: underline">communication</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">A language which may be used to communicate with the patient about his or her health</span>
@@ -1524,21 +1527,21 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       "<a href="StructureDefinition-WRPatient.html#Patient.communication.language" title="The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. &quot;en&quot; for English, or &quot;en-US&quot; for American English versus &quot;en-EN&quot; for England English" class="dict"><span style="text-decoration: underline">language</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">The language which can be used to communicate with the patient about his or her health</a></span>
       "<a href="StructureDefinition-WRPatient.html#Patient.communication.preferred" title="Indicates whether or not the patient prefers this language (over other languages he masters up a certain level)" class="dict"><span style="text-decoration: underline">preferred</span></a>" : &lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></span>&gt;, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Language preference indicator</span>
     }],
-    "<a href="StructureDefinition-WRPatient.html#Patient.generalPractitioner" title="Patient's nominated care provider" class="dict"><span style="text-decoration: underline">generalPractitioner</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Patient's nominated primary care provider</span>
-    "<a href="StructureDefinition-WRPatient.html#Patient.managingOrganization" title="Organization that is the custodian of the patient record" class="dict"><span style="text-decoration: underline">managingOrganization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is the custodian of the patient record</span>
+    "<a href="StructureDefinition-WRPatient.html#Patient.generalPractitioner" title="Patient's nominated care provider" class="dict"><span style="text-decoration: underline">generalPractitioner</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Patient's nominated primary care provider</span>
+    "<a href="StructureDefinition-WRPatient.html#Patient.managingOrganization" title="Organization that is the custodian of the patient record" class="dict"><span style="text-decoration: underline">managingOrganization</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Organization|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Organization that is the custodian of the patient record</span>
     "<a href="StructureDefinition-WRPatient.html#Patient.link" title="Link to another patient resource that concerns the same actual patient (this element modifies the meaning of other elements)" class="dict"><span style="text-decoration: underline">link</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Link to another patient resource that concerns the same actual person</span>
       "extension": [
       ],
-      "<a href="StructureDefinition-WRPatient.html#Patient.link.other" title="The other patient resource that the link refers to" class="dict"><span style="text-decoration: underline">other</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/patient.html">Patient</a></span>)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">The other patient or related person resource that the link refers to</span>
+      "<a href="StructureDefinition-WRPatient.html#Patient.link.other" title="The other patient resource that the link refers to" class="dict"><span style="text-decoration: underline">other</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(Patient|4.0.1)}, <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">The other patient or related person resource that the link refers to</span>
       "<a href="StructureDefinition-WRPatient.html#Patient.link.type" title="The type of link between this patient resource and another patient resource" class="dict"><span style="text-decoration: underline">type</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">replaced-by | replaces | refer | seealso</a></span>
     }]
   }
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-ttl">
+      <!--<div id="all-ttl">
         <p>
           <b>TTL Template</b>
         </p>
@@ -1546,7 +1549,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <p><span style="color: maroon; font-weight: bold">yet to be done: Turtle template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
       <div id="all-summ">
         <p>This structure is derived from <a href="http://hl7.org/fhir/R4/patient.html">Patient</a>
@@ -1559,7 +1562,7 @@ Summary
 <p>Mandatory: 1 element<br/> Must-Support: 2 elements</p><p><b>Extensions</b></p>
 <p>This structure refers to these extensions:</p>
 <ul>
-<li><a href="StructureDefinition-us-core-tribalAffiliation.html">http://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></li>
+<li><a href="StructureDefinition-us-core-tribalAffiliation.html">https://wrig.corisystem.org/StructureDefinition/us-core-tribalAffiliation</a></li>
 
 </ul>
 
@@ -1568,38 +1571,38 @@ Summary
       </div>
     </div>
   </div>
-  <p>&nbsp;</p>
+  <p>&#160;</p>
   <p>Other representations of profile: <a href="StructureDefinition-WRPatient.csv">CSV</a>, <a href="StructureDefinition-WRPatient.xlsx">Excel</a>, <a href="StructureDefinition-WRPatient.sch">Schematron</a>
  
   </p>
 
   
 
-  <!-- insert notes if present -->
+<!-- insert notes if present -->
 
 
 
 
 </div>
 
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2025 <a style="color:var(--footer-hyperlink-text-color)" href="http://wrig.corisystem.org">Andrew Rose LPC</a>.  Package my-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Sep 13, 2025 20:11+0000">2025-09-13</span>
+          IG &#169; 2025 <a style="color:var(--footer-hyperlink-text-color)" href="http://wrig.corisystem.org">Andrew Rose LPC</a>.  Package my-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Sep 13, 2025 22:44+0000">2025-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -1608,27 +1611,28 @@ Summary
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

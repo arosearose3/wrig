@@ -10,13 +10,7 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "travel-for-care",
-        "system": "http://example.org/codes/hardship",
-        "display": "Travel for care"
-      }
-    ]
+    "text": "Travel for care"
   },
   "status": "final",
   "valueBoolean": true,
@@ -24,6 +18,11 @@
   "note": [
     {
       "text": "Required travel to tertiary facility"
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
     }
   ]
 }

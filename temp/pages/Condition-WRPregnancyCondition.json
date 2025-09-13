@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "WRPregnancyCondition",
   "meta" : {
-    "profile" : ["http://wrig.corisystem.org/StructureDefinition/WRCondition"]
+    "profile" : ["https://wrig.corisystem.org/StructureDefinition/WRCondition"]
   },
   "text" : {
     "status" : "generated",

@@ -10,15 +10,14 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "disaster",
-        "system": "http://example.org/codes/hardship",
-        "display": "Declared disaster"
-      }
-    ]
+    "text": "Declared disaster"
   },
   "status": "final",
   "valueString": "FEMA-DR-9999",
-  "effectiveDateTime": "2025-08-01"
+  "effectiveDateTime": "2025-08-01",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

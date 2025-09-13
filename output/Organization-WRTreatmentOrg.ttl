@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://wrig.corisystem.org/Organization/WRTreatmentOrg> a fhir:Organization ;
+<https://wrig.corisystem.org/Organization/WRTreatmentOrg> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "WRTreatmentOrg"] ; # 
   fhir:text [

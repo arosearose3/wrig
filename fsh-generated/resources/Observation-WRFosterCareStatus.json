@@ -10,13 +10,7 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "foster-care",
-        "system": "http://example.org/codes/social-status",
-        "display": "Foster care status"
-      }
-    ]
+    "text": "Foster care status"
   },
   "status": "final",
   "valueCodeableConcept": {
@@ -28,5 +22,10 @@
       }
     ]
   },
-  "effectiveDateTime": "2025-05-10"
+  "effectiveDateTime": "2025-05-10",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

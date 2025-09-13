@@ -11,7 +11,10 @@
          <a href="#2">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#3">Example: Example Instances</a>
+         <a href="#3">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -98,6 +101,21 @@
       </tbody>
    </table>
    <a name="3"> </a>
+   <h3>Terminology: Naming Systems </h3>{% capture grouping_desc %}These define identifier and/or code system identities used by systems conforming to this implementation guide.{% endcapture %}
+    {{ grouping_desc | markdownify}}<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-va-veteran-id.html"
+                  title="NamingSystem/va-veteran-id">VeteranId</a>
+            </td>
+            <td>{% capture desc %}Identifier assigned to veterans by the U.S. Department of Veterans Affairs.{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.{% endcapture %}
     {{ grouping_desc | markdownify}}<table class="grid">
       <col style="width:20%"/>

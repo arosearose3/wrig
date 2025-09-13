@@ -8,13 +8,7 @@
   },
   "status": "active",
   "type": {
-    "coding": [
-      {
-        "system": "http://example.org/codes/program",
-        "code": "TANF",
-        "display": "TANF"
-      }
-    ]
+    "text": "TANF"
   },
   "beneficiary": {
     "reference": "Patient/WRExamplePatient"

@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://wrig.corisystem.org/Patient/WRChildPatient> a fhir:Patient ;
+<https://wrig.corisystem.org/Patient/WRChildPatient> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "WRChildPatient"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://wrig.corisystem.org/StructureDefinition/WRPatient"^^xsd:anyURI ;
-       fhir:link <http://wrig.corisystem.org/StructureDefinition/WRPatient>
+       fhir:v "https://wrig.corisystem.org/StructureDefinition/WRPatient"^^xsd:anyURI ;
+       fhir:link <https://wrig.corisystem.org/StructureDefinition/WRPatient>
      ] )
   ] ; # 
   fhir:text [

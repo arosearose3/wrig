@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://wrig.corisystem.org/Encounter/WRInpatientEncounter> a fhir:Encounter ;
+<https://wrig.corisystem.org/Encounter/WRInpatientEncounter> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "WRInpatientEncounter"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://wrig.corisystem.org/StructureDefinition/WREncounter"^^xsd:anyURI ;
-       fhir:link <http://wrig.corisystem.org/StructureDefinition/WREncounter>
+       fhir:v "https://wrig.corisystem.org/StructureDefinition/WREncounter"^^xsd:anyURI ;
+       fhir:link <https://wrig.corisystem.org/StructureDefinition/WREncounter>
      ] )
   ] ; # 
   fhir:text [
@@ -26,7 +26,7 @@
      fhir:display [ fhir:v "inpatient encounter" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://wrig.corisystem.org/Patient/WRExamplePatient> ;
+     fhir:link <https://wrig.corisystem.org/Patient/WRExamplePatient> ;
      fhir:reference [ fhir:v "Patient/WRExamplePatient" ]
   ] ; # 
   fhir:period [
@@ -34,7 +34,7 @@
      fhir:end [ fhir:v "2025-02-14"^^xsd:date ]
   ] ; # 
   fhir:serviceProvider [
-     fhir:link <http://wrig.corisystem.org/Organization/WRHospitalOrg> ;
+     fhir:link <https://wrig.corisystem.org/Organization/WRHospitalOrg> ;
      fhir:reference [ fhir:v "Organization/WRHospitalOrg" ]
   ] . # 
 

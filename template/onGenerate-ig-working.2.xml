@@ -10,18 +10,18 @@
          <a name="hcmy-ig"> </a>
          <h2>WorkReqsIG</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://wrig.corisystem.org/ImplementationGuide/my-ig</pre>
+         <pre>https://wrig.corisystem.org/ImplementationGuide/my-ig</pre>
          <div>
             <p>Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.</p>
          </div>
       </div>
    </text>
-   <url value="http://wrig.corisystem.org/ImplementationGuide/my-ig"/>
+   <url value="https://wrig.corisystem.org/ImplementationGuide/my-ig"/>
    <version value="0.1.0"/>
    <name value="WorkReqsIG"/>
-   <title value="Medicaid Community Engagement IG (proposed, not supported by CMS)"/>
+   <title value="US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)"/>
    <status value="draft"/>
-   <date value="2025-09-13T20:10:49+00:00"/>
+   <date value="2025-09-13T22:44:23+00:00"/>
    <publisher value="Andrew Rose LPC"/>
    <contact>
       <name value="Andrew Rose LPC"/>
@@ -31,6 +31,13 @@
       </telecom>
    </contact>
    <description value="Implementation Guide for Medicaid Work Requirements exemptions mapping and examples."/>
+   <jurisdiction>
+      <coding>
+         <system value="urn:iso:std:iso:3166"/>
+         <code value="US"/>
+         <display value="United States of America"/>
+      </coding>
+   </jurisdiction>
    <packageId value="my-ig"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
@@ -69,10 +76,10 @@
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
          <extension url="code">
-            <valueString value="0"/>
+            <valueString value="path-suppressed-warnings"/>
          </extension>
          <extension url="value">
-            <valueString value="[object Object]"/>
+            <valueString value="input/ignoreWarnings.txt"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -125,18 +132,10 @@
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
          <extension url="code">
-            <valueString value="path-suppressed-warnings"/>
-         </extension>
-         <extension url="value">
-            <valueString value="input/ignoreWarnings.txt"/>
-         </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-         <extension url="code">
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="http://wrig.corisystem.org/history.html"/>
+            <valueString value="https://wrig.corisystem.org/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -260,7 +259,7 @@
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-         <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
+         <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
       </extension>
       <grouping id="-req-actordefinition">
          <name value="Requirements: Actor Definitions"/>
@@ -389,7 +388,7 @@
          </reference>
          <name value="Child Disability (example)"/>
          <description value="Optional child disability condition"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRCondition"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRCondition"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -407,7 +406,7 @@
          </reference>
          <name value="Declared Disaster"/>
          <description value="Observation representing disaster impact"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -425,7 +424,7 @@
          </reference>
          <name value="Dependent Child (under 13)"/>
          <description value="Child patient for parent/caretaker example"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRPatient"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRPatient"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -443,7 +442,7 @@
          </reference>
          <name value="Example Medicaid Patient (under 19)"/>
          <description value="Patient under 19 years old"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRPatient"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRPatient"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -461,7 +460,7 @@
          </reference>
          <name value="Foster Care Status"/>
          <description value="Observation representing foster care status"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -479,7 +478,7 @@
          </reference>
          <name value="Functional Status (example)"/>
          <description value="Example observation supporting medically frail status"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -515,7 +514,7 @@
          </reference>
          <name value="Incarceration Status"/>
          <description value="Observation representing incarceration period/status"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -533,7 +532,7 @@
          </reference>
          <name value="Inpatient Encounter"/>
          <description value="Encounter representing inpatient care (IMP)"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WREncounter"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WREncounter"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -569,7 +568,7 @@
          </reference>
          <name value="Medically Frail Example Condition"/>
          <description value="Example condition indicating medically frail status"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRCondition"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRCondition"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -587,7 +586,7 @@
          </reference>
          <name value="Parent of Dependent Child"/>
          <description value="RelatedPerson linking parent to child with v3-RoleCode PRN"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRRelatedPerson"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -605,7 +604,7 @@
          </reference>
          <name value="Pregnancy (SNOMED 77386006)"/>
          <description value="Pregnancy condition per SNOMED CT"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRCondition"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRCondition"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -623,7 +622,7 @@
          </reference>
          <name value="Program Compliance"/>
          <description value="Observation indicating TANF/SNAP compliance"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -641,7 +640,7 @@
          </reference>
          <name value="TANF Coverage Eligibility"/>
          <description value="Coverage representing TANF program eligibility"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRCoverage"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRCoverage"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -659,7 +658,7 @@
          </reference>
          <name value="Travel for Care"/>
          <description value="Observation representing required travel for care"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -677,7 +676,7 @@
          </reference>
          <name value="Treatment Program EpisodeOfCare"/>
          <description value="Episode of care for substance use treatment"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WREpisodeOfCare"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -695,7 +694,7 @@
          </reference>
          <name value="Unemployment Status"/>
          <description value="Observation representing unemployment status"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -731,7 +730,7 @@
          </reference>
          <name value="VA Disability Rating (%)"/>
          <description value="Observation capturing VA total disability rating percent"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRObservation"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRObservation"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -749,8 +748,26 @@
          </reference>
          <name value="Veteran with VA Identifier"/>
          <description value="Patient with VA identifier for veteran example"/>
-         <exampleCanonical value="http://wrig.corisystem.org/StructureDefinition/WRPatient"/>
+         <exampleCanonical value="https://wrig.corisystem.org/StructureDefinition/WRPatient"/>
          <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="NamingSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="NamingSystem-va-veteran-id.html"/>
+         </extension>
+         <reference>
+            <reference value="NamingSystem/va-veteran-id"/>
+         </reference>
+         <name value="VeteranId"/>
+         <description value="Identifier assigned to veterans by the U.S. Department of Veterans Affairs."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-namingsystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -895,6 +912,14 @@
          </page>
          <page>
             <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="billtext.html"/>
+            </extension>
+            <nameUrl value="billtext.html"/>
+            <title value="Billtext"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
                <valueUrl value="downloads.html"/>
             </extension>
             <nameUrl value="downloads.html"/>
@@ -971,8 +996,8 @@
          <value value="ci-build"/>
       </parameter>
       <parameter>
-         <code value="0"/>
-         <value value="[object Object]"/>
+         <code value="path-suppressed-warnings"/>
+         <value value="input/ignoreWarnings.txt"/>
       </parameter>
       <parameter>
          <code value="autoload-resources"/>
@@ -999,12 +1024,8 @@
          <value value="output"/>
       </parameter>
       <parameter>
-         <code value="path-suppressed-warnings"/>
-         <value value="input/ignoreWarnings.txt"/>
-      </parameter>
-      <parameter>
          <code value="path-history"/>
-         <value value="http://wrig.corisystem.org/history.html"/>
+         <value value="https://wrig.corisystem.org/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

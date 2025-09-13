@@ -2,7 +2,7 @@
   "resourceType" : "Encounter",
   "id" : "WRInpatientEncounter",
   "meta" : {
-    "profile" : ["http://wrig.corisystem.org/StructureDefinition/WREncounter"]
+    "profile" : ["https://wrig.corisystem.org/StructureDefinition/WREncounter"]
   },
   "text" : {
     "status" : "generated",

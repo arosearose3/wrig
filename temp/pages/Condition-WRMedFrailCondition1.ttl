@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://wrig.corisystem.org/Condition/WRMedFrailCondition1> a fhir:Condition ;
+<https://wrig.corisystem.org/Condition/WRMedFrailCondition1> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "WRMedFrailCondition1"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://wrig.corisystem.org/StructureDefinition/WRCondition"^^xsd:anyURI ;
-       fhir:link <http://wrig.corisystem.org/StructureDefinition/WRCondition>
+       fhir:v "https://wrig.corisystem.org/StructureDefinition/WRCondition"^^xsd:anyURI ;
+       fhir:link <https://wrig.corisystem.org/StructureDefinition/WRCondition>
      ] )
   ] ; # 
   fhir:text [
@@ -23,7 +23,7 @@
      fhir:text [ fhir:v "Blindness (example)" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://wrig.corisystem.org/Patient/WRExamplePatient> ;
+     fhir:link <https://wrig.corisystem.org/Patient/WRExamplePatient> ;
      fhir:reference [ fhir:v "Patient/WRExamplePatient" ]
   ] ; # 
   fhir:onset [

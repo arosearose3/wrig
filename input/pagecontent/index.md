@@ -5,7 +5,9 @@ title: Medicaid Work Requirements IG
 # FHIR Implementation Guide for Medicaid Work Requirements
 
 ## Overview
-The Medicaid Work Requirements Implementation Guide (IG) provides a structured, standards-based approach for capturing, verifying, and storing exemptions and compliance data for Medicaid work requirements programs. By leveraging HL7 FHIR R4 resources, this IG allows developers to build interoperable software that can reliably manage a wide range of exemption categories, patient data, and program compliance information.
+This US HR1 Medicaid Work Requirements implementation guide provides a structured, standards-based approach for capturing, verifying, and storing exemptions and compliance data for US HR 1 section 71119 Medicaid work requirements programs. By leveraging HL7 FHIR R4 resources, this IG allows developers to build interoperable software that can reliably manage a wide range of exemption categories, patient data, and program compliance information.
+
+
 
 ## Purpose
 The IG is designed to:

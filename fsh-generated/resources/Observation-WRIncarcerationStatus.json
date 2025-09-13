@@ -10,18 +10,17 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "incarceration",
-        "system": "http://example.org/codes/social-status",
-        "display": "Incarceration status"
-      }
-    ]
+    "text": "Incarceration status"
   },
   "status": "final",
   "valueBoolean": true,
   "effectivePeriod": {
     "start": "2025-04-01",
     "end": "2025-06-30"
-  }
+  },
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

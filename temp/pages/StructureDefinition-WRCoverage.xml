@@ -10,12 +10,12 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-WRCoverage-definitions.html#Coverage.period">period</a><a name="Coverage.period"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Coverage start and end dates</span></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
-  <url value="http://wrig.corisystem.org/StructureDefinition/WRCoverage"/>
+  <url value="https://wrig.corisystem.org/StructureDefinition/WRCoverage"/>
   <version value="0.1.0"/>
   <name value="WRCoverage"/>
   <title value="Work Requirements Coverage"/>
   <status value="draft"/>
-  <date value="2025-09-13T20:10:49+00:00"/>
+  <date value="2025-09-13T22:44:23+00:00"/>
   <publisher value="Andrew Rose LPC"/>
   <contact>
     <name value="Andrew Rose LPC"/>
@@ -25,6 +25,13 @@
     </telecom>
   </contact>
   <description value="Represents TANF/SNAP program coverage eligibility"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>
@@ -245,7 +252,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages|4.0.1"/>
       </binding>
     </element>
     <element id="Coverage.text">
@@ -521,7 +528,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="The type of insurance: public health, worker compensation; private accident, auto, private health, etc.) or a direct payment by an individual or organization."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -547,9 +554,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -597,8 +604,8 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -691,7 +698,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -796,7 +803,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="The relationship between the Subscriber and the Beneficiary (insured/covered party/patient)."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/subscriber-relationship"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/subscriber-relationship|4.0.1"/>
       </binding>
       <mapping>
         <identity value="cdanetv4"/>
@@ -861,9 +868,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1058,7 +1065,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="The policy classifications, eg. Group, Plan, Class, etc."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-class"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-class|4.0.1"/>
       </binding>
     </element>
     <element id="Coverage.class.value">
@@ -1368,7 +1375,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="The types of services to which patient copayments are specified."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-copay-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-copay-type|4.0.1"/>
       </binding>
     </element>
     <element id="Coverage.costToBeneficiary.value[x]">
@@ -1386,7 +1393,7 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
       </type>
       <type>
         <code value="Money"/>
@@ -1579,7 +1586,7 @@
         </extension>
         <strength value="example"/>
         <description value="The types of exceptions from the part or full value of financial obligations such as copays."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-financial-exception"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/coverage-financial-exception|4.0.1"/>
       </binding>
     </element>
     <element id="Coverage.costToBeneficiary.exception.period">
@@ -1649,7 +1656,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Contract"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Contract|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>

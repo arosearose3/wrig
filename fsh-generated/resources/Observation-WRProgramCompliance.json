@@ -10,15 +10,14 @@
     "reference": "Patient/WRExamplePatient"
   },
   "code": {
-    "coding": [
-      {
-        "code": "compliant",
-        "system": "http://example.org/codes/program-compliance",
-        "display": "Program compliance"
-      }
-    ]
+    "text": "Program compliance"
   },
   "status": "final",
   "valueBoolean": true,
-  "effectiveDateTime": "2025-03-31"
+  "effectiveDateTime": "2025-03-31",
+  "performer": [
+    {
+      "reference": "Organization/WRTreatmentOrg"
+    }
+  ]
 }

@@ -13,7 +13,7 @@ Usage: #example
 * name[0].given[0] = "Pat"
 * gender = #female
 * birthDate = "2008-05-01"
-* extension[tribalAffiliation].extension[tribalAffiliation].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#CAIND "California Indian"
+* extension[tribalAffiliation].extension[tribalAffiliation].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#469 "Native Village of Nanwalek (aka English Bay)"
 * extension[tribalAffiliation].extension[isEnrolled].valueBoolean = true
 
 // 2) Pregnancy Exemption
@@ -75,10 +75,13 @@ Title: "Functional Status (example)"
 Description: "Example observation supporting medically frail status"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/observation#functional-status "Functional status"
+* code.coding[0].system = "http://loinc.org"
+* code.coding[0].code = #54522-8
+* code.coding[0].display = "Functional status"
 * status = #final
 * effectiveDateTime = "2025-05-15"
 * valueString = "Requires assistance with activities of daily living"
+* performer[0] = Reference(WRTreatmentOrg)
 
 // 5) Veteran with Total Disability Rating
 Instance: WRVeteranPatient
@@ -99,13 +102,14 @@ Title: "VA Disability Rating (%)"
 Description: "Observation capturing VA total disability rating percent"
 Usage: #example
 * subject = Reference(WRVeteranPatient)
-* code = http://example.org/codes/va-disability-rating#total "VA total disability rating"
+* code.text = "VA total disability rating"
 * status = #final
 * valueQuantity.value = 70
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = #% 
 * effectiveDateTime = "2025-02-01"
+* performer[0] = Reference(WRTreatmentOrg)
 
 // 6) American Indians, Alaska Natives, and California Indians (Stub Only) - No FHIR resources
 
@@ -116,9 +120,7 @@ Title: "TANF Coverage Eligibility"
 Description: "Coverage representing TANF program eligibility"
 Usage: #example
 * status = #active
-* type.coding[0].system = "http://example.org/codes/program"
-* type.coding[0].code = #TANF
-* type.coding[0].display = "TANF"
+* type.text = "TANF"
 * beneficiary = Reference(WRExamplePatient)
 * payor[0] = Reference(WRTreatmentOrg)
 * period.start = "2025-01-01"
@@ -130,10 +132,11 @@ Title: "Program Compliance"
 Description: "Observation indicating TANF/SNAP compliance"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/program-compliance#compliant "Program compliance"
+* code.text = "Program compliance"
 * status = #final
 * valueBoolean = true
 * effectiveDateTime = "2025-03-31"
+* performer[0] = Reference(WRTreatmentOrg)
 
 // 8) Drug or Alcohol Treatment Program Participant
 Instance: WRTreatmentOrg
@@ -149,7 +152,7 @@ Title: "Treatment Program EpisodeOfCare"
 Description: "Episode of care for substance use treatment"
 Usage: #example
 * status = #active
-* type[0] = http://example.org/codes/episode-type#SUBSTANCE-USE-TREATMENT "Substance use treatment"
+* type[0].text = "Substance use treatment"
 * patient = Reference(WRExamplePatient)
 * managingOrganization = Reference(WRTreatmentOrg)
 * period.start = "2025-03-01"
@@ -162,11 +165,12 @@ Title: "Incarceration Status"
 Description: "Observation representing incarceration period/status"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/social-status#incarceration "Incarceration status"
+* code.text = "Incarceration status"
 * status = #final
 * valueBoolean = true
 * effectivePeriod.start = "2025-04-01"
 * effectivePeriod.end = "2025-06-30"
+* performer[0] = Reference(WRTreatmentOrg)
 
 // 10) Foster Care Youth and Former Foster Youth < 26
 Instance: WRFosterCareStatus
@@ -175,10 +179,11 @@ Title: "Foster Care Status"
 Description: "Observation representing foster care status"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/social-status#foster-care "Foster care status"
+* code.text = "Foster care status"
 * status = #final
 * valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes"
 * effectiveDateTime = "2025-05-10"
+* performer[0] = Reference(WRTreatmentOrg)
 
 // 11) Medical Hardship Exemptions (Inpatient Care, Travel for Care, Disaster, Unemployment)
 Instance: WRHospitalOrg
@@ -206,11 +211,12 @@ Title: "Travel for Care"
 Description: "Observation representing required travel for care"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/hardship#travel-for-care "Travel for care"
+* code.text = "Travel for care"
 * status = #final
 * valueBoolean = true
 * effectiveDateTime = "2025-02-09"
 * note.text = "Required travel to tertiary facility"
+* performer[0] = Reference(WRTreatmentOrg)
 
 Instance: WRDisaster
 InstanceOf: WRObservation
@@ -218,10 +224,11 @@ Title: "Declared Disaster"
 Description: "Observation representing disaster impact"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/hardship#disaster "Declared disaster"
+* code.text = "Declared disaster"
 * status = #final
 * valueString = "FEMA-DR-9999"
 * effectiveDateTime = "2025-08-01"
+* performer[0] = Reference(WRTreatmentOrg)
 
 Instance: WRUnemployment
 InstanceOf: WRObservation
@@ -229,7 +236,8 @@ Title: "Unemployment Status"
 Description: "Observation representing unemployment status"
 Usage: #example
 * subject = Reference(WRExamplePatient)
-* code = http://example.org/codes/hardship#unemployment-status "Unemployment status"
+* code.text = "Unemployment status"
 * status = #final
 * valueBoolean = true
 * effectiveDateTime = "2025-01-15"
+* performer[0] = Reference(WRTreatmentOrg)

@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "va-veteran-id",
+  "name": "VeteranId",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2025-09-13",
+  "publisher": "U.S. Department of Veterans Affairs",
+  "responsible": "VA",
+  "description": "Identifier assigned to veterans by the U.S. Department of Veterans Affairs.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://va.gov/identifier/veteranId",
+      "preferred": true
+    }
+  ]
+}
