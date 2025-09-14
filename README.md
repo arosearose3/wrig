@@ -1,3 +1,7 @@
+## Where is the Medicaid work requirement IG? 
+
+load https://wrig.corisystem.org/
+
 ## Contributing
 There are many ways to contribute, including:
 
