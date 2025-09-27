@@ -10,13 +10,13 @@
   "name" : "WRObservation",
   "title" : "Work Requirements Observation",
   "status" : "draft",
-  "date" : "2025-09-13T22:44:23+00:00",
+  "date" : "2025-09-27T21:51:12+00:00",
   "publisher" : "Andrew Rose LPC",
   "contact" : [{
     "name" : "Andrew Rose LPC",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://wrig.corisystem.org"
+      "value" : "https://wrig.corisystem.org"
     }]
   }],
   "description" : "Observation for program compliance, incarceration, foster status, functional status",

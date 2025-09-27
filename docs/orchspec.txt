@@ -1,0 +1,513 @@
+Medicaid work requirement compliance for re-enrollment is a design problem with law, privacy, multiple agencies, and fragile operational realities. Proposed is a state-level Medicaid Re-enrollment Orchestrator that automatically discovers authoritative data across state/federal systems to confirm activity/exemption status under the HB1 work requirements
+a high-level architecture (components and dataflows)
+
+
+which FHIR resources (beyond meta.security/security labels) to use and how they map to the law’s checks
+
+
+API/interop patterns (façade, gateways, search/query examples)
+
+
+identity and privacy-preserving matching options (PPRL, MPI)
+
+
+consent, Part 2 and other privacy controls (DS4P, Consent, Audit)
+
+
+operational considerations, fallback, errors, and trust rules
+
+
+Required are FHIR façade endpoints for each department (Labor, SSA/SSDI proxy, Corrections, Education, Child Welfare/TANF, SNAP, Veterans Affairs, State Health Information Exchange, state immunization/claims stores, etc.). If a department cannot expose FHIR, the façade will translate from CSV/SQL/REST into FHIR.
+
+
+
+
+1 — High level architecture (components & flows)
+Front end / Portal
+
+
+Member fills re-enrollment, optionally provides minimal proof (uploads, attestations).
+
+
+Portal creates a QuestionnaireResponse/Task and Patient (or reuses existing) and starts orchestration.
+
+
+Medicaid Re-enrollment Orchestrator (central service)
+
+
+Orchestrates verification flows, enforces business rules, aggregates results.
+
+
+Implements eligibility rules (lookback windows, 1–3 months, 80 hours, income thresholds, exemption lists).
+
+
+Stores decision provenance and reasons as Provenance, AuditEvent, and Task status.
+
+
+Identity & Matching Service (MPI / PPRL)
+
+
+Performs deterministic matching (Medicaid ID, SSN if allowed) and probabilistic matching (name, DOB, address) or PPRL (privacy-preserving).
+
+
+Returns confidence scores and links to authoritative records.
+
+
+Consent & Authorization Service
+
+
+Maintains Consent resources (captures the member’s permission to query external agencies).
+
+
+Issues short-lived authorizations/tokens for façade calls.
+
+
+Supports emergency/legally required exceptions and revocations.
+
+
+Departmental FHIR Façades / Gateways (one per partner)
+
+
+Translates each department’s native API/data into FHIR resources.
+
+
+Exposes a minimal, authenticated FHIR surface (Patient, Observation, Condition, Coverage, DocumentReference, Claim/ClaimResponse, Endpoint, CoverageEligibilityResponse, etc.) for the orchestrator to query.
+
+
+Applies coarse access control and logs queries.
+
+
+Trusted Sources & Cache / Data Lake
+
+
+Periodic pulls (or subscription/Bulk Data export) to maintain local caches of stable authoritative data (e.g., SSA disability determinations, unemployment wage records) with TTLs.
+
+
+Cache reduces latency and risk of external outages; each cached item has Provenance and freshness metadata.
+
+
+Decision Engine & Audit Trail
+
+
+Evaluates whether the person meets community engagement or exemption criteria.
+
+
+Produces CoverageEligibilityResponse (or internal decision record) and Provenance/AuditEvent.
+
+
+Notification & Appeals Workflow
+
+
+Uses Communication, Task, DocumentReference for notices (mail + electronic) required by law (land mail + one other channel).
+
+
+Stores notices as DocumentReference with status and provenance.
+
+
+
+2 — Key FHIR resources (beyond securityLabel) and how to use them
+Below are the most relevant FHIR R4 resources for this use case and how to use them in rule checks.
+Patient
+
+
+Core subject. Link to identifiers (Medicaid ID, MBI, SSA number if allowed) via identifier.
+
+
+Questionnaire / QuestionnaireResponse
+
+
+Applicant self-attestation: employment, hours, caregiving status, pregnancy, recent incarceration, education enrollment, program participation. Useful to capture evidence the person provides.
+
+
+Observation
+
+
+Represent structured facts from external systems: income amounts, hours worked in a month, unemployment rates for a county, drug treatment enrollment flag, disability determination flags. Use LOINC or custom codes. Example: Observation.code = employment-hours with valueQuantity = 80 and period of month.
+
+
+Condition
+
+
+Medical conditions (SUD, pregnancy) flagged as Part 2 sensitive if applicable. For SUD specifics, mark with DS4P labels. Use clinicalStatus and verificationStatus.
+
+
+Coverage & CoverageEligibilityRequest / CoverageEligibilityResponse
+
+
+Manage Medicaid enrollment status and eligibility queries. CoverageEligibilityRequest could be used to request a determination; CoverageEligibilityResponse to capture outcome.
+
+
+Provenance
+
+
+Record where each piece of evidence came from (agency, timestamp), critical for the “reliable information available to the state” rule and for appeals.
+
+
+AuditEvent
+
+
+Record every read/query/access to SUD or other sensitive info for compliance and redisclosure tracking.
+
+
+Consent
+
+
+Capture member consent to query and share data across departments. Use fine-grained provisions to limit scope (e.g., allow queries for "Medicaid re-enrollment verification only"). Store revocation timestamps.
+
+
+DocumentReference
+
+
+For documents: pay stubs, unemployment letters, SSA letters, court orders, discharge paperwork. Attach PDFs and reference security labels.
+
+
+Task
+
+
+Model workflow steps (verify employer claim, fetch SSA disability, follow up for incomplete data). Use task owner, status, and reason.
+
+
+Bundle
+
+
+Package multi-source evidence for the applicant’s record or for audit.
+
+
+List / Group
+
+
+Group resources for a month’s worth of “activity” evidence.
+
+
+Practitioner / Organization
+
+
+Identify originators (e.g., employer attestations, corrections facility).
+
+
+Endpoint
+
+
+Where to send queries or receive push updates (subscriptions).
+
+
+Claim / ClaimResponse
+
+
+If state chooses to deduce predicted work hours from claims (e.g., billing indicating multiple employer encounters).
+
+
+ResearchStudy / ResearchSubject (if using deidentified data for program evaluation) — must meet legal constraints.
+
+
+Subscription / Bulk Data (NDJSON)
+
+
+For bulk refresh of partner data (monthly/weekly).
+
+
+
+3 — Mapping law checks to FHIR resources & rules (examples)
+You need to codify each eligibility rule into queries and acceptance logic. examples:
+Worked ≥ 80 hours in lookback month
+
+
+Query employer wage data via Labor façade → returns Observation(employment-hours) or DocumentReference(payroll report).
+
+
+Or derive hours from Claim/Encounter data if allowed (less reliable).
+
+
+Rule engine: accept if Observation.value >= 80 and Provenance.source ∈ trusted labor agencies.
+
+
+Income threshold (monthly or 6-month average)
+
+
+Query IRS-state wage exchange or DOL / unemployment wage dataset → Observation(monthly-income) with period.
+
+
+Average across six Observation instances to compute threshold.
+
+
+Enrolled half-time in education
+
+
+Use Education system façade: returns Condition(student-status) or Observation(enrollment-status) or DocumentReference(enrollment letter).
+
+
+Participation in treatment program (exemption)
+
+
+Query behavioral health / substance treatment registry via SUD provider façade → DocumentReference or Condition flagged with DS4P labels. Only accessible if Consent allows or legal exception applies.
+
+
+SSDI / Medicare entitlement / veteran disability
+
+
+Query SSA or Medicaid database Coverage/Condition indications; cache Provenance.
+
+
+Recent incarceration (in past 3 months)
+
+
+Corrections façade → Condition/Observation or DocumentReference with incarceration period.
+
+
+County unemployment rate triggers
+
+
+Orchestrator computes county unemployment from BLS dataset (bulk import) — record as Observation (county-unemployment-rate).
+
+
+Short-term hardship (hospitalization, nursing facility)
+
+
+Query Hospital Discharge / HIE: Encounter with hospitalization codes or Condition flags; accept if Encounter.period overlaps lookback month.
+
+
+
+4 — Façade API patterns & example FHIR queries
+Façade endpoints should be minimal, authenticated, and return FHIR R4 resources. Examples:
+Get monthly employment hours for patient:
+ GET /Observation?code=employment-hours&subject=Patient/{id}&date=ge2026-03-01&date=le2026-03-31&_security=urn:gov:confidentiality:42CFRPart2
+ — Returns Observation with valueQuantity hours and provenance.
+
+
+Check SSDI entitlement:
+ GET /Condition?code=ssdi-entitlement&subject=Patient/{id}
+
+
+Fetch recent incarceration:
+ GET /DocumentReference?type=corrections-release&subject=Patient/{id}
+
+
+Bulk refresh SSA disability flags monthly: use Bulk Data Export from SSA façade and import as Observation with Provenance.
+
+
+Façade design notes:
+Use Prefer: return=representation for POSTs.
+
+
+Accept patient.identifier or hashed identifiers for privacy.
+
+
+Return standard status codes and explain errors with OperationOutcome.
+
+
+
+5 — Identity & matching — strong, practical options
+Identity matching is the most delicate part. Consider a layered approach:
+Deterministic (first pass)
+
+
+Match on Medicaid ID (primary). If user presents SSN and law allows usage, use hashed SSN as additional identifier.
+
+
+Probabilistic / Fuzzy
+
+
+Name, DOB, address, phone. Return confidence score.
+
+
+Privacy Preserving Record Linkage (PPRL)
+
+
+Bloom filters or secure multi-party computation so agencies can match without sharing raw PII. Use hashed tokens or an HL7 FHIR Patient.link with masked identifiers.
+
+
+Human-in-the-loop
+
+
+For low confidence matches, open a Task for manual review. Notify applicant to provide an attestation or documents.
+
+
+Store match metadata in Patient.identifier with use=historic or as Provenance linking to the matched external resource.
+
+6 — Consent, Part 2 / DS4P, and other privacy safeguards
+Consent resource: every cross-agency query should be authorized by a Consent resource unless a statutory exception applies (e.g., mandatory reporting, audit, court order). Consent should:
+
+
+Be purpose-limited to “Medicaid re-enrollment verification”.
+
+
+Include provision with actor references (which agencies may read) and data references (which resource types are allowed).
+
+
+Include period (validity window).
+
+
+DS4P / security labels: mark SUD, mental health, HIV, etc. with meta.security codes (e.g., 42CFRPart2) and use DS4P semantics for redisclosure notices. Enforcement steps:
+
+
+The Orchestrator and façades filter out SUD data unless Consent permits.
+
+
+When SUD data is used to make a decision, store a minimal derived flag (e.g., exempt=true) but redact details, and attach Provenance that explains the source and consent. This reduces redisclosure.
+
+
+Audit and provenance: every read/write triggers AuditEvent; each evidence item gets Provenance with agent = issuing agency. Keep audit logs immutable and searchable for appeals.
+
+
+Least privilege & data minimization: only request the minimal data required to confirm eligibility (e.g., “hours worked in month” rather than full paystubs), and retain only what law requires.
+
+
+Part 2 special handling: if SUD treatment records are needed to confirm exemption, require explicit consent and flag redisclosure limits. If a SUD record is returned as proof, the Orchestrator should record only necessary conclusions (e.g., “receives treatment from qualifying program — exempt”) and store the full SUD document only if legally necessary and with strong protections.
+
+
+
+7 — Trust rules: what counts as “reliable information available to the state”
+The statute allows states to rely on “reliable information available to the state.” Define and publish a Trusted Source Registry listing agency sources and the evidence types you will accept automatically. For example:
+SSA — disability entitlement docs (trusted)
+
+
+State Labor / Unemployment Wage System — monthly wage reports (trusted)
+
+
+Corrections — incarceration dates (trusted)
+
+
+Education system — enrollment status (trusted)
+
+
+State Behavioral Health Registry / Medicaid claims — treatment participation (trusted with consent or legal exception)
+
+
+SNAP/TANF MIS — participation flags (trusted)
+
+
+Each registry entry must list: source, resource type, freshness window, minimum provenance, and acceptance logic (e.g., “accept employment hours if source=State DOL and Provenance.signature present”).
+
+8 — Decision engine & example flow
+Sequence to check re-enrollment automatically:
+Portal receives re-enrollment request (or periodic re-enrollment trigger for active members). Create Task and QuestionnaireResponse.
+
+
+Orchestrator checks Patient and Consent. If no consent, send Communication to member requesting consent (paper + second channel) — but statute allows state to use reliable info without member submission; the policy must state whether the state will proceed without consent in those cases.
+
+
+Identity service resolves member. If low confidence, create Task for manual verification.
+
+
+The orchestrator queries the Trusted Source Registry following acceptance rules (façade calls) for the lookback month(s).
+
+
+Collect resources (Observations, DocumentReference). Each has Provenance. Evaluate rule sets:
+
+
+did any Observation.code=employment-hours value >= 80 for any 1 month in lookback? OR income criteria? OR other exemption flags?
+
+
+Produce decision:
+
+
+If OK: generate CoverageEligibilityResponse/internal decision and Provenance. Notify member via Communication and mail.
+
+
+If not OK: generate Task and Communication with notice of noncompliance and explain next steps (30 days to appeal or provide docs). Store notice as DocumentReference.
+
+
+All access logged in AuditEvent. Appeals tracked via Task.
+
+
+
+9 — Error handling, fallback & human review
+Missing authoritative data: platform should fall back to asking member to upload evidence (DocumentReference) and create an expedited Task for human review.
+
+
+Conflicting evidence: apply trust hierarchy (authoritative > derived > self-attestation). If conflict persists, human review required.
+
+
+Agency outages: use cached data with timestamps and mark freshness in Provenance. If no reliable data and no member documents, send noncompliance notice but retain eligibility until appeal — follow statutory safe harbor.
+
+
+
+10 — Auditability, transparency & appeals (statutory requirements)
+Keep a complete, queryable ledger of each decision: inputs, which agency provided them, transformation logic, and the rule (e.g., “Met 80 hours via DOL Observation dated 2026-03-15”). Use Provenance + Bundle for the decision package.
+
+
+Store notices and proof of delivery (mail sent, SMS delivered response) as Communication + DocumentReference.
+
+
+Support API for third-party advocates/legal reps (with Consent) and generate human-readable decision summaries.
+
+
+
+11 — Implementation & governance recommendations
+Start with a limited pilot (geography or subset of exemptions) to test identity linkage, façade capabilities, and consent UX.
+
+
+Create a cross-agency Trusted Source Agreement and MOU for data exchange, defining access controls and PII handling. Use Contract resource to represent these agreements.
+
+
+Publish the acceptance rules (so clinics & members know what evidence the state will accept automatically).
+
+
+Design for privacy by default: minimal data pulled; only store conclusions for cases where details are not necessary.
+
+
+Leverage standards & IGs: DS4P for privacy labels; US Core for clinical data; IG for Consent workflows; Bulk FHIR for periodic refresh.
+
+
+Logging & retention: keep audit logs per regulatory minimums and make them immutable.
+
+
+Accessibility & user notification: the statute requires mail + one other: implement both and log delivery.
+
+
+
+12 — Example small FHIR snippets
+Example Consent (permit queries for re-enrollment) — schematic:
+{
+  "resourceType": "Consent",
+  "status": "active",
+  "category": [{"coding":[{"system":"http://loinc.org","code":"64292-6","display":"Consent for disclosure of SUD treatment"}]}],
+  "patient": {"reference":"Patient/123"},
+  "provision": {
+    "type": "permit",
+    "period": {"start":"2026-01-01","end":"2026-12-31"},
+    "actor":[{"role": {"text":"State Medicaid Re-enrollment Orchestrator"}}],
+    "securityLabel":[{"system":"http://terminology.hl7.org/CodeSystem/v3-Confidentiality","code":"42CFRPart2"}]
+  }
+}
+
+Example Observation (employment hours)
+{
+ "resourceType":"Observation",
+ "id":"obs-emphours-987",
+ "status":"final",
+ "category":[{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/observation-category","code":"social-history"}]}],
+ "code":{"text":"employment-hours"},
+ "subject":{"reference":"Patient/123"},
+ "effectivePeriod":{"start":"2026-03-01","end":"2026-03-31"},
+ "valueQuantity":{"value":96,"unit":"hours"},
+ "meta":{"security":[{"system":"http://hl7.org/fhir/v3/Confidentiality","code":"L"}]},
+ "provenance":[ /* link to Provenance resource id */ ]
+}
+
+
+13 — Practical constraints & legal/privacy caveats
+Part 2 / SUD records: must be handled with DS4P labels and explicit consent for queries/disclosure; preferred design is to infer exemption (yes/no) from SUD registry without storing detailed SUD clinical data.
+
+
+SSN usage: state law often restricts use/storage of SSNs; prefer hashed tokens or MPI with secure vaulting.
+
+
+Inter-agency legal agreements: required for many exchanges (QSOAs, MOUs).
+
+
+Time constraints in law: June 1, 2026 interim rules — you must plan sprinted piloting now to meet operational readiness.
+
+
+
+14 — Quick roadmap (practical phased rollout)
+Phase 0 — governance & pilot agreements: Trusted Source Registry, MOUs, policy for PII and Part 2.
+
+
+Phase 1 — pilot orchestrator & core façades: Labor, SSA flags, Corrections, Medicaid claims; build identity service & Consent engine.
+
+
+Phase 2 — expand connectors: Education, SNAP/TANF, VA, inpatient hospital data; add cache and Bulk Data ingestion.
+
+
+Phase 3 — scale & audit: Production rollouts, public documentation of acceptance rules, monitoring & appeals workflows.

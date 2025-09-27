@@ -11,13 +11,13 @@
   <name value="WorkReqsIG"/>
   <title value="US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)"/>
   <status value="draft"/>
-  <date value="2025-09-13T22:44:23+00:00"/>
+  <date value="2025-09-27T21:51:12+00:00"/>
   <publisher value="Andrew Rose LPC"/>
   <contact>
     <name value="Andrew Rose LPC"/>
     <telecom>
       <system value="url"/>
-      <value value="http://wrig.corisystem.org"/>
+      <value value="https://wrig.corisystem.org"/>
     </telecom>
   </contact>
   <description value="Implementation Guide for Medicaid Work Requirements exemptions mapping and examples."/>
@@ -799,6 +799,14 @@
         </extension>
         <nameUrl value="downloads.html"/>
         <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="orchestrator.html"/>
+        </extension>
+        <nameUrl value="orchestrator.html"/>
+        <title value="Orchestrator"/>
         <generation value="markdown"/>
       </page>
     </page>

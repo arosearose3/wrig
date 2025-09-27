@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Sat, Sep 13, 2025 22:44+0000",
-  "genDay" : "13/09/2025",
+  "genDate" : "Sat, Sep 27, 2025 21:51+0000",
+  "genDay" : "27/09/2025",
   "totalFiles" : 30,
-  "processedFiles" : 40,
+  "processedFiles" : 46,
   "repoSource" : "https://github.com/arosearose3/wrig",
   "resourceTypes" : [
     "Account",
@@ -251,10 +251,10 @@
     "contact" : [
       {
         "name" : "Andrew Rose LPC",
-        "telecom" : ["http://wrig.corisystem.org"]
+        "telecom" : ["https://wrig.corisystem.org"]
       }
     ],
-    "date" : "2025-09-13T22:44:23+00:00",
+    "date" : "2025-09-27T21:51:12+00:00",
     "description" : "Implementation Guide for Medicaid Work Requirements exemptions mapping and examples.",
     "descriptionlang" : {
     },

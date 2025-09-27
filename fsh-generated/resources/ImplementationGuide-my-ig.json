@@ -13,7 +13,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "http://wrig.corisystem.org"
+          "value": "https://wrig.corisystem.org"
         }
       ]
     }
@@ -287,6 +287,11 @@
         {
           "nameUrl": "downloads.html",
           "title": "Downloads",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "orchestrator.html",
+          "title": "Orchestrator",
           "generation": "markdown"
         }
       ]

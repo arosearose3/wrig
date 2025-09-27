@@ -1,0 +1,66 @@
+<!-- Custom head include: enables Mermaid diagrams -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  (function() {
+    function convertMermaidCodeFences() {
+      var converted = 0;
+      // Pattern A: Rouge wraps as <div class="language-mermaid highlighter-rouge"><div class="highlight"><pre><code>...</code></pre></div></div>
+      document.querySelectorAll('div.language-mermaid pre > code').forEach(function(code) {
+        var outer = code.closest('div.language-mermaid');
+        if (!outer) return;
+        var content = code.textContent;
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = content;
+        outer.parentNode.replaceChild(div, outer);
+        converted++;
+      });
+
+      // Pattern B: <pre><code class="language-mermaid">...</code></pre>
+      document.querySelectorAll('pre > code.language-mermaid').forEach(function(code) {
+        var pre = code.parentElement;
+        var content = code.textContent;
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = content;
+        pre.parentNode.replaceChild(div, pre);
+        converted++;
+      });
+
+      // Pattern C: fallback heuristic – code blocks that look like Mermaid
+      if (converted === 0) {
+        var candidates = document.querySelectorAll('pre > code');
+        var starters = ['flowchart', 'sequenceDiagram', 'classDiagram', 'erDiagram', 'gantt', 'journey', 'pie', 'stateDiagram', 'timeline', 'mindmap', 'graph'];
+        candidates.forEach(function(code) {
+          var txt = (code.textContent || '').trim();
+          if (!txt) return;
+          var isMermaid = starters.some(function(s) { return txt.startsWith(s + ' ' ) || txt.startsWith(s + '\n'); });
+          if (isMermaid) {
+            var pre = code.parentElement;
+            var div = document.createElement('div');
+            div.className = 'mermaid';
+            div.textContent = txt;
+            pre.parentNode.replaceChild(div, pre);
+            converted++;
+          }
+        });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      try {
+        convertMermaidCodeFences();
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true, securityLevel: 'loose' });
+        }
+      } catch (e) {
+        console && console.warn && console.warn('Mermaid init failed:', e);
+      }
+    });
+  })();
+</script>
+<style>
+  /* Optional: improve mermaid legibility in IG theme */
+  .mermaid { margin: 1rem 0; }
+</style>
